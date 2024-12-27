@@ -1,0 +1,20 @@
+<!-- language_switcher.html -->
+<div class="language-switcher">
+    <span>Language: </span>
+    <a href="/en/">English</a> |
+    <a href="/it/">Italian</a>
+</div>
+<!-- language_switcher.html -->
+<div class="language-switcher">
+    <span>Language: </span>
+    <a href="#" onclick="setLanguage('en')">English</a> |
+    <a href="#" onclick="setLanguage('it')">Italian</a>
+</div>
+
+<script type="text/javascript">
+    function setLanguage(language) {
+        const currentPath = window.location.pathname;
+        const newPath = currentPath.replace(/\/(en|it)\//, `/${language}/`);
+        window.location.pathname = newPath;
+    }
+</script>

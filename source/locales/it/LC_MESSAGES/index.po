@@ -1,0 +1,320 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, GeneSys Admin
+# This file is distributed under the same license as the GeneSys Admin
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GeneSys Admin \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-26 23:51+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: it\n"
+"Language-Team: it <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../index.rst:3
+msgid "GeneSys"
+msgstr ""
+
+#: ../../index.rst:5
+msgid "Introduction"
+msgstr ""
+
+#: ../../index.rst:7
+msgid ""
+"This documentation provides a comprehensive guide to the GeneSys Admin "
+"web application, covering key features and functionalities."
+msgstr ""
+
+#: ../../index.rst:10
+msgid "Accessing GeneSys Admin"
+msgstr ""
+
+#: ../../index.rst:12
+msgid "To access the GeneSys Admin web application, please follow these steps:"
+msgstr ""
+
+#: ../../index.rst:14
+msgid ""
+"**Login**: Go to the GeneSys Admin website and log in with your "
+"credentials."
+msgstr ""
+
+#: ../../index.rst:17
+msgid "Navigating the Dashboard"
+msgstr ""
+
+#: ../../index.rst:18 ../../index.rst:50 ../../index.rst:59
+msgid "Optional alt text for the image"
+msgstr ""
+
+#: ../../index.rst:24
+msgid ""
+"The GeneSys Admin dashboard serves as a central hub for managing various "
+"aspects of the application."
+msgstr ""
+
+#: ../../index.rst:27
+msgid "Menu Bar"
+msgstr ""
+
+#: ../../index.rst:29
+msgid ""
+"The menu bar on the left-hand side provides access to the following "
+"options:"
+msgstr ""
+
+#: ../../index.rst:31
+msgid "**View Leads**: Displays a list of all existing leads."
+msgstr ""
+
+#: ../../index.rst:32
+msgid "**Create Lead**: Allows users to add new leads to the system."
+msgstr ""
+
+#: ../../index.rst:33
+msgid ""
+"3. **Import Leads**: Facilitates the import of leads from external "
+"sources. Leads ======"
+msgstr ""
+
+#: ../../index.rst:37
+msgid ""
+"This section provides a detailed overview of the \"Leads\" feature, "
+"including navigation, CRUD operations, table columns, and additional "
+"functionalities."
+msgstr ""
+
+#: ../../index.rst:40
+msgid "Navigating to Leads"
+msgstr ""
+
+#: ../../index.rst:42
+msgid "To access the \"Leads\" section:"
+msgstr ""
+
+#: ../../index.rst:44
+msgid "On the **Home Page**, locate the **Sidebar Menu**."
+msgstr ""
+
+#: ../../index.rst:45
+msgid "Click on the **Leads** menu item. This will expand a dropdown menu."
+msgstr ""
+
+#: ../../index.rst:46
+msgid "Select **View Leads** to open the leads management page."
+msgstr ""
+
+#: ../../index.rst:49
+msgid "Viewing Leads"
+msgstr ""
+
+#: ../../index.rst:55
+msgid ""
+"The **View Leads** page displays all saved leads in a table format. The "
+"table includes the following columns:"
+msgstr ""
+
+#: ../../index.rst:58
+msgid "Lead Table Columns"
+msgstr ""
+
+#: ../../index.rst:64
+msgid ""
+"**Contact ID**: - A unique identifier assigned to each lead. - This "
+"column helps to differentiate between leads easily."
+msgstr ""
+
+#: ../../index.rst:68
+msgid ""
+"**Email**: - The email address of the lead. - This column allows users to"
+" view and verify contact information."
+msgstr ""
+
+#: ../../index.rst:72
+msgid ""
+"**First Name**: - The first name of the lead. - This field provides "
+"clarity on the lead's identity."
+msgstr ""
+
+#: ../../index.rst:76
+msgid ""
+"**Last Name**: - The last name of the lead. - Together with the first "
+"name, it fully identifies the lead."
+msgstr ""
+
+#: ../../index.rst:80
+msgid ""
+"**Phone Number**: - The contact phone number of the lead. - This column "
+"is used for direct communication with the lead."
+msgstr ""
+
+#: ../../index.rst:84
+msgid ""
+"**Tag**: - A label or keyword associated with the lead. - Tags can help "
+"categorize or filter leads for better management."
+msgstr ""
+
+#: ../../index.rst:88
+msgid ""
+"**Created At**: - The date and time when the lead was created. - This "
+"field helps track when the lead was added."
+msgstr ""
+
+#: ../../index.rst:92
+msgid ""
+"**Updated At**: - The date and time when the lead was last updated. - "
+"Useful for identifying recent changes."
+msgstr ""
+
+#: ../../index.rst:96
+msgid ""
+"**CRM Campaign**: - A text column containing the name or type of CRM "
+"campaign associated with the lead. - This helps link leads to specific "
+"marketing campaigns."
+msgstr ""
+
+#: ../../index.rst:100
+msgid ""
+"**Lead Owner**: - A dropdown column allowing selection of the lead's "
+"owner. - The dropdown is searchable for convenience."
+msgstr ""
+
+#: ../../index.rst:104
+msgid ""
+"**Organization**: - The organization the lead is associated with. - This "
+"provides context on the lead's professional background."
+msgstr ""
+
+#: ../../index.rst:108
+msgid ""
+"**Designation**: - The professional title or role of the lead within "
+"their organization. - Helps understand the lead’s position in their "
+"company."
+msgstr ""
+
+#: ../../index.rst:112
+msgid ""
+"**Country**: - A searchable dropdown that provides a list of countries to"
+" select from. - Users can easily assign a country to the lead for "
+"regional tracking."
+msgstr ""
+
+#: ../../index.rst:116
+msgid ""
+"**Lead Type**: - A dropdown containing predefined lead types. - Examples "
+"include \"Prospect,\" \"Customer,\" or \"Partner.\""
+msgstr ""
+
+#: ../../index.rst:120
+msgid ""
+"**Product**: - The product or service associated with the lead. - This "
+"column helps link leads with specific offerings."
+msgstr ""
+
+#: ../../index.rst:124
+msgid ""
+"**Lead Status**: - A dropdown containing predefined statuses for the "
+"lead. - Examples include \"New,\" \"In Progress,\" \"Closed.\""
+msgstr ""
+
+#: ../../index.rst:128
+msgid ""
+"**Source**: - Indicates how the lead was acquired (e.g., \"Website,\" "
+"\"Referral,\" \"Event\"). - Helps track lead generation channels."
+msgstr ""
+
+#: ../../index.rst:132
+msgid ""
+"**Follow-up Date**: - A date and time column for scheduling follow-up "
+"actions. - Ensures timely communication with leads."
+msgstr ""
+
+#: ../../index.rst:136
+msgid "**Action**: - This column contains interactive icons for various actions:"
+msgstr ""
+
+#: ../../index.rst:138
+msgid "**View Icon**: Opens a detailed view of the lead."
+msgstr ""
+
+#: ../../index.rst:139
+msgid "**Delete Icon**: Removes the lead from the system."
+msgstr ""
+
+#: ../../index.rst:140
+msgid "**Update Icon (Pencil)**: Opens the lead form for editing."
+msgstr ""
+
+#: ../../index.rst:144
+msgid "Managing Leads"
+msgstr ""
+
+#: ../../index.rst:146
+msgid "The \"Leads\" feature allows users to perform the following operations:"
+msgstr ""
+
+#: ../../index.rst:149
+msgid "Create a CRM Contact"
+msgstr ""
+
+#: ../../index.rst:151 ../../index.rst:158
+msgid "Navigate to the **View Leads** page."
+msgstr ""
+
+#: ../../index.rst:152
+msgid "Click the **Create CRM Contact** button."
+msgstr ""
+
+#: ../../index.rst:153
+msgid "Fill in the required fields and click **Save.**"
+msgstr ""
+
+#: ../../index.rst:156
+msgid "View a Lead"
+msgstr ""
+
+#: ../../index.rst:159
+msgid "Leads are displayed in a table format with all relevant details."
+msgstr ""
+
+#: ../../index.rst:162
+msgid "Update a Lead"
+msgstr ""
+
+#: ../../index.rst:164
+msgid "On the **View Leads** page, locate the lead you want to modify."
+msgstr ""
+
+#: ../../index.rst:165
+msgid "Click the **Edit** button in the **Actions** column."
+msgstr ""
+
+#: ../../index.rst:166
+msgid "Make the necessary changes and click **Save.**"
+msgstr ""
+
+#: ../../index.rst:169
+msgid "Delete a Lead"
+msgstr ""
+
+#: ../../index.rst:171
+msgid "On the **View Leads** page, locate the lead you want to delete."
+msgstr ""
+
+#: ../../index.rst:172
+msgid "Click the **Delete** button in the **Actions** column."
+msgstr ""
+
+#: ../../index.rst:173
+msgid "Confirm the deletion to remove the lead permanently."
+msgstr ""
+
