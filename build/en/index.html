@@ -1,0 +1,506 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GeneSys Admin &mdash; Genesys Admin  documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="#" class="icon icon-home">
+            Genesys Admin
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">GeneSys Admin</a><ul>
+<li><a class="reference internal" href="#introduction">Introduction</a></li>
+<li><a class="reference internal" href="#accessing-genesys-admin">Accessing GeneSys Admin</a><ul>
+<li><a class="reference internal" href="#navigating-the-dashboard">Navigating the Dashboard</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#menu-bar">Menu Bar</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#navigating-to-leads">Navigating to Leads</a></li>
+<li><a class="reference internal" href="#viewing-leads">Viewing Leads</a><ul>
+<li><a class="reference internal" href="#lead-table-columns">Lead Table Columns</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#managing-leads">Managing Leads</a><ul>
+<li><a class="reference internal" href="#create-a-lead">Create a Lead</a></li>
+<li><a class="reference internal" href="#view-a-lead">View a Lead</a></li>
+<li><a class="reference internal" href="#update-a-lead">Update a Lead</a></li>
+<li><a class="reference internal" href="#delete-a-lead">Delete a Lead</a><ul>
+<li><a class="reference internal" href="#users">Users</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#navigating-to-users">Navigating to Users</a></li>
+<li><a class="reference internal" href="#viewing-users">Viewing Users</a><ul>
+<li><a class="reference internal" href="#user-table-columns">User Table Columns</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#managing-users">Managing Users</a><ul>
+<li><a class="reference internal" href="#create-a-user">Create a User</a></li>
+<li><a class="reference internal" href="#view-a-user">View a User</a></li>
+<li><a class="reference internal" href="#update-a-user">Update a User</a></li>
+<li><a class="reference internal" href="#delete-a-user">Delete a User</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#master-data">Master Data</a><ul>
+<li><a class="reference internal" href="#roles">Roles</a><ul>
+<li><a class="reference internal" href="#roles-management">Roles Management</a></li>
+<li><a class="reference internal" href="#viewing-roles">Viewing Roles</a></li>
+<li><a class="reference internal" href="#creating-a-role">Creating a Role</a></li>
+<li><a class="reference internal" href="#updating-a-role">Updating a Role</a></li>
+<li><a class="reference internal" href="#deleting-a-role">Deleting a Role</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#role-based-access-control-rbac">Role-Based Access Control (RBAC)</a></li>
+</ul>
+</div>
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">Genesys Admin</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">GeneSys Admin</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="genesys-admin">
+<h1>GeneSys Admin<a class="headerlink" href="#genesys-admin" title="Link to this heading"></a></h1>
+<section id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Link to this heading"></a></h2>
+<p>Welcome to the documentation for the GeneSys Admin web application. Use the menu below to navigate through the key features and functionalities.</p>
+</section>
+<section id="accessing-genesys-admin">
+<h2>Accessing GeneSys Admin<a class="headerlink" href="#accessing-genesys-admin" title="Link to this heading"></a></h2>
+<p>To access the GeneSys Admin web application, please follow these steps:</p>
+<ol class="arabic simple">
+<li><p><strong>Login</strong>: Go to the GeneSys Admin website and log in with your credentials.</p></li>
+</ol>
+<section id="navigating-the-dashboard">
+<h3>Navigating the Dashboard<a class="headerlink" href="#navigating-the-dashboard" title="Link to this heading"></a></h3>
+<a class="reference internal image-reference" href="_images/home.png"><img alt="Optional alt text for the image" class="align-center" src="_images/home.png" style="width: 800px;" />
+</a>
+<p>The GeneSys Admin dashboard serves as a central hub for managing various aspects of the application.</p>
+</section>
+</section>
+<section id="menu-bar">
+<h2>Menu Bar<a class="headerlink" href="#menu-bar" title="Link to this heading"></a></h2>
+<p>The menu bar on the left-hand side provides access to the following options:</p>
+<ol class="arabic simple">
+<li><p><strong>View Leads</strong>: Displays a list of all existing leads.</p></li>
+<li><p><strong>Create Lead</strong>: Allows users to add new leads to the system.</p></li>
+<li><p><strong>Import Leads</strong>: Facilitates the import of leads from external sources.</p></li>
+</ol>
+<p>This section provides a detailed overview of the “Leads” feature, including navigation, CRUD operations, table columns, and additional functionalities.</p>
+</section>
+</section>
+<section id="navigating-to-leads">
+<h1>Navigating to Leads<a class="headerlink" href="#navigating-to-leads" title="Link to this heading"></a></h1>
+<p>To access the “Leads” section:</p>
+<ol class="arabic simple">
+<li><p>On the <strong>Home Page</strong>, locate the <strong>Sidebar Menu</strong>.</p></li>
+<li><p>Click on the <strong>Leads</strong> menu item. This will expand a dropdown menu.</p></li>
+<li><p>Select <strong>View Leads</strong> to open the leads management page.</p></li>
+</ol>
+</section>
+<section id="viewing-leads">
+<h1>Viewing Leads<a class="headerlink" href="#viewing-leads" title="Link to this heading"></a></h1>
+<a class="reference internal image-reference" href="_images/viewlead.png"><img alt="Optional alt text for the image" class="align-center" src="_images/viewlead.png" style="width: 800px;" />
+</a>
+<p>The <strong>View Leads</strong> page displays all saved leads in a table format. The table includes the following columns:</p>
+<section id="lead-table-columns">
+<h2>Lead Table Columns<a class="headerlink" href="#lead-table-columns" title="Link to this heading"></a></h2>
+<a class="reference internal image-reference" href="_images/createlead.png"><img alt="Optional alt text for the image" class="align-center" src="_images/createlead.png" style="width: 800px;" />
+</a>
+<ol class="arabic">
+<li><p><strong>Contact ID</strong>:
+- A unique identifier assigned to each lead.
+- This column helps to differentiate between leads easily.</p></li>
+<li><p><strong>Email</strong>:
+- The email address of the lead.
+- This column allows users to view and verify contact information.</p></li>
+<li><p><strong>First Name</strong>:
+- The first name of the lead.
+- This field provides clarity on the lead’s identity.</p></li>
+<li><p><strong>Last Name</strong>:
+- The last name of the lead.
+- Together with the first name, it fully identifies the lead.</p></li>
+<li><p><strong>Phone Number</strong>:
+- The contact phone number of the lead.
+- This column is used for direct communication with the lead.</p></li>
+<li><p><strong>Tag</strong>:
+- A label or keyword associated with the lead.
+- Tags can help categorize or filter leads for better management.</p></li>
+<li><p><strong>Created At</strong>:
+- The date and time when the lead was created.
+- This field helps track when the lead was added.</p></li>
+<li><p><strong>Updated At</strong>:
+- The date and time when the lead was last updated.
+- Useful for identifying recent changes.</p></li>
+<li><p><strong>CRM Campaign</strong>:
+- A text column containing the name or type of CRM campaign associated with the lead.
+- This helps link leads to specific marketing campaigns.</p></li>
+<li><p><strong>Lead Owner</strong>:
+- A dropdown column allowing selection of the lead’s owner.
+- The dropdown is searchable for convenience.</p></li>
+<li><p><strong>Organization</strong>:
+- The organization the lead is associated with.
+- This provides context on the lead’s professional background.</p></li>
+<li><p><strong>Designation</strong>:
+- The professional title or role of the lead within their organization.
+- Helps understand the lead’s position in their company.</p></li>
+<li><p><strong>Country</strong>:
+- A searchable dropdown that provides a list of countries to select from.
+- Users can easily assign a country to the lead for regional tracking.</p></li>
+<li><p><strong>Lead Type</strong>:
+- A dropdown containing predefined lead types.
+- Examples include “Prospect,” “Customer,” or “Partner.”</p></li>
+<li><p><strong>Product</strong>:
+- The product or service associated with the lead.
+- This column helps link leads with specific offerings.</p></li>
+<li><p><strong>Lead Status</strong>:
+- A dropdown containing predefined statuses for the lead.
+- Examples include “New,” “In Progress,” “Closed.”</p></li>
+<li><p><strong>Source</strong>:
+- Indicates how the lead was acquired (e.g., “Website,” “Referral,” “Event”).
+- Helps track lead generation channels.</p></li>
+<li><p><strong>Follow-up Date</strong>:
+- A date and time column for scheduling follow-up actions.
+- Ensures timely communication with leads.</p></li>
+<li><p><strong>Action</strong>:
+- This column contains interactive icons for various actions:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>View Icon</strong>: Opens a detailed view of the lead.</p></li>
+<li><p><strong>Delete Icon</strong>: Removes the lead from the system.</p></li>
+<li><p><strong>Update Icon</strong>: Opens the lead form for editing.</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ol>
+</section>
+</section>
+<section id="managing-leads">
+<h1>Managing Leads<a class="headerlink" href="#managing-leads" title="Link to this heading"></a></h1>
+<section id="create-a-lead">
+<h2>Create a Lead<a class="headerlink" href="#create-a-lead" title="Link to this heading"></a></h2>
+<blockquote>
+<div><ul class="simple">
+<li><p>Navigate to the <strong>View Leads</strong> page.</p></li>
+<li><p>Click the <strong>Create CRM Contact</strong> button.</p></li>
+<li><p>Fill in the required fields and click <strong>Save.</strong></p></li>
+</ul>
+</div></blockquote>
+</section>
+<section id="view-a-lead">
+<h2>View a Lead<a class="headerlink" href="#view-a-lead" title="Link to this heading"></a></h2>
+<blockquote>
+<div><ul class="simple">
+<li><p>Navigate to the <strong>View Leads</strong> page.</p></li>
+<li><p>Leads are displayed in a table format with all relevant details.</p></li>
+</ul>
+</div></blockquote>
+</section>
+<section id="update-a-lead">
+<h2>Update a Lead<a class="headerlink" href="#update-a-lead" title="Link to this heading"></a></h2>
+<blockquote>
+<div><ul class="simple">
+<li><p>On the <strong>View Leads</strong> page, locate the lead you want to modify.</p></li>
+<li><p>Click the <strong>Edit</strong> button in the <strong>Actions</strong> column.</p></li>
+<li><p>Make the necessary changes and click <strong>Save.</strong></p></li>
+</ul>
+</div></blockquote>
+</section>
+<section id="delete-a-lead">
+<h2>Delete a Lead<a class="headerlink" href="#delete-a-lead" title="Link to this heading"></a></h2>
+<blockquote>
+<div><ul class="simple">
+<li><p>On the <strong>View Leads</strong> page, locate the lead you want to delete.</p></li>
+<li><p>Click the <strong>Delete</strong> button in the <strong>Actions</strong> column.</p></li>
+<li><p>Confirm the deletion to remove the lead permanently.</p></li>
+</ul>
+</div></blockquote>
+<section id="users">
+<h3>Users<a class="headerlink" href="#users" title="Link to this heading"></a></h3>
+<p>The “Users” module focuses on user account management, empowering administrators to control access, assign roles, and maintain user details. Refer to the <strong>Users</strong> section for detailed instructions on managing users.</p>
+</section>
+</section>
+</section>
+<section id="navigating-to-users">
+<h1>Navigating to Users<a class="headerlink" href="#navigating-to-users" title="Link to this heading"></a></h1>
+<p>To access the “Users” section:</p>
+<ol class="arabic simple">
+<li><p>On the <strong>Home Page</strong>, locate the <strong>Sidebar Menu</strong>.</p></li>
+<li><p>Click on the <strong>Users</strong> menu item. This will expand a dropdown menu.</p></li>
+<li><p>Select <strong>View Users</strong> to open the user management page.</p></li>
+</ol>
+</section>
+<section id="viewing-users">
+<h1>Viewing Users<a class="headerlink" href="#viewing-users" title="Link to this heading"></a></h1>
+<a class="reference internal image-reference" href="_images/viewusers.png"><img alt="Optional alt text for the image" class="align-center" src="_images/viewusers.png" style="width: 800px;" />
+</a>
+<p>The <strong>View Users</strong> page displays all saved users in a table format. The table includes the following columns:</p>
+<section id="user-table-columns">
+<h2>User Table Columns<a class="headerlink" href="#user-table-columns" title="Link to this heading"></a></h2>
+<a class="reference internal image-reference" href="_images/createusers.png"><img alt="Optional alt text for the image" class="align-center" src="_images/createusers.png" style="width: 800px;" />
+</a>
+<ol class="arabic">
+<li><p><strong>User ID</strong>:
+- An auto-generated unique identifier assigned to each user.
+- This column helps to differentiate between users easily.</p></li>
+<li><p><strong>Email</strong>:
+- The email address of the user.
+- This column allows users to view and verify contact information.</p></li>
+<li><p><strong>First Name</strong>:
+- The first name of the user.
+- This field provides clarity on the user’s identity.</p></li>
+<li><p><strong>Last Name</strong>:
+- The last name of the user.
+- Together with the first name, it fully identifies the user.</p></li>
+<li><p><strong>Role</strong>:
+- The user’s role in the system (e.g., Admin, Manager, Staff).
+- Helps assign appropriate permissions and responsibilities.</p></li>
+<li><p><strong>Created At</strong>:
+- The date and time when the user account was created.
+- Useful for tracking new accounts.</p></li>
+<li><p><strong>Updated At</strong>:
+- The date and time when the user account was last updated.
+- Useful for identifying recent changes.</p></li>
+<li><p><strong>Product</strong>:
+- The product or service associated with the user.
+- Useful for linking users to specific offerings.</p></li>
+<li><p><strong>Organization</strong>:
+- The organization the user is associated with.
+- Provides context on the user’s professional background.</p></li>
+<li><p><strong>CRM Campaign</strong>:
+- A text column containing the name or type of CRM campaign linked to the user.
+- Helps connect users to specific campaigns.</p></li>
+<li><p><strong>CRM Campaign Identifier</strong>:
+- A unique identifier for the CRM campaign.
+- Enables precise tracking of campaign associations.</p></li>
+<li><p><strong>CRM Campaign Timestamp</strong>:
+- The date and time related to the CRM campaign activity.
+- Useful for campaign timeline tracking.</p></li>
+<li><p><strong>CRM Source</strong>:
+- Indicates the origin of the CRM campaign (e.g., “Website,” “Referral”).
+- Helps track campaign sources.</p></li>
+<li><p><strong>Action</strong>:
+- This column contains interactive icons for various actions:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>View Icon</strong>: Opens a detailed view of the user.</p></li>
+<li><p><strong>Delete Icon</strong>: Removes the user from the system.</p></li>
+<li><p><strong>Update Icon</strong>: Opens the user form for editing.</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ol>
+</section>
+</section>
+<section id="managing-users">
+<h1>Managing Users<a class="headerlink" href="#managing-users" title="Link to this heading"></a></h1>
+<section id="create-a-user">
+<h2>Create a User<a class="headerlink" href="#create-a-user" title="Link to this heading"></a></h2>
+<blockquote>
+<div><ul class="simple">
+<li><p>Navigate to the <strong>View Users</strong> page.</p></li>
+<li><p>Click the <strong>Create User</strong> button.</p></li>
+<li><p>Fill in the required fields and click <strong>Save.</strong></p></li>
+</ul>
+</div></blockquote>
+</section>
+<section id="view-a-user">
+<h2>View a User<a class="headerlink" href="#view-a-user" title="Link to this heading"></a></h2>
+<blockquote>
+<div><ul class="simple">
+<li><p>Navigate to the <strong>View Users</strong> page.</p></li>
+<li><p>Users are displayed in a table format with all relevant details.</p></li>
+</ul>
+</div></blockquote>
+</section>
+<section id="update-a-user">
+<h2>Update a User<a class="headerlink" href="#update-a-user" title="Link to this heading"></a></h2>
+<blockquote>
+<div><ul class="simple">
+<li><p>On the <strong>View Users</strong> page, locate the user you want to modify.</p></li>
+<li><p>Click the <strong>Edit</strong> button in the <strong>Actions</strong> column.</p></li>
+<li><p>Make the necessary changes and click <strong>Save.</strong></p></li>
+</ul>
+</div></blockquote>
+</section>
+<section id="delete-a-user">
+<h2>Delete a User<a class="headerlink" href="#delete-a-user" title="Link to this heading"></a></h2>
+<blockquote>
+<div><ul class="simple">
+<li><p>On the <strong>View Users</strong> page, locate the user you want to delete.</p></li>
+<li><p>Click the <strong>Delete</strong> button in the <strong>Actions</strong> column.</p></li>
+<li><p>Confirm the deletion to remove the user permanently.</p></li>
+</ul>
+</div></blockquote>
+</section>
+</section>
+<section id="master-data">
+<h1>Master Data<a class="headerlink" href="#master-data" title="Link to this heading"></a></h1>
+<section id="roles">
+<h2>Roles<a class="headerlink" href="#roles" title="Link to this heading"></a></h2>
+<p>The <strong>Roles</strong> feature under the <strong>Master Data</strong> section provides tools for managing user roles within the GeneSys Admin application. Roles help define user permissions and access levels, enabling administrators to assign responsibilities effectively.</p>
+<section id="roles-management">
+<h3>Roles Management<a class="headerlink" href="#roles-management" title="Link to this heading"></a></h3>
+<p>The <strong>Roles</strong> menu contains the following options:</p>
+<ol class="arabic simple">
+<li><p><strong>View Roles</strong>: Displays a list of all created roles in a table format.</p></li>
+<li><p><strong>Create Role</strong>: Allows administrators to add new roles to the system.</p></li>
+</ol>
+</section>
+<section id="viewing-roles">
+<h3>Viewing Roles<a class="headerlink" href="#viewing-roles" title="Link to this heading"></a></h3>
+<p>To view existing roles:</p>
+<ol class="arabic simple">
+<li><p>Navigate to the <strong>Master Data &gt; Roles</strong> section.</p></li>
+<li><p>Select <strong>View Roles</strong> from the dropdown menu.</p></li>
+</ol>
+<a class="reference internal image-reference" href="_images/viewroles.png"><img alt="View Roles Table" class="align-center" src="_images/viewroles.png" style="width: 800px;" />
+</a>
+<p>A table listing all stored roles will appear, displaying the following columns:</p>
+<ul class="simple">
+<li><p><strong>Role ID</strong>: A unique, auto-generated identifier for each role.</p></li>
+<li><p><strong>Name</strong>: The name of the role.</p></li>
+<li><p><strong>Description</strong>: A brief description of the role.</p></li>
+<li><p><strong>Created At</strong>: The date and time the role was created.</p></li>
+<li><p><strong>Updated At</strong>: The date and time the role was last updated.</p></li>
+<li><p><strong>Actions</strong>: Interactive icons to update, delete, or view detailed information about a role.</p></li>
+</ul>
+</section>
+<section id="creating-a-role">
+<h3>Creating a Role<a class="headerlink" href="#creating-a-role" title="Link to this heading"></a></h3>
+<p>To create a new role:</p>
+<ol class="arabic simple">
+<li><p>Navigate to the <strong>Master Data &gt; Roles</strong> section.</p></li>
+<li><p>Select <strong>Create Role</strong> from the dropdown menu.</p></li>
+<li><p>Fill in the required fields:
+- <strong>Name</strong>: Enter a unique name for the role.
+- <strong>Description</strong>: Provide a brief description of the role.</p></li>
+<li><p>Click <strong>Save</strong> to store the new role.</p></li>
+</ol>
+<a class="reference internal image-reference" href="_images/createroles.png"><img alt="Create Role Form" class="align-center" src="_images/createroles.png" style="width: 800px;" />
+</a>
+</section>
+<section id="updating-a-role">
+<h3>Updating a Role<a class="headerlink" href="#updating-a-role" title="Link to this heading"></a></h3>
+<p>To update an existing role:</p>
+<ol class="arabic simple">
+<li><p>Navigate to the <strong>View Roles</strong> page.</p></li>
+<li><p>Locate the role you want to modify.</p></li>
+<li><p>Click the <strong>Edit</strong> icon in the <strong>Actions</strong> column.</p></li>
+<li><p>Update the necessary fields and click <strong>Save</strong>.</p></li>
+</ol>
+</section>
+<section id="deleting-a-role">
+<h3>Deleting a Role<a class="headerlink" href="#deleting-a-role" title="Link to this heading"></a></h3>
+<p>To delete an existing role:</p>
+<ol class="arabic simple">
+<li><p>Navigate to the <strong>View Roles</strong> page.</p></li>
+<li><p>Locate the role you want to delete.</p></li>
+<li><p>Click the <strong>Delete</strong> icon in the <strong>Actions</strong> column.</p></li>
+<li><p>Confirm the deletion to permanently remove the role.</p></li>
+</ol>
+</section>
+</section>
+</section>
+<section id="role-based-access-control-rbac">
+<h1>Role-Based Access Control (RBAC)<a class="headerlink" href="#role-based-access-control-rbac" title="Link to this heading"></a></h1>
+<p>The <strong>RBAC</strong> feature under <strong>Master Data</strong> includes:</p>
+<a class="reference internal image-reference" href="_images/rbac.png"><img alt="View Roles Table" class="align-center" src="_images/rbac.png" style="width: 800px;" />
+</a>
+<ul class="simple">
+<li><p><strong>Grant Access</strong>: Assign roles and permissions to users.</p></li>
+<li><p><strong>Roles</strong>: Manage roles as described above.</p></li>
+<li><p><strong>Rules</strong>: Define custom rules for access control.</p></li>
+<li><p><strong>Permissions</strong>: Specify detailed permissions for each role.</p></li>
+</ul>
+<p>The <strong>Roles</strong> feature in the GeneSys Admin application simplifies user management by providing a structured way to define and assign permissions. Use the intuitive interface to create, view, and modify roles effectively, enhancing security and operational efficiency.</p>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Eunders.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

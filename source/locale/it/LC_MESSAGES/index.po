@@ -1,0 +1,805 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, GeneSys Admin
+# This file is distributed under the same license as the GeneSys Admin
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GeneSys Admin \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-03 15:07+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: it\n"
+"Language-Team: it <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../index.rst:3
+msgid "GeneSys Admin"
+msgstr "GeneSys Admin"
+
+#: ../../index.rst:6
+msgid "Introduction"
+msgstr "Introduzione"
+
+#: ../../index.rst:8
+msgid ""
+"Welcome to the documentation for the GeneSys Admin web application. Use "
+"the menu below to navigate through the key features and functionalities."
+msgstr ""
+"Benvenuto nella documentazione dell'applicazione web GeneSys Admin. Usa il "
+"menu sottostante per navigare tra le funzionalità principali."
+
+#: ../../index.rst:12
+msgid "Accessing GeneSys Admin"
+msgstr "Accesso a GeneSys Admin"
+
+#: ../../index.rst:14
+msgid "To access the GeneSys Admin web application, please follow these steps:"
+msgstr ""
+"Per accedere all'applicazione web GeneSys Admin, segui questi passaggi:"
+
+#: ../../index.rst:16
+msgid ""
+"**Login**: Go to the GeneSys Admin website and log in with your "
+"credentials."
+msgstr ""
+"**Login**: Vai al sito web di GeneSys Admin e accedi con le tue credenziali."
+
+#: ../../index.rst:19
+msgid "Navigating the Dashboard"
+msgstr "Navigazione nel cruscotto"
+
+#: ../../index.rst:20 ../../index.rst:54 ../../index.rst:64 ../../index.rst:198
+#: ../../index.rst:208
+msgid "Optional alt text for the image"
+msgstr "Testo alternativo opzionale per l'immagine"
+
+#: ../../index.rst:26
+msgid ""
+"The GeneSys Admin dashboard serves as a central hub for managing various "
+"aspects of the application."
+msgstr ""
+"Il cruscotto di GeneSys Admin funge da centro per gestire vari aspetti "
+"dell'applicazione."
+
+#: ../../index.rst:29
+msgid "Menu Bar"
+msgstr "Barra del menu"
+
+#: ../../index.rst:31
+msgid ""
+"The menu bar on the left-hand side provides access to the following "
+"options:"
+msgstr ""
+"La barra del menu sul lato sinistro fornisce accesso alle seguenti opzioni:"
+
+#: ../../index.rst:33
+msgid "**View Leads**: Displays a list of all existing leads."
+msgstr ""
+"**Visualizza Lead**: Mostra un elenco di tutti i lead esistenti."
+
+#: ../../index.rst:34
+msgid "**Create Lead**: Allows users to add new leads to the system."
+msgstr ""
+"**Crea Lead**: Consente agli utenti di aggiungere nuovi lead al sistema."
+
+#: ../../index.rst:35
+msgid "**Import Leads**: Facilitates the import of leads from external sources."
+msgstr ""
+"**Importa Lead**: Facilita l'importazione di lead da fonti esterne."
+
+#: ../../index.rst:38
+msgid ""
+"This section provides a detailed overview of the \"Leads\" feature, "
+"including navigation, CRUD operations, table columns, and additional "
+"functionalities."
+msgstr ""
+"Questa sezione fornisce una panoramica dettagliata della funzionalità "
+"\"Lead\", inclusi navigazione, operazioni CRUD, colonne della tabella e "
+"funzionalità aggiuntive."
+
+#: ../../index.rst:42
+msgid "Navigating to Leads"
+msgstr "Navigare verso Lead"
+
+#: ../../index.rst:44
+msgid "To access the \"Leads\" section:"
+msgstr "Per accedere alla sezione \"Lead\":"
+
+#: ../../index.rst:46 ../../index.rst:190
+msgid "On the **Home Page**, locate the **Sidebar Menu**."
+msgstr "Nella **Home Page**, individua il **Menu Laterale**."
+
+#: ../../index.rst:47
+msgid "Click on the **Leads** menu item. This will expand a dropdown menu."
+msgstr "Clicca sull'elemento di menu **Lead**. Questo espanderà un menu a discesa."
+
+#: ../../index.rst:48
+msgid "Select **View Leads** to open the leads management page."
+msgstr "Seleziona **Visualizza Lead** per aprire la pagina di gestione dei lead."
+
+#: ../../index.rst:52
+msgid "Viewing Leads"
+msgstr "Visualizzazione dei Lead"
+
+#: ../../index.rst:59
+msgid ""
+"The **View Leads** page displays all saved leads in a table format. The "
+"table includes the following columns:"
+msgstr ""
+"La pagina **Visualizza Lead** mostra tutti i lead salvati in formato tabellare. "
+"La tabella include le seguenti colonne:"
+
+#: ../../index.rst:62
+msgid "Lead Table Columns"
+msgstr "Colonne della Tabella dei Lead"
+
+#: ../../index.rst:69
+msgid ""
+"**Contact ID**: - A unique identifier assigned to each lead. - This "
+"column helps to differentiate between leads easily."
+msgstr ""
+"**ID Contatto**: - Un identificatore unico assegnato a ciascun lead. - "
+"Questa colonna aiuta a differenziare facilmente i lead."
+
+#: ../../index.rst:73
+msgid ""
+"**Email**: - The email address of the lead. - This column allows users to"
+" view and verify contact information."
+msgstr ""
+"**Email**: - L'indirizzo email del lead. - Questa colonna consente agli utenti "
+"di visualizzare e verificare le informazioni di contatto."
+
+#: ../../index.rst:77
+msgid ""
+"**First Name**: - The first name of the lead. - This field provides "
+"clarity on the lead's identity."
+msgstr ""
+"**Nome**: - Il nome del lead. - Questo campo fornisce chiarezza sull'identità "
+"del lead."
+
+#: ../../index.rst:81
+msgid ""
+"**Last Name**: - The last name of the lead. - Together with the first "
+"name, it fully identifies the lead."
+msgstr ""
+"**Cognome**: - Il cognome del lead. - Insieme al nome, identifica completamente "
+"il lead."
+
+#: ../../index.rst:85
+msgid ""
+"**Phone Number**: - The contact phone number of the lead. - This column "
+"is used for direct communication with the lead."
+msgstr ""
+"**Numero di Telefono**: - Il numero di telefono di contatto del lead. - "
+"Questa colonna viene utilizzata per la comunicazione diretta con il lead."
+
+#: ../../index.rst:89
+msgid ""
+"**Tag**: - A label or keyword associated with the lead. - Tags can help "
+"categorize or filter leads for better management."
+msgstr ""
+"**Tag**: - Un'etichetta o parola chiave associata al lead. - I tag possono "
+"aiutare a categorizzare o filtrare i lead per una gestione migliore."
+
+#: ../../index.rst:93
+msgid ""
+"**Created At**: - The date and time when the lead was created. - This "
+"field helps track when the lead was added."
+msgstr ""
+"**Creato Il**: - La data e l'ora in cui il lead è stato creato. - Questo "
+"campo aiuta a tracciare quando il lead è stato aggiunto."
+
+#: ../../index.rst:97
+msgid ""
+"**Updated At**: - The date and time when the lead was last updated. - "
+"Useful for identifying recent changes."
+msgstr ""
+"**Aggiornato Il**: - La data e l'ora in cui il lead è stato aggiornato l'ultima "
+"volta. - Utile per identificare i cambiamenti recenti."
+
+#: ../../index.rst:101
+msgid ""
+"**CRM Campaign**: - A text column containing the name or type of CRM "
+"campaign associated with the lead. - This helps link leads to specific "
+"marketing campaigns."
+msgstr ""
+"**Campagna CRM**: - Una colonna di testo contenente il nome o il tipo di "
+"campagna CRM associata al lead. - Questo aiuta a collegare i lead a specifiche "
+"campagne di marketing."
+
+#: ../../index.rst:105
+msgid ""
+"**Lead Owner**: - A dropdown column allowing selection of the lead's "
+"owner. - The dropdown is searchable for convenience."
+msgstr ""
+"**Proprietario del Lead**: - Una colonna a discesa che permette di selezionare "
+"il proprietario del lead. - La discesa è ricercabile per comodità."
+
+#: ../../index.rst:109
+msgid ""
+"**Organization**: - The organization the lead is associated with. - This "
+"provides context on the lead's professional background."
+msgstr ""
+"**Organizzazione**: - L'organizzazione con cui il lead è associato. - Questo "
+"fornisce contesto sul background professionale del lead."
+
+#: ../../index.rst:113
+msgid ""
+"**Designation**: - The professional title or role of the lead within "
+"their organization. - Helps understand the lead’s position in their "
+"company."
+msgstr ""
+"**Designazione**: - Il titolo professionale o il ruolo del lead all'interno "
+"della sua organizzazione. - Aiuta a comprendere la posizione del lead nell'azienda."
+
+#: ../../index.rst:117
+msgid ""
+"**Country**: - A searchable dropdown that provides a list of countries to"
+" select from. - Users can easily assign a country to the lead for "
+"regional tracking."
+msgstr ""
+"**Paese**: - Una discesa ricercabile che fornisce un elenco di paesi da cui "
+"selezionare. - Gli utenti possono facilmente assegnare un paese al lead per "
+"un monitoraggio regionale."
+
+#: ../../index.rst:121
+msgid ""
+"**Lead Type**: - A dropdown containing predefined lead types. - Examples "
+"include \"Prospect,\" \"Customer,\" or \"Partner.\""
+msgstr ""
+"**Tipo di Lead**: - Una discesa contenente tipi di lead predefiniti. - Esempi "
+"includono \"Prospect\", \"Cliente\" o \"Partner\"."
+
+#: ../../index.rst:125
+msgid ""
+"**Product**: - The product or service associated with the lead. - This "
+"column helps link leads with specific offerings."
+msgstr ""
+"**Prodotto**: - Il prodotto o servizio associato al lead. - Questa colonna "
+"aiuta a collegare i lead con offerte specifiche."
+
+#: ../../index.rst:129
+msgid ""
+"**Lead Status**: - A dropdown containing predefined statuses for the "
+"lead. - Examples include \"New,\" \"In Progress,\" \"Closed.\""
+msgstr ""
+"**Stato del Lead**: - Una discesa contenente stati predefiniti per il lead. - "
+"Esempi includono \"Nuovo\", \"In corso\", \"Chiuso\"."
+
+#: ../../index.rst:133
+msgid ""
+"**Source**: - Indicates how the lead was acquired (e.g., \"Website,\" "
+"\"Referral,\" \"Event\"). - Helps track lead generation channels."
+msgstr ""
+"**Fonte**: - Indica come è stato acquisito il lead (ad esempio, \"Sito Web\", "
+"\"Riferimento\", \"Evento\"). - Aiuta a tracciare i canali di generazione dei lead."
+
+#: ../../index.rst:137
+msgid ""
+"**Follow-up Date**: - A date and time column for scheduling follow-up "
+"actions. - Ensures timely communication with leads."
+msgstr ""
+"**Data di Follow-up**: - Una colonna di data e ora per pianificare azioni di follow-up. - "
+"Garantisce una comunicazione tempestiva con i lead."
+
+#: ../../index.rst:141 ../../index.rst:265
+msgid "**Action**: - This column contains interactive icons for various actions:"
+msgstr "**Azione**: - Questa colonna contiene icone interattive per varie azioni:"
+
+#: ../../index.rst:143
+msgid "**View Icon**: Opens a detailed view of the lead."
+msgstr "**Icona di Visualizzazione**: Apre una vista dettagliata del lead."
+
+#: ../../index.rst:144
+msgid "**Delete Icon**: Removes the lead from the system."
+msgstr "**Icona di Eliminazione**: Rimuove il lead dal sistema."
+
+#: ../../index.rst:145
+msgid "**Update Icon**: Opens the lead form for editing."
+msgstr "**Icona di Aggiornamento**: Apre il modulo del lead per l'editing."
+
+#: ../../index.rst:149
+msgid "Managing Leads"
+msgstr "Gestione dei Lead"
+#: ../../index.rst:152
+msgid "Create a Lead"
+msgstr "Crea un Lead"
+
+#: ../../index.rst:154 ../../index.rst:161
+msgid "Navigate to the **View Leads** page."
+msgstr "Vai alla pagina **Visualizza Lead**."
+
+#: ../../index.rst:155
+msgid "Click the **Create CRM Contact** button."
+msgstr "Clicca sul pulsante **Crea Contatto CRM**."
+
+#: ../../index.rst:156 ../../index.rst:281
+msgid "Fill in the required fields and click **Save.**"
+msgstr "Compila i campi obbligatori e clicca su **Salva.**"
+
+#: ../../index.rst:159
+msgid "View a Lead"
+msgstr "Visualizza un Lead"
+
+#: ../../index.rst:162
+msgid "Leads are displayed in a table format with all relevant details."
+msgstr "I lead vengono visualizzati in formato tabellare con tutti i dettagli rilevanti."
+
+#: ../../index.rst:165
+msgid "Update a Lead"
+msgstr "Aggiorna un Lead"
+
+#: ../../index.rst:167
+msgid "On the **View Leads** page, locate the lead you want to modify."
+msgstr "Nella pagina **Visualizza Lead**, individua il lead che desideri modificare."
+
+#: ../../index.rst:168 ../../index.rst:293
+msgid "Click the **Edit** button in the **Actions** column."
+msgstr "Clicca sul pulsante **Modifica** nella colonna **Azioni**."
+
+#: ../../index.rst:169 ../../index.rst:294
+msgid "Make the necessary changes and click **Save.**"
+msgstr "Apporta le modifiche necessarie e clicca su **Salva.**"
+
+#: ../../index.rst:172
+msgid "Delete a Lead"
+msgstr "Elimina un Lead"
+
+#: ../../index.rst:174
+msgid "On the **View Leads** page, locate the lead you want to delete."
+msgstr "Nella pagina **Visualizza Lead**, individua il lead che desideri eliminare."
+
+#: ../../index.rst:175 ../../index.rst:300
+msgid "Click the **Delete** button in the **Actions** column."
+msgstr "Clicca sul pulsante **Elimina** nella colonna **Azioni**."
+
+#: ../../index.rst:176
+msgid "Confirm the deletion to remove the lead permanently."
+msgstr "Conferma l'eliminazione per rimuovere definitivamente il lead."
+
+#: ../../index.rst:180
+msgid "Users"
+msgstr "Utenti"
+
+#: ../../index.rst:182
+msgid ""
+"The \"Users\" module focuses on user account management, empowering "
+"administrators to control access, assign roles, and maintain user "
+"details. Refer to the **Users** section for detailed instructions on "
+"managing users."
+msgstr ""
+"Il modulo \"Utenti\" si concentra sulla gestione degli account utente, "
+"consentendo agli amministratori di controllare l'accesso, assegnare ruoli e "
+"mantenere i dettagli degli utenti. Consulta la sezione **Utenti** per le "
+"istruzioni dettagliate sulla gestione degli utenti."
+
+#: ../../index.rst:186
+msgid "Navigating to Users"
+msgstr "Navigazione verso gli Utenti"
+
+#: ../../index.rst:188
+msgid "To access the \"Users\" section:"
+msgstr "Per accedere alla sezione \"Utenti\":"
+
+#: ../../index.rst:191
+msgid "Click on the **Users** menu item. This will expand a dropdown menu."
+msgstr "Clicca sull'elemento di menu **Utenti**. Questo espanderà un menu a discesa."
+
+#: ../../index.rst:192
+msgid "Select **View Users** to open the user management page."
+msgstr "Seleziona **Visualizza Utenti** per aprire la pagina di gestione degli utenti."
+
+#: ../../index.rst:196
+msgid "Viewing Users"
+msgstr "Visualizzazione degli Utenti"
+
+#: ../../index.rst:203
+msgid ""
+"The **View Users** page displays all saved users in a table format. The "
+"table includes the following columns:"
+msgstr ""
+"La pagina **Visualizza Utenti** mostra tutti gli utenti salvati in formato "
+"tabellare. La tabella include le seguenti colonne:"
+
+#: ../../index.rst:206
+msgid "User Table Columns"
+msgstr "Colonne della Tabella degli Utenti"
+
+#: ../../index.rst:213
+msgid ""
+"**User ID**: - An auto-generated unique identifier assigned to each user."
+" - This column helps to differentiate between users easily."
+msgstr ""
+"**ID Utente**: - Un identificatore unico generato automaticamente per ciascun "
+"utente. - Questa colonna aiuta a differenziare facilmente gli utenti."
+
+#: ../../index.rst:217
+msgid ""
+"**Email**: - The email address of the user. - This column allows users to"
+" view and verify contact information."
+msgstr ""
+"**Email**: - L'indirizzo email dell'utente. - Questa colonna consente agli "
+"utenti di visualizzare e verificare le informazioni di contatto."
+
+#: ../../index.rst:221
+msgid ""
+"**First Name**: - The first name of the user. - This field provides "
+"clarity on the user’s identity."
+msgstr ""
+"**Nome**: - Il nome dell'utente. - Questo campo fornisce chiarezza sull'identità "
+"dell'utente."
+
+#: ../../index.rst:225
+msgid ""
+"**Last Name**: - The last name of the user. - Together with the first "
+"name, it fully identifies the user."
+msgstr ""
+"**Cognome**: - Il cognome dell'utente. - Insieme al nome, identifica completamente "
+"l'utente."
+
+#: ../../index.rst:229
+msgid ""
+"**Role**: - The user’s role in the system (e.g., Admin, Manager, Staff). "
+"- Helps assign appropriate permissions and responsibilities."
+msgstr ""
+"**Ruolo**: - Il ruolo dell'utente nel sistema (ad esempio, Admin, Manager, "
+"Staff). - Aiuta ad assegnare le autorizzazioni e le responsabilità appropriate."
+
+#: ../../index.rst:233
+msgid ""
+"**Created At**: - The date and time when the user account was created. - "
+"Useful for tracking new accounts."
+msgstr ""
+"**Creato Il**: - La data e l'ora in cui l'account utente è stato creato. - "
+"Utile per tracciare i nuovi account."
+
+#: ../../index.rst:237
+msgid ""
+"**Updated At**: - The date and time when the user account was last "
+"updated. - Useful for identifying recent changes."
+msgstr ""
+"**Aggiornato Il**: - La data e l'ora in cui l'account utente è stato aggiornato "
+"l'ultima volta. - Utile per identificare i cambiamenti recenti."
+
+#: ../../index.rst:241
+msgid ""
+"**Product**: - The product or service associated with the user. - Useful "
+"for linking users to specific offerings."
+msgstr ""
+"**Prodotto**: - Il prodotto o servizio associato all'utente. - Utile per collegare "
+"gli utenti alle offerte specifiche."
+
+#: ../../index.rst:245
+msgid ""
+"**Organization**: - The organization the user is associated with. - "
+"Provides context on the user’s professional background."
+msgstr ""
+"**Organizzazione**: - L'organizzazione con cui l'utente è associato. - "
+"Fornisce contesto sul background professionale dell'utente."
+
+#: ../../index.rst:249
+msgid ""
+"**CRM Campaign**: - A text column containing the name or type of CRM "
+"campaign linked to the user. - Helps connect users to specific campaigns."
+msgstr ""
+"**Campagna CRM**: - Una colonna di testo contenente il nome o il tipo di "
+"campagna CRM associata all'utente. - Aiuta a collegare gli utenti a specifiche "
+"campagne."
+
+#: ../../index.rst:253
+msgid ""
+"**CRM Campaign Identifier**: - A unique identifier for the CRM campaign. "
+"- Enables precise tracking of campaign associations."
+msgstr ""
+"**Identificatore Campagna CRM**: - Un identificatore unico per la campagna CRM. - "
+"Consente un tracciamento preciso delle associazioni della campagna."
+
+#: ../../index.rst:257
+msgid ""
+"**CRM Campaign Timestamp**: - The date and time related to the CRM "
+"campaign activity. - Useful for campaign timeline tracking."
+msgstr ""
+"**Timestamp Campagna CRM**: - La data e l'ora relative all'attività della "
+"campagna CRM. - Utile per il tracciamento della timeline della campagna."
+
+#: ../../index.rst:261
+msgid ""
+"**CRM Source**: - Indicates the origin of the CRM campaign (e.g., "
+"\"Website,\" \"Referral\"). - Helps track campaign sources."
+msgstr ""
+"**Fonte CRM**: - Indica l'origine della campagna CRM (ad esempio, \"Sito Web\", "
+"\"Riferimento\"). - Aiuta a tracciare le fonti della campagna."
+
+#: ../../index.rst:267
+msgid "**View Icon**: Opens a detailed view of the user."
+msgstr "**Icona di Visualizzazione**: Apre una vista dettagliata dell'utente."
+
+#: ../../index.rst:268
+msgid "**Delete Icon**: Removes the user from the system."
+msgstr "**Icona di Eliminazione**: Rimuove l'utente dal sistema."
+
+#: ../../index.rst:269
+msgid "**Update Icon**: Opens the user form for editing."
+msgstr "**Icona di Aggiornamento**: Apre il modulo dell'utente per l'editing."
+
+#: ../../index.rst:274
+msgid "Managing Users"
+msgstr "Gestione degli Utenti"
+
+#: ../../index.rst:277
+msgid "Create a User"
+msgstr "Crea un Utente"
+
+#: ../../index.rst:279 ../../index.rst:286
+msgid "Navigate to the **View Users** page."
+msgstr "Vai alla pagina **Visualizza Utenti**."
+
+#: ../../index.rst:280
+msgid "Click the **Create User** button."
+msgstr "Clicca sul pulsante **Crea Utente**."
+
+#: ../../index.rst:284
+msgid "View a User"
+msgstr "Visualizza un Utente"
+#: ../../index.rst:287
+msgid "Users are displayed in a table format with all relevant details."
+msgstr "Gli utenti vengono visualizzati in formato tabellare con tutti i dettagli rilevanti."
+
+#: ../../index.rst:290
+msgid "Update a User"
+msgstr "Aggiorna un Utente"
+
+#: ../../index.rst:292
+msgid "On the **View Users** page, locate the user you want to modify."
+msgstr "Nella pagina **Visualizza Utenti**, individua l'utente che desideri modificare."
+
+#: ../../index.rst:297
+msgid "Delete a User"
+msgstr "Elimina un Utente"
+
+#: ../../index.rst:299
+msgid "On the **View Users** page, locate the user you want to delete."
+msgstr "Nella pagina **Visualizza Utenti**, individua l'utente che desideri eliminare."
+
+#: ../../index.rst:301
+msgid "Confirm the deletion to remove the user permanently."
+msgstr "Conferma l'eliminazione per rimuovere definitivamente l'utente."
+
+#: ../../index.rst:305
+msgid "Master Data"
+msgstr "Dati Master"
+
+#: ../../index.rst:308
+msgid "Roles"
+msgstr "Ruoli"
+
+#: ../../index.rst:310
+msgid ""
+"The **Roles** feature under the **Master Data** section provides tools "
+"for managing user roles within the GeneSys Admin application. Roles help "
+"define user permissions and access levels, enabling administrators to "
+"assign responsibilities effectively."
+msgstr ""
+"La funzionalità **Ruoli** nella sezione **Dati Master** fornisce strumenti "
+"per gestire i ruoli degli utenti all'interno dell'applicazione GeneSys Admin. "
+"I ruoli aiutano a definire le autorizzazioni e i livelli di accesso degli utenti, "
+"consentendo agli amministratori di assegnare le responsabilità in modo efficace."
+
+#: ../../index.rst:313
+msgid "Roles Management"
+msgstr "Gestione dei Ruoli"
+
+#: ../../index.rst:315
+msgid "The **Roles** menu contains the following options:"
+msgstr "Il menu **Ruoli** contiene le seguenti opzioni:"
+
+#: ../../index.rst:317
+msgid "**View Roles**: Displays a list of all created roles in a table format."
+msgstr "**Visualizza Ruoli**: Mostra un elenco di tutti i ruoli creati in formato tabellare."
+
+#: ../../index.rst:318
+msgid "**Create Role**: Allows administrators to add new roles to the system."
+msgstr "**Crea Ruolo**: Consente agli amministratori di aggiungere nuovi ruoli al sistema."
+
+#: ../../index.rst:321
+msgid "Viewing Roles"
+msgstr "Visualizzazione dei Ruoli"
+
+#: ../../index.rst:323
+msgid "To view existing roles:"
+msgstr "Per visualizzare i ruoli esistenti:"
+
+#: ../../index.rst:325 ../../index.rst:347
+msgid "Navigate to the **Master Data > Roles** section."
+msgstr "Vai alla sezione **Dati Master > Ruoli**."
+
+#: ../../index.rst:326
+msgid "Select **View Roles** from the dropdown menu."
+msgstr "Seleziona **Visualizza Ruoli** dal menu a discesa."
+
+#: ../../index.rst:328 ../../index.rst:387
+msgid "View Roles Table"
+msgstr "Tabella dei Ruoli"
+
+#: ../../index.rst:333
+msgid ""
+"A table listing all stored roles will appear, displaying the following "
+"columns:"
+msgstr ""
+"Apparirà una tabella che elenca tutti i ruoli memorizzati, visualizzando le "
+"seguenti colonne:"
+
+#: ../../index.rst:335
+msgid "**Role ID**: A unique, auto-generated identifier for each role."
+msgstr "**ID Ruolo**: Un identificatore unico generato automaticamente per ogni ruolo."
+
+#: ../../index.rst:336
+msgid "**Name**: The name of the role."
+msgstr "**Nome**: Il nome del ruolo."
+
+#: ../../index.rst:337
+msgid "**Description**: A brief description of the role."
+msgstr "**Descrizione**: Una breve descrizione del ruolo."
+
+#: ../../index.rst:338
+msgid "**Created At**: The date and time the role was created."
+msgstr "**Creato Il**: La data e l'ora in cui il ruolo è stato creato."
+
+#: ../../index.rst:339
+msgid "**Updated At**: The date and time the role was last updated."
+msgstr "**Aggiornato Il**: La data e l'ora in cui il ruolo è stato aggiornato l'ultima volta."
+
+#: ../../index.rst:340
+msgid ""
+"**Actions**: Interactive icons to update, delete, or view detailed "
+"information about a role."
+msgstr ""
+"**Azioni**: Icone interattive per aggiornare, eliminare o visualizzare informazioni "
+"detagliate su un ruolo."
+
+#: ../../index.rst:343
+msgid "Creating a Role"
+msgstr "Creare un Ruolo"
+
+#: ../../index.rst:345
+msgid "To create a new role:"
+msgstr "Per creare un nuovo ruolo:"
+
+#: ../../index.rst:348
+msgid "Select **Create Role** from the dropdown menu."
+msgstr "Seleziona **Crea Ruolo** dal menu a discesa."
+
+#: ../../index.rst:349
+msgid ""
+"Fill in the required fields: - **Name**: Enter a unique name for the "
+"role. - **Description**: Provide a brief description of the role."
+msgstr ""
+"Compila i campi obbligatori: - **Nome**: Inserisci un nome unico per il ruolo. - "
+"**Descrizione**: Fornisci una breve descrizione del ruolo."
+
+#: ../../index.rst:352
+msgid "Click **Save** to store the new role."
+msgstr "Fai clic su **Salva** per memorizzare il nuovo ruolo."
+
+#: ../../index.rst:354
+msgid "Create Role Form"
+msgstr "Modulo per Creare Ruolo"
+
+#: ../../index.rst:362
+msgid "Updating a Role"
+msgstr "Aggiornare un Ruolo"
+
+#: ../../index.rst:364
+msgid "To update an existing role:"
+msgstr "Per aggiornare un ruolo esistente:"
+
+#: ../../index.rst:366 ../../index.rst:376
+msgid "Navigate to the **View Roles** page."
+msgstr "Vai alla pagina **Visualizza Ruoli**."
+
+#: ../../index.rst:367
+msgid "Locate the role you want to modify."
+msgstr "Individua il ruolo che desideri modificare."
+
+#: ../../index.rst:368
+msgid "Click the **Edit** icon in the **Actions** column."
+msgstr "Fai clic sull'icona **Modifica** nella colonna **Azioni**."
+
+#: ../../index.rst:369
+msgid "Update the necessary fields and click **Save**."
+msgstr "Aggiorna i campi necessari e fai clic su **Salva**."
+
+#: ../../index.rst:372
+msgid "Deleting a Role"
+msgstr "Eliminare un Ruolo"
+
+#: ../../index.rst:374
+msgid "To delete an existing role:"
+msgstr "Per eliminare un ruolo esistente:"
+
+#: ../../index.rst:377
+msgid "Locate the role you want to delete."
+msgstr "Individua il ruolo che desideri eliminare."
+
+#: ../../index.rst:378
+msgid "Click the **Delete** icon in the **Actions** column."
+msgstr "Fai clic sull'icona **Elimina** nella colonna **Azioni**."
+
+#: ../../index.rst:379
+msgid "Confirm the deletion to permanently remove the role."
+msgstr "Conferma l'eliminazione per rimuovere definitivamente il ruolo."
+
+#: ../../index.rst:383
+msgid "Role-Based Access Control (RBAC)"
+msgstr "Controllo Accessi Basato su Ruoli (RBAC)"
+
+#: ../../index.rst:385
+msgid "The **RBAC** feature under **Master Data** includes:"
+msgstr "La funzionalità **RBAC** sotto **Dati Master** include:"
+
+#: ../../index.rst:392
+msgid "**Grant Access**: Assign roles and permissions to users."
+msgstr "**Concedi Accesso**: Assegna ruoli e autorizzazioni agli utenti."
+
+#: ../../index.rst:393
+msgid "**Roles**: Manage roles as described above."
+msgstr "**Ruoli**: Gestisci i ruoli come descritto sopra."
+
+#: ../../index.rst:394
+msgid "**Rules**: Define custom rules for access control."
+msgstr "**Regole**: Definisci regole personalizzate per il controllo degli accessi."
+
+#: ../../index.rst:395
+msgid "**Permissions**: Specify detailed permissions for each role."
+msgstr "**Autorizzazioni**: Specifica autorizzazioni dettagliate per ciascun ruolo."
+
+#: ../../index.rst:398
+msgid ""
+"The **Roles** feature in the GeneSys Admin application simplifies user "
+"management by providing a structured way to define and assign "
+"permissions. Use the intuitive interface to create, view, and modify "
+"roles effectively, enhancing security and operational efficiency."
+msgstr ""
+"La funzionalità **Ruoli** nell'applicazione GeneSys Admin semplifica la gestione degli utenti "
+"fornendo un modo strutturato per definire e assegnare autorizzazioni. "
+"Utilizza l'interfaccia intuitiva per creare, visualizzare e modificare i ruoli in modo efficace, "
+"migliorando la sicurezza e l'efficienza operativa."
+
+#~ msgid "GeneSys"
+#~ msgstr "GeneSys"
+
+#~ msgid ""
+#~ "This documentation provides a comprehensive"
+#~ " guide to the GeneSys Admin web "
+#~ "application, covering key features and "
+#~ "functionalities."
+#~ msgstr ""
+#~ "Questa documentazione fornisce una guida completa "
+#~ "all'applicazione web GeneSys Admin, "
+#~ "coprendo le funzionalità e le caratteristiche principali."
+
+#~ msgid ""
+#~ "3. **Import Leads**: Facilitates the "
+#~ "import of leads from external sources."
+#~ " Leads ======"
+#~ msgstr ""
+#~ "3. **Importa Lead**: Facilita l'importazione "
+#~ "dei lead da fonti esterne."
+#~ " Lead ======"
+
+#~ msgid "**Update Icon (Pencil)**: Opens the lead form for editing."
+#~ msgstr "**Icona di aggiornamento (matita)**: Apre il modulo del lead per la modifica."
+
+#~ msgid "The \"Leads\" feature allows users to perform the following operations:"
+#~ msgstr "La funzionalità \"Leads\" consente agli utenti di eseguire le seguenti operazioni:"
+
+#~ msgid "Create a CRM Contact"
+#~ msgstr "Crea un Contatto CRM"
