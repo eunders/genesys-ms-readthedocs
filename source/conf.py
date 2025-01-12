@@ -6,9 +6,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'GeneSys Admin'
-copyright = '2024, GeneSys Admin'
-author = 'author'
+project = 'Genesys Admin'
+copyright = '2025, Eunders'
+author = 'Eunders'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -23,21 +23,14 @@ exclude_patterns = []
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
+
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
 # Add gettext support for translation
-locale_dirs = ['locales/']   # Path to translation files
-gettext_compact = False      # Create one .pot file per document
+locale_dirs = ['locale/']  # Path for translation files
+gettext_compact = False  # Disable compact files for better organization
 
-# Specify the default language
-language = 'en'
-
-html_context = {
-    'languages': [
-        ('English', '/en/'),
-        ('Italian', '/it/'),
-    ],
-}
-# conf.py
-html_extra_path = ['language_switcher.html']
+rst_epilog = """
+.. |project_name| replace:: GeneSys Admin
+"""

@@ -1,0 +1,645 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Eunders
+# This file is distributed under the same license as the Genesys Admin
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Genesys Admin \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-12 23:02+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../source/index.rst:9
+msgid "Contents:"
+msgstr ""
+
+#: ../source/index.rst:2
+msgid "|project_name| Documentation"
+msgstr ""
+
+#: ../source/index.rst:5
+msgid ""
+"Welcome to the |project_name| documentation! This guide provides an in-"
+"depth overview of the application, including features, role-based access "
+"control, and navigation instructions."
+msgstr ""
+
+#: ../source/index.rst:7
+msgid ""
+"Refer to individual pages for detailed instructions on accessing these "
+"features."
+msgstr ""
+
+#~ msgid "_static/images/en"
+#~ msgstr ""
+
+#~ msgid "GeneSys Admin"
+#~ msgstr ""
+
+#~ msgid "Introduction"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Welcome to the documentation for the "
+#~ "GeneSys Admin web application. Use the"
+#~ " menu below to navigate through the"
+#~ " key features and functionalities."
+#~ msgstr ""
+
+#~ msgid "Accessing GeneSys Admin"
+#~ msgstr ""
+
+#~ msgid "To access the GeneSys Admin web application, please follow these steps:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Login**: Go to the GeneSys Admin "
+#~ "website and log in with your "
+#~ "credentials."
+#~ msgstr ""
+
+#~ msgid "Navigating the Dashboard"
+#~ msgstr ""
+
+#~ msgid "Optional alt text for the image"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The GeneSys Admin dashboard serves as"
+#~ " a central hub for managing various"
+#~ " aspects of the application."
+#~ msgstr ""
+
+#~ msgid "Menu Bar"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The menu bar on the left-hand "
+#~ "side provides access to the following"
+#~ " options:"
+#~ msgstr ""
+
+#~ msgid "**View Leads**: Displays a list of all existing leads."
+#~ msgstr ""
+
+#~ msgid "**Create Lead**: Allows users to add new leads to the system."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Import Leads**: Facilitates the import "
+#~ "of leads from external sources."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This section provides a detailed "
+#~ "overview of the \"Leads\" feature, "
+#~ "including navigation, CRUD operations, table"
+#~ " columns, and additional functionalities."
+#~ msgstr ""
+
+#~ msgid "Navigating to Leads"
+#~ msgstr ""
+
+#~ msgid "To access the \"Leads\" section:"
+#~ msgstr ""
+
+#~ msgid "On the **Home Page**, locate the **Sidebar Menu**."
+#~ msgstr ""
+
+#~ msgid "Click on the **Leads** menu item. This will expand a dropdown menu."
+#~ msgstr ""
+
+#~ msgid "Select **View Leads** to open the leads management page."
+#~ msgstr ""
+
+#~ msgid "Viewing Leads"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The **View Leads** page displays all "
+#~ "saved leads in a table format. The"
+#~ " table includes the following columns:"
+#~ msgstr ""
+
+#~ msgid "Lead Table Columns"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Contact ID**: - A unique identifier"
+#~ " assigned to each lead. - This "
+#~ "column helps to differentiate between "
+#~ "leads easily."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Email**: - The email address of "
+#~ "the lead. - This column allows "
+#~ "users to view and verify contact "
+#~ "information."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**First Name**: - The first name "
+#~ "of the lead. - This field provides"
+#~ " clarity on the lead's identity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Last Name**: - The last name of"
+#~ " the lead. - Together with the "
+#~ "first name, it fully identifies the "
+#~ "lead."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Phone Number**: - The contact phone"
+#~ " number of the lead. - This "
+#~ "column is used for direct communication"
+#~ " with the lead."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Tag**: - A label or keyword "
+#~ "associated with the lead. - Tags "
+#~ "can help categorize or filter leads "
+#~ "for better management."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Created At**: - The date and "
+#~ "time when the lead was created. -"
+#~ " This field helps track when the "
+#~ "lead was added."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Updated At**: - The date and "
+#~ "time when the lead was last "
+#~ "updated. - Useful for identifying recent"
+#~ " changes."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**CRM Campaign**: - A text column "
+#~ "containing the name or type of CRM"
+#~ " campaign associated with the lead. -"
+#~ " This helps link leads to specific"
+#~ " marketing campaigns."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Lead Owner**: - A dropdown column "
+#~ "allowing selection of the lead's owner."
+#~ " - The dropdown is searchable for "
+#~ "convenience."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Organization**: - The organization the "
+#~ "lead is associated with. - This "
+#~ "provides context on the lead's "
+#~ "professional background."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Designation**: - The professional title "
+#~ "or role of the lead within their"
+#~ " organization. - Helps understand the "
+#~ "lead’s position in their company."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Country**: - A searchable dropdown "
+#~ "that provides a list of countries "
+#~ "to select from. - Users can easily"
+#~ " assign a country to the lead "
+#~ "for regional tracking."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Lead Type**: - A dropdown containing"
+#~ " predefined lead types. - Examples "
+#~ "include \"Prospect,\" \"Customer,\" or "
+#~ "\"Partner.\""
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Product**: - The product or service"
+#~ " associated with the lead. - This "
+#~ "column helps link leads with specific"
+#~ " offerings."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Lead Status**: - A dropdown containing"
+#~ " predefined statuses for the lead. -"
+#~ " Examples include \"New,\" \"In Progress,\""
+#~ " \"Closed.\""
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Source**: - Indicates how the lead "
+#~ "was acquired (e.g., \"Website,\" \"Referral,\""
+#~ " \"Event\"). - Helps track lead "
+#~ "generation channels."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Follow-up Date**: - A date and"
+#~ " time column for scheduling follow-up"
+#~ " actions. - Ensures timely communication"
+#~ " with leads."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Action**: - This column contains "
+#~ "interactive icons for various actions:"
+#~ msgstr ""
+
+#~ msgid "**View Icon**: Opens a detailed view of the lead."
+#~ msgstr ""
+
+#~ msgid "**Delete Icon**: Removes the lead from the system."
+#~ msgstr ""
+
+#~ msgid "**Update Icon**: Opens the lead form for editing."
+#~ msgstr ""
+
+#~ msgid "Managing Leads"
+#~ msgstr ""
+
+#~ msgid "Create a Lead"
+#~ msgstr ""
+
+#~ msgid "Navigate to the **View Leads** page."
+#~ msgstr ""
+
+#~ msgid "Click the **Create CRM Contact** button."
+#~ msgstr ""
+
+#~ msgid "Fill in the required fields and click **Save.**"
+#~ msgstr ""
+
+#~ msgid "View a Lead"
+#~ msgstr ""
+
+#~ msgid "Leads are displayed in a table format with all relevant details."
+#~ msgstr ""
+
+#~ msgid "Update a Lead"
+#~ msgstr ""
+
+#~ msgid "On the **View Leads** page, locate the lead you want to modify."
+#~ msgstr ""
+
+#~ msgid "Click the **Edit** button in the **Actions** column."
+#~ msgstr ""
+
+#~ msgid "Make the necessary changes and click **Save.**"
+#~ msgstr ""
+
+#~ msgid "Delete a Lead"
+#~ msgstr ""
+
+#~ msgid "On the **View Leads** page, locate the lead you want to delete."
+#~ msgstr ""
+
+#~ msgid "Click the **Delete** button in the **Actions** column."
+#~ msgstr ""
+
+#~ msgid "Confirm the deletion to remove the lead permanently."
+#~ msgstr ""
+
+#~ msgid "Users"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The \"Users\" module focuses on user "
+#~ "account management, empowering administrators "
+#~ "to control access, assign roles, and "
+#~ "maintain user details. Refer to the "
+#~ "**Users** section for detailed instructions"
+#~ " on managing users."
+#~ msgstr ""
+
+#~ msgid "Navigating to Users"
+#~ msgstr ""
+
+#~ msgid "To access the \"Users\" section:"
+#~ msgstr ""
+
+#~ msgid "Click on the **Users** menu item. This will expand a dropdown menu."
+#~ msgstr ""
+
+#~ msgid "Select **View Users** to open the user management page."
+#~ msgstr ""
+
+#~ msgid "Viewing Users"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The **View Users** page displays all "
+#~ "saved users in a table format. The"
+#~ " table includes the following columns:"
+#~ msgstr ""
+
+#~ msgid "User Table Columns"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**User ID**: - An auto-generated "
+#~ "unique identifier assigned to each user."
+#~ " - This column helps to differentiate"
+#~ " between users easily."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Email**: - The email address of "
+#~ "the user. - This column allows "
+#~ "users to view and verify contact "
+#~ "information."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**First Name**: - The first name "
+#~ "of the user. - This field provides"
+#~ " clarity on the user’s identity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Last Name**: - The last name of"
+#~ " the user. - Together with the "
+#~ "first name, it fully identifies the "
+#~ "user."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Role**: - The user’s role in the"
+#~ " system (e.g., Admin, Manager, Staff). "
+#~ "- Helps assign appropriate permissions "
+#~ "and responsibilities."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Created At**: - The date and "
+#~ "time when the user account was "
+#~ "created. - Useful for tracking new "
+#~ "accounts."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Updated At**: - The date and "
+#~ "time when the user account was "
+#~ "last updated. - Useful for identifying"
+#~ " recent changes."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Product**: - The product or service"
+#~ " associated with the user. - Useful"
+#~ " for linking users to specific "
+#~ "offerings."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Organization**: - The organization the "
+#~ "user is associated with. - Provides "
+#~ "context on the user’s professional "
+#~ "background."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**CRM Campaign**: - A text column "
+#~ "containing the name or type of CRM"
+#~ " campaign linked to the user. - "
+#~ "Helps connect users to specific "
+#~ "campaigns."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**CRM Campaign Identifier**: - A unique"
+#~ " identifier for the CRM campaign. -"
+#~ " Enables precise tracking of campaign "
+#~ "associations."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**CRM Campaign Timestamp**: - The date"
+#~ " and time related to the CRM "
+#~ "campaign activity. - Useful for campaign"
+#~ " timeline tracking."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**CRM Source**: - Indicates the origin"
+#~ " of the CRM campaign (e.g., "
+#~ "\"Website,\" \"Referral\"). - Helps track "
+#~ "campaign sources."
+#~ msgstr ""
+
+#~ msgid "**View Icon**: Opens a detailed view of the user."
+#~ msgstr ""
+
+#~ msgid "**Delete Icon**: Removes the user from the system."
+#~ msgstr ""
+
+#~ msgid "**Update Icon**: Opens the user form for editing."
+#~ msgstr ""
+
+#~ msgid "Managing Users"
+#~ msgstr ""
+
+#~ msgid "Create a User"
+#~ msgstr ""
+
+#~ msgid "Navigate to the **View Users** page."
+#~ msgstr ""
+
+#~ msgid "Click the **Create User** button."
+#~ msgstr ""
+
+#~ msgid "View a User"
+#~ msgstr ""
+
+#~ msgid "Users are displayed in a table format with all relevant details."
+#~ msgstr ""
+
+#~ msgid "Update a User"
+#~ msgstr ""
+
+#~ msgid "On the **View Users** page, locate the user you want to modify."
+#~ msgstr ""
+
+#~ msgid "Delete a User"
+#~ msgstr ""
+
+#~ msgid "On the **View Users** page, locate the user you want to delete."
+#~ msgstr ""
+
+#~ msgid "Confirm the deletion to remove the user permanently."
+#~ msgstr ""
+
+#~ msgid "Master Data"
+#~ msgstr ""
+
+#~ msgid "Roles"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The **Roles** feature under the **Master"
+#~ " Data** section provides tools for "
+#~ "managing user roles within the GeneSys"
+#~ " Admin application. Roles help define "
+#~ "user permissions and access levels, "
+#~ "enabling administrators to assign "
+#~ "responsibilities effectively."
+#~ msgstr ""
+
+#~ msgid "Roles Management"
+#~ msgstr ""
+
+#~ msgid "The **Roles** menu contains the following options:"
+#~ msgstr ""
+
+#~ msgid "**View Roles**: Displays a list of all created roles in a table format."
+#~ msgstr ""
+
+#~ msgid "**Create Role**: Allows administrators to add new roles to the system."
+#~ msgstr ""
+
+#~ msgid "Viewing Roles"
+#~ msgstr ""
+
+#~ msgid "To view existing roles:"
+#~ msgstr ""
+
+#~ msgid "Navigate to the **Master Data > Roles** section."
+#~ msgstr ""
+
+#~ msgid "Select **View Roles** from the dropdown menu."
+#~ msgstr ""
+
+#~ msgid "View Roles Table"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A table listing all stored roles "
+#~ "will appear, displaying the following "
+#~ "columns:"
+#~ msgstr ""
+
+#~ msgid "**Role ID**: A unique, auto-generated identifier for each role."
+#~ msgstr ""
+
+#~ msgid "**Name**: The name of the role."
+#~ msgstr ""
+
+#~ msgid "**Description**: A brief description of the role."
+#~ msgstr ""
+
+#~ msgid "**Created At**: The date and time the role was created."
+#~ msgstr ""
+
+#~ msgid "**Updated At**: The date and time the role was last updated."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Actions**: Interactive icons to update, "
+#~ "delete, or view detailed information "
+#~ "about a role."
+#~ msgstr ""
+
+#~ msgid "Creating a Role"
+#~ msgstr ""
+
+#~ msgid "To create a new role:"
+#~ msgstr ""
+
+#~ msgid "Select **Create Role** from the dropdown menu."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Fill in the required fields: - "
+#~ "**Name**: Enter a unique name for "
+#~ "the role. - **Description**: Provide a"
+#~ " brief description of the role."
+#~ msgstr ""
+
+#~ msgid "Click **Save** to store the new role."
+#~ msgstr ""
+
+#~ msgid "Create Role Form"
+#~ msgstr ""
+
+#~ msgid "Updating a Role"
+#~ msgstr ""
+
+#~ msgid "To update an existing role:"
+#~ msgstr ""
+
+#~ msgid "Navigate to the **View Roles** page."
+#~ msgstr ""
+
+#~ msgid "Locate the role you want to modify."
+#~ msgstr ""
+
+#~ msgid "Click the **Edit** icon in the **Actions** column."
+#~ msgstr ""
+
+#~ msgid "Update the necessary fields and click **Save**."
+#~ msgstr ""
+
+#~ msgid "Deleting a Role"
+#~ msgstr ""
+
+#~ msgid "To delete an existing role:"
+#~ msgstr ""
+
+#~ msgid "Locate the role you want to delete."
+#~ msgstr ""
+
+#~ msgid "Click the **Delete** icon in the **Actions** column."
+#~ msgstr ""
+
+#~ msgid "Confirm the deletion to permanently remove the role."
+#~ msgstr ""
+
+#~ msgid "Role-Based Access Control (RBAC)"
+#~ msgstr ""
+
+#~ msgid "The **RBAC** feature under **Master Data** includes:"
+#~ msgstr ""
+
+#~ msgid "**Grant Access**: Assign roles and permissions to users."
+#~ msgstr ""
+
+#~ msgid "**Roles**: Manage roles as described above."
+#~ msgstr ""
+
+#~ msgid "**Rules**: Define custom rules for access control."
+#~ msgstr ""
+
+#~ msgid "**Permissions**: Specify detailed permissions for each role."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The **Roles** feature in the GeneSys "
+#~ "Admin application simplifies user management"
+#~ " by providing a structured way to "
+#~ "define and assign permissions. Use the"
+#~ " intuitive interface to create, view, "
+#~ "and modify roles effectively, enhancing "
+#~ "security and operational efficiency."
+#~ msgstr ""
+

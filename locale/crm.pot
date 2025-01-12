@@ -1,0 +1,235 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Eunders
+# This file is distributed under the same license as the Genesys Admin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Genesys Admin \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-12 23:02+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../source/crm.rst:2
+msgid "CRM"
+msgstr ""
+
+#: ../source/crm.rst:4
+msgid "The CRM section includes tools for managing leads, calendars, and campaigns."
+msgstr ""
+
+#: ../source/crm.rst:6
+msgid "The CRM module enables efficient lead and customer management."
+msgstr ""
+
+#: ../source/crm.rst:10
+msgid "Navigating to Leads"
+msgstr ""
+
+#: ../source/crm.rst:12
+msgid "To access the \"Leads\" section:"
+msgstr ""
+
+#: ../source/crm.rst:14
+msgid "On the **Home Page**, locate the **Sidebar Menu**."
+msgstr ""
+
+#: ../source/crm.rst:15
+msgid "Click on the **Leads** menu item. This will expand a dropdown menu."
+msgstr ""
+
+#: ../source/crm.rst:16
+msgid "Select **View Leads** to open the leads management page."
+msgstr ""
+
+#: ../source/crm.rst:20
+msgid "Viewing Leads"
+msgstr ""
+
+#: ../source/crm.rst:22
+#: ../source/crm.rst:75
+msgid "Optional alt text for the image"
+msgstr ""
+
+#: ../source/crm.rst:27
+msgid "The **View Leads** page displays all saved leads in a table format. The table includes the following columns:"
+msgstr ""
+
+#: ../source/crm.rst:30
+msgid "**Leads**:"
+msgstr ""
+
+#: ../source/crm.rst:33
+msgid "**View Leads**: Displays a list of all existing leads."
+msgstr ""
+
+#: ../source/crm.rst:34
+msgid "**Create Lead**: Allows users to add new leads to the system."
+msgstr ""
+
+#: ../source/crm.rst:35
+msgid "**Import Leads**: Facilitates the import of leads from external sources."
+msgstr ""
+
+#: ../source/crm.rst:38
+msgid "This section provides a detailed overview of the \"Leads\" feature, including navigation, CRUD operations, table columns, and additional functionalities."
+msgstr ""
+
+#: ../source/crm.rst:42
+msgid "Managing Leads"
+msgstr ""
+
+#: ../source/crm.rst:45
+msgid "Create a Lead"
+msgstr ""
+
+#: ../source/crm.rst:47
+#: ../source/crm.rst:54
+msgid "Navigate to the **View Leads** page."
+msgstr ""
+
+#: ../source/crm.rst:48
+msgid "Click the **Create CRM Contact** button."
+msgstr ""
+
+#: ../source/crm.rst:49
+msgid "Fill in the required fields and click **Save.**"
+msgstr ""
+
+#: ../source/crm.rst:52
+msgid "View a Lead"
+msgstr ""
+
+#: ../source/crm.rst:55
+msgid "Leads are displayed in a table format with all relevant details."
+msgstr ""
+
+#: ../source/crm.rst:58
+msgid "Update a Lead"
+msgstr ""
+
+#: ../source/crm.rst:60
+msgid "On the **View Leads** page, locate the lead you want to modify."
+msgstr ""
+
+#: ../source/crm.rst:61
+msgid "Click the **Edit** button in the **Actions** column."
+msgstr ""
+
+#: ../source/crm.rst:62
+msgid "Make the necessary changes and click **Save.**"
+msgstr ""
+
+#: ../source/crm.rst:65
+msgid "Delete a Lead"
+msgstr ""
+
+#: ../source/crm.rst:67
+msgid "On the **View Leads** page, locate the lead you want to delete."
+msgstr ""
+
+#: ../source/crm.rst:68
+msgid "Click the **Delete** button in the **Actions** column."
+msgstr ""
+
+#: ../source/crm.rst:69
+msgid "Confirm the deletion to remove the lead permanently."
+msgstr ""
+
+#: ../source/crm.rst:73
+msgid "Lead Table Columns"
+msgstr ""
+
+#: ../source/crm.rst:80
+msgid "**Contact ID**: - A unique identifier assigned to each lead. - This column helps to differentiate between leads easily."
+msgstr ""
+
+#: ../source/crm.rst:84
+msgid "**Email**: - The email address of the lead. - This column allows users to view and verify contact information."
+msgstr ""
+
+#: ../source/crm.rst:88
+msgid "**First Name**: - The first name of the lead. - This field provides clarity on the lead's identity."
+msgstr ""
+
+#: ../source/crm.rst:92
+msgid "**Last Name**: - The last name of the lead. - Together with the first name, it fully identifies the lead."
+msgstr ""
+
+#: ../source/crm.rst:96
+msgid "**Phone Number**: - The contact phone number of the lead. - This column is used for direct communication with the lead."
+msgstr ""
+
+#: ../source/crm.rst:100
+msgid "**Tag**: - A label or keyword associated with the lead. - Tags can help categorize or filter leads for better management."
+msgstr ""
+
+#: ../source/crm.rst:104
+msgid "**Created At**: - The date and time when the lead was created. - This field helps track when the lead was added."
+msgstr ""
+
+#: ../source/crm.rst:108
+msgid "**Updated At**: - The date and time when the lead was last updated. - Useful for identifying recent changes."
+msgstr ""
+
+#: ../source/crm.rst:112
+msgid "**CRM Campaign**: - A text column containing the name or type of CRM campaign associated with the lead. - This helps link leads to specific marketing campaigns."
+msgstr ""
+
+#: ../source/crm.rst:116
+msgid "**Lead Owner**: - A dropdown column allowing selection of the lead's owner. - The dropdown is searchable for convenience."
+msgstr ""
+
+#: ../source/crm.rst:120
+msgid "**Organization**: - The organization the lead is associated with. - This provides context on the lead's professional background."
+msgstr ""
+
+#: ../source/crm.rst:124
+msgid "**Designation**: - The professional title or role of the lead within their organization. - Helps understand the lead’s position in their company."
+msgstr ""
+
+#: ../source/crm.rst:128
+msgid "**Country**: - A searchable dropdown that provides a list of countries to select from. - Users can easily assign a country to the lead for regional tracking."
+msgstr ""
+
+#: ../source/crm.rst:132
+msgid "**Lead Type**: - A dropdown containing predefined lead types. - Examples include \"Prospect,\" \"Customer,\" or \"Partner.\""
+msgstr ""
+
+#: ../source/crm.rst:136
+msgid "**Product**: - The product or service associated with the lead. - This column helps link leads with specific offerings."
+msgstr ""
+
+#: ../source/crm.rst:140
+msgid "**Lead Status**: - A dropdown containing predefined statuses for the lead. - Examples include \"New,\" \"In Progress,\" \"Closed.\""
+msgstr ""
+
+#: ../source/crm.rst:144
+msgid "**Source**: - Indicates how the lead was acquired (e.g., \"Website,\" \"Referral,\" \"Event\"). - Helps track lead generation channels."
+msgstr ""
+
+#: ../source/crm.rst:148
+msgid "**Follow-up Date**: - A date and time column for scheduling follow-up actions. - Ensures timely communication with leads."
+msgstr ""
+
+#: ../source/crm.rst:152
+msgid "**Action**: - This column contains interactive icons for various actions:"
+msgstr ""
+
+#: ../source/crm.rst:154
+msgid "**View Icon**: Opens a detailed view of the lead."
+msgstr ""
+
+#: ../source/crm.rst:155
+msgid "**Delete Icon**: Removes the lead from the system."
+msgstr ""
+
+#: ../source/crm.rst:156
+msgid "**Update Icon**: Opens the lead form for editing."
+msgstr ""

@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Eunders
+# This file is distributed under the same license as the Genesys Admin
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Genesys Admin \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-12 23:02+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../source/master_data.rst:2
+msgid "Master Data"
+msgstr ""
+
+#: ../source/master_data.rst:4
+msgid ""
+"The Master Data section provides tools for managing critical system data "
+"essential for the |project_name| platform. Below is a list of available "
+"tools and their functions:"
+msgstr ""
+
+#: ../source/master_data.rst:7
+msgid "Key Sections"
+msgstr ""
+
+#: ../source/master_data.rst:9
+msgid "**RBAC**: Manage roles and permissions."
+msgstr ""
+
+#: ../source/master_data.rst:11
+msgid ""
+"The RBAC (Role-Based Access Control) system allows administrators to "
+"define and control user roles and their associated permissions."
+msgstr ""
+
+#: ../source/master_data.rst:13
+msgid ""
+"Refer to the :doc:`Role-Based Access Control page <rbac>` for detailed "
+"instructions on configuring and managing roles and permissions."
+msgstr ""
+
+#: ../source/master_data.rst:15
+msgid "**Roles**: Add and modify user roles."
+msgstr ""
+
+#: ../source/master_data.rst:17
+msgid ""
+"This section is specifically designed for creating, editing, and "
+"assigning user roles within the system."
+msgstr ""
+
+#: ../source/master_data.rst:19
+msgid ""
+"Refer to the :doc:`Roles page <roles>` for step-by-step guidance on role "
+"management."
+msgstr ""
+
+#: ../source/master_data.rst:23
+msgid "Additional Tools"
+msgstr ""
+
+#: ../source/master_data.rst:25
+msgid ""
+"**Client Apps**: Manage client-specific applications to customize "
+"functionalities for different clients."
+msgstr ""
+
+#: ../source/master_data.rst:26
+msgid ""
+"**Tenants**: Configure tenant-specific settings, including account "
+"information and preferences."
+msgstr ""
+
+#: ../source/master_data.rst:27
+msgid "**Tenant Apps**: Assign and configure applications for individual tenants."
+msgstr ""
+
+#: ../source/master_data.rst:28
+msgid ""
+"**Tenant DBs**: Manage and maintain tenant-specific databases, ensuring "
+"secure and isolated data storage."
+msgstr ""
+
+#: ../source/master_data.rst:29
+msgid ""
+"**Language**: Set and manage the system's supported languages for multi-"
+"language capabilities."
+msgstr ""
+
+#: ../source/master_data.rst:30
+msgid ""
+"**Site**: Configure global site settings such as branding, appearance, "
+"and policies."
+msgstr ""
+
+#: ../source/master_data.rst:31
+msgid ""
+"**Entities and Attributes**: Define the system’s core entities and their "
+"attributes for structured data management."
+msgstr ""
+
+#: ../source/master_data.rst:32
+msgid ""
+"**Keywords**: Manage keywords for search optimization and categorization "
+"across the system."
+msgstr ""
+
+#: ../source/master_data.rst:33
+msgid ""
+"**Translations**: Handle translations for multilingual support, enabling "
+"localized experiences for users."
+msgstr ""
+
