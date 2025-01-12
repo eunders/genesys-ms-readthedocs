@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Eunders
+# This file is distributed under the same license as the Genesys Admin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Genesys Admin \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-12 23:02+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../source/access_control.rst:2
+msgid "Access Control"
+msgstr ""
+
+#: ../source/access_control.rst:4
+msgid "This section provides a breakdown of role-based permissions and functionalities."
+msgstr ""
+
+#: ../source/access_control.rst:6
+msgid "**Admin Access**:"
+msgstr ""
+
+#: ../source/access_control.rst:8
+msgid "Full access to all features, including: - Dashboard - Users - Roles - CRM (Leads, Calendar, Campaigns) - Contact Requests - Reviews - System Logs - Login Logs - Maintenance Mode"
+msgstr ""
+
+#: ../source/access_control.rst:19
+msgid "**Tenant-Admin Access**:"
+msgstr ""
+
+#: ../source/access_control.rst:22
+msgid "Inherits all Admin permissions but operates as a subordinate."
+msgstr ""
+
+#: ../source/access_control.rst:24
+msgid "**Manager Access**:"
+msgstr ""
+
+#: ../source/access_control.rst:27
+msgid "Inherits Tenant-Admin permissions except for: - Login Logs - System Logs"
+msgstr ""
+
+#: ../source/access_control.rst:31
+msgid "**Accountant Access**:"
+msgstr ""
+
+#: ../source/access_control.rst:34
+msgid "Limited to: - Dashboard viewing only"
+msgstr ""
+
+#: ../source/access_control.rst:37
+msgid "**Sales-Rep and Support-Rep Access**:"
+msgstr ""
+
+#: ../source/access_control.rst:40
+msgid "Access to: - Dashboard - Contact Requests - Leads (Calendar, View Leads, Create Leads, Import Leads)"
+msgstr ""

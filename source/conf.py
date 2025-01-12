@@ -30,3 +30,6 @@ html_static_path = ['_static']
 locale_dirs = ['locale/']  # Path for translation files
 gettext_compact = False  # Disable compact files for better organization
 
+rst_epilog = """
+.. |project_name| replace:: GeneSys Admin
+"""

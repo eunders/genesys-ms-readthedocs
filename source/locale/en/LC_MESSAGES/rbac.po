@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Eunders
+# This file is distributed under the same license as the Genesys Admin
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Genesys Admin \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-12 23:02+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../source/rbac.rst:4
+msgid "Role-Based Access Control (RBAC)"
+msgstr ""
+
+#: ../source/rbac.rst:6
+msgid ""
+"|project_name| implements a role hierarchy to control access to various "
+"features and sections of the application. Below is the hierarchical "
+"structure of roles:"
+msgstr ""
+
+#: ../source/rbac.rst:10
+msgid "Roles Hierarchy"
+msgstr ""
+
+#: ../source/rbac.rst:12
+msgid ""
+"The |project_name| application uses a Role-Based Access Control (RBAC) "
+"system with the following hierarchy:"
+msgstr ""
+
+#: ../source/rbac.rst:14
+msgid ""
+"``` ADMIN ↓ TENANT-ADMIN ↓ MANAGER ↓ ACCOUNTANT , SALES-REP , SUPPORT-REP"
+" ```"
+msgstr ""
+
+#: ../source/rbac.rst:26
+msgid ""
+"**Admin** - Full access to all features and sections. - Parent role for "
+"all other roles."
+msgstr ""
+
+#: ../source/rbac.rst:30 ../source/rbac.rst:35 ../source/rbac.rst:40
+msgid "↓"
+msgstr ""
+
+#: ../source/rbac.rst:32
+msgid "**Tenant Admin** - Full access but subordinate to Admin."
+msgstr ""
+
+#: ../source/rbac.rst:37
+msgid "**Manager** - Access to all features except login logs and system logs."
+msgstr ""
+
+#: ../source/rbac.rst:42
+msgid "**Accountant** - Access limited to the dashboard view only."
+msgstr ""
+
+#: ../source/rbac.rst:45
+msgid "**Sales-Rep** - Access to:"
+msgstr ""
+
+#: ../source/rbac.rst:47 ../source/rbac.rst:53
+msgid "Dashboard"
+msgstr ""
+
+#: ../source/rbac.rst:48 ../source/rbac.rst:54
+msgid "Contact Requests (in Site section)"
+msgstr ""
+
+#: ../source/rbac.rst:49 ../source/rbac.rst:55
+msgid "Leads and Lead Calendar (in CRM section)"
+msgstr ""
+
+#: ../source/rbac.rst:51
+msgid "**Support-Rep** - Access to:"
+msgstr ""
+
+#: ../source/rbac.rst:60
+msgid "The **RBAC** feature under **Master Data** includes:"
+msgstr ""
+
+#: ../source/rbac.rst:62
+msgid "View Roles Table"
+msgstr ""
+
+#: ../source/rbac.rst:67
+msgid "**Grant Access**: Assign roles and permissions to users."
+msgstr ""
+
+#: ../source/rbac.rst:68
+msgid "**Roles**: Manage roles as described above."
+msgstr ""
+
+#: ../source/rbac.rst:69
+msgid "**Rules**: Define custom rules for access control."
+msgstr ""
+
+#: ../source/rbac.rst:70
+msgid "**Permissions**: Specify detailed permissions for each role."
+msgstr ""
+
+#: ../source/rbac.rst:73
+msgid ""
+"The **Roles** feature in the |project_name| application simplifies user "
+"management by providing a structured way to define and assign "
+"permissions. Use the intuitive interface to create, view, and modify "
+"roles effectively, enhancing security and operational efficiency."
+msgstr ""
+
