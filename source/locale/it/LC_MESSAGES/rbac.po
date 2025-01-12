@@ -1,0 +1,111 @@
+#: ../source/rbac.rst:4
+msgid "Role-Based Access Control (RBAC)"
+msgstr "Controllo Accessi Basato su Ruoli (RBAC)"
+
+#: ../source/rbac.rst:6
+msgid ""
+"|project_name| implements a role hierarchy to control access to various "
+"features and sections of the application. Below is the hierarchical "
+"structure of roles:"
+msgstr ""
+"|project_name| implementa una gerarchia di ruoli per controllare l'accesso a varie "
+"funzionalità e sezioni dell'applicazione. Di seguito è riportata la struttura gerarchica dei ruoli:"
+
+#: ../source/rbac.rst:10
+msgid "Roles Hierarchy"
+msgstr "Gerarchia dei ruoli"
+
+#: ../source/rbac.rst:12
+msgid ""
+"The |project_name| application uses a Role-Based Access Control (RBAC) "
+"system with the following hierarchy:"
+msgstr ""
+"L'applicazione |project_name| utilizza un sistema di Controllo Accessi Basato su Ruoli (RBAC) "
+"con la seguente gerarchia:"
+
+#: ../source/rbac.rst:14
+msgid ""
+"``` ADMIN ↓ TENANT-ADMIN ↓ MANAGER ↓ ACCOUNTANT , SALES-REP , SUPPORT-REP"
+" ```"
+msgstr ""
+"``` ADMIN ↓ TENANT-ADMIN ↓ MANAGER ↓ ACCOUNTANT , SALES-REP , SUPPORT-REP"
+" ```"
+
+#: ../source/rbac.rst:26
+msgid ""
+"**Admin** - Full access to all features and sections. - Parent role for "
+"all other roles."
+msgstr ""
+"**Admin** - Accesso completo a tutte le funzionalità e sezioni. - Ruolo principale per "
+"tutti gli altri ruoli."
+
+#: ../source/rbac.rst:30 ../source/rbac.rst:35 ../source/rbac.rst:40
+msgid "↓"
+msgstr "↓"
+
+#: ../source/rbac.rst:32
+msgid "**Tenant Admin** - Full access but subordinate to Admin."
+msgstr "**Tenant Admin** - Accesso completo ma subordinato a Admin."
+
+#: ../source/rbac.rst:37
+msgid "**Manager** - Access to all features except login logs and system logs."
+msgstr "**Manager** - Accesso a tutte le funzionalità eccetto i log di accesso e i log di sistema."
+
+#: ../source/rbac.rst:42
+msgid "**Accountant** - Access limited to the dashboard view only."
+msgstr "**Contabile** - Accesso limitato solo alla visualizzazione della dashboard."
+
+#: ../source/rbac.rst:45
+msgid "**Sales-Rep** - Access to:"
+msgstr "**Sales-Rep** - Accesso a:"
+
+#: ../source/rbac.rst:47 ../source/rbac.rst:53
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: ../source/rbac.rst:48 ../source/rbac.rst:54
+msgid "Contact Requests (in Site section)"
+msgstr "Richieste di contatto (nella sezione Sito)"
+
+#: ../source/rbac.rst:49 ../source/rbac.rst:55
+msgid "Leads and Lead Calendar (in CRM section)"
+msgstr "Lead e Calendario dei Lead (nella sezione CRM)"
+
+#: ../source/rbac.rst:51
+msgid "**Support-Rep** - Access to:"
+msgstr "**Support-Rep** - Accesso a:"
+
+#: ../source/rbac.rst:60
+msgid "The **RBAC** feature under **Master Data** includes:"
+msgstr "La funzionalità **RBAC** sotto **Dati principali** include:"
+
+#: ../source/rbac.rst:62
+msgid "View Roles Table"
+msgstr "Visualizza la tabella dei ruoli"
+
+#: ../source/rbac.rst:67
+msgid "**Grant Access**: Assign roles and permissions to users."
+msgstr "**Concedi accesso**: Assegna ruoli e permessi agli utenti."
+
+#: ../source/rbac.rst:68
+msgid "**Roles**: Manage roles as described above."
+msgstr "**Ruoli**: Gestisci i ruoli come descritto sopra."
+
+#: ../source/rbac.rst:69
+msgid "**Rules**: Define custom rules for access control."
+msgstr "**Regole**: Definisci regole personalizzate per il controllo degli accessi."
+
+#: ../source/rbac.rst:70
+msgid "**Permissions**: Specify detailed permissions for each role."
+msgstr "**Permessi**: Specifica i permessi dettagliati per ciascun ruolo."
+
+#: ../source/rbac.rst:73
+msgid ""
+"The **Roles** feature in the |project_name| application simplifies user "
+"management by providing a structured way to define and assign "
+"permissions. Use the intuitive interface to create, view, and modify "
+"roles effectively, enhancing security and operational efficiency."
+msgstr ""
+"La funzionalità **Ruoli** nell'applicazione |project_name| semplifica la gestione degli utenti "
+"fornendo un modo strutturato per definire e assegnare permessi. Utilizza l'interfaccia intuitiva per creare, visualizzare e modificare "
+"i ruoli in modo efficace, migliorando la sicurezza e l'efficienza operativa."

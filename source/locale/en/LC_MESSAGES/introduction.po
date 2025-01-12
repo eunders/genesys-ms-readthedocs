@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Eunders
+# This file is distributed under the same license as the Genesys Admin
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Genesys Admin \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-12 23:02+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../source/introduction.rst:2
+msgid "Introduction"
+msgstr ""
+
+#: ../source/introduction.rst:4
+msgid ""
+"Welcome to the documentation for the |project_name| web application. Use "
+"the menu below to navigate through the key features and functionalities."
+msgstr ""
+
+#: ../source/introduction.rst:6
+msgid ""
+"|project_name| is a role-based access control (RBAC) system designed to "
+"simplify user and role management, ensuring secure and efficient "
+"operations."
+msgstr ""
+
+#: ../source/introduction.rst:10
+msgid "Accessing |project_name|"
+msgstr ""
+
+#: ../source/introduction.rst:12
+msgid "To access the |project_name| web application, please follow these steps:"
+msgstr ""
+
+#: ../source/introduction.rst:14 ../source/introduction.rst:22
+msgid "Optional alt text for the image"
+msgstr ""
+
+#: ../source/introduction.rst:19
+msgid ""
+"**Login**: Go to the |project_name| website and log in with your "
+"credentials."
+msgstr ""
+
+#: ../source/introduction.rst:28
+msgid ""
+"The |project_name| dashboard serves as a central hub for managing various"
+" aspects of the application."
+msgstr ""
+

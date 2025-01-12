@@ -6,8 +6,8 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'GeneSys-MS'
-copyright = '2024, Eunders'
+project = 'Genesys Admin'
+copyright = '2025, Eunders'
 author = 'Eunders'
 
 # -- General configuration ---------------------------------------------------
@@ -23,5 +23,13 @@ exclude_patterns = []
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
+
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
+
+locale_dirs = ['locale/']  # Path for translation files
+gettext_compact = False  # Disable compact files for better organization
+
+rst_epilog = """
+.. |project_name| replace:: GeneSys Admin
+"""
