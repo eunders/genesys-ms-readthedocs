@@ -24,15 +24,22 @@ Viewing Leads
     :align: center
     :width: 800px
 
-The **View Leads** page displays all saved leads in a table format. The table includes the following columns:
+.. raw:: html
 
+      <br><br>
+
+**Actions**
+    This column contains interactive icons for various actions:
+- **View Icon**: Opens a detailed view of the user.  
+- **Delete Icon**: Removes the user from the system.  
+- **Update Icon**: Opens the user form for editing.
 
 **Leads**:
 
 
-1. **View Leads**: Displays a list of all existing leads.
-2. **Create Lead**: Allows users to add new leads to the system.
-3. **Import Leads**: Facilitates the import of leads from external sources.
+- **View Leads**: Displays a list of all existing leads.
+- **Create Lead**: Allows users to add new leads to the system.
+- **Import Leads**: Facilitates the import of leads from external sources.
 
 
 This section provides a detailed overview of the "Leads" feature, including navigation, CRUD operations, table columns, and additional functionalities.
@@ -44,29 +51,29 @@ Managing Leads
 Create a Lead
 ---------------------
 
-   - Navigate to the **View Leads** page.
-   - Click the **Create CRM Contact** button.
-   - Fill in the required fields and click **Save.**
+   1. Navigate to the **View Leads** page.
+   2. Click the **Create CRM Contact** button.
+   3. Fill in the required fields and click **Save.**
 
 View a Lead
 -----------
 
-   - Navigate to the **View Leads** page.
-   - Leads are displayed in a table format with all relevant details.
+   1. Navigate to the **View Leads** page.
+   2. Leads are displayed in a table format with all relevant details.
 
 Update a Lead
 ---------------
 
-   - On the **View Leads** page, locate the lead you want to modify.
-   - Click the **Edit** button in the **Actions** column.
-   - Make the necessary changes and click **Save.**
+   1. On the **View Leads** page, locate the lead you want to modify.
+   2. Click the **Edit** button in the **Actions** column.
+   3. Make the necessary changes and click **Save.**
 
 Delete a Lead
 ---------------
 
-   - On the **View Leads** page, locate the lead you want to delete.
-   - Click the **Delete** button in the **Actions** column.
-   - Confirm the deletion to remove the lead permanently.
+   1. On the **View Leads** page, locate the lead you want to delete.
+   2. Click the **Delete** button in the **Actions** column.
+   3. Confirm the deletion to remove the lead permanently.
 
    
 Lead Table Columns
@@ -148,9 +155,3 @@ Lead Table Columns
 18. **Follow-up Date**:  
     - A date and time column for scheduling follow-up actions.  
     - Ensures timely communication with leads.
-
-19. **Action**:  
-    - This column contains interactive icons for various actions:  
-        - **View Icon**: Opens a detailed view of the lead.  
-        - **Delete Icon**: Removes the lead from the system.  
-        - **Update Icon**: Opens the lead form for editing.

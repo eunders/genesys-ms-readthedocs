@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Users &mdash; Genesys Admin  documentation</title>
+  <title>Users &mdash; GeneSys  documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
 
@@ -20,7 +20,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="CRM" href="crm.html" />
-    <link rel="prev" title="Navigating the Dashboard" href="dashboard.html" /> 
+    <link rel="prev" title="Master Data" href="master_data.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -32,7 +32,7 @@
           
           
           <a href="index.html" class="icon icon-home">
-            Genesys Admin
+            GeneSys
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
@@ -45,25 +45,24 @@
               <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
-<li class="toctree-l1"><a class="reference internal" href="dashboard.html">Navigating the Dashboard</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rbac.html">Role-Based Access Control (RBAC)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="login.html">Logging In</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dashboard.html">GeneSys Dashboard</a></li>
+<li class="toctree-l1"><a class="reference internal" href="master_data.html">Master Data</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Users</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#navigating-to-users">Navigating to Users</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#viewing-users">Viewing Users</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#managing-users">Managing Users</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#view-all-users">View All Users</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#user-fields">User Fields</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#managing-user">Managing User</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#create-a-user">Create a User</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#view-a-user">View a User</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#update-a-user">Update a User</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#delete-a-user">Delete a User</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#user-table-columns">User Table Columns</a></li>
 </ul>
 </li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="crm.html">CRM</a></li>
-<li class="toctree-l1"><a class="reference internal" href="rbac.html">Role-Based Access Control (RBAC)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="roles.html">Roles</a></li>
-<li class="toctree-l1"><a class="reference internal" href="master_data.html">Master Data</a></li>
-<li class="toctree-l1"><a class="reference internal" href="access_control.html">Access Control</a></li>
 </ul>
 
         </div>
@@ -72,7 +71,7 @@
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="index.html">Genesys Admin</a>
+          <a href="index.html">GeneSys</a>
       </nav>
 
       <div class="wy-nav-content">
@@ -94,12 +93,12 @@
 <h1>Users<a class="headerlink" href="#users" title="Link to this heading"></a></h1>
 <p>The &quot;Users&quot; module focuses on account management, enabling administrators to control access, assign roles, and maintain user details.</p>
 <p>The Users section focuses on user account management. Administrators can:</p>
-<ol class="arabic simple">
+<ul class="simple">
 <li><p><strong>Create User</strong>: Add new users with specific roles.</p></li>
 <li><p><strong>View Users</strong>: Display a list of users in a table format.</p></li>
 <li><p><strong>Update User</strong>: Modify user details and roles.</p></li>
 <li><p><strong>Delete User</strong>: Remove users from the system.</p></li>
-</ol>
+</ul>
 <p>The “Users” module focuses on user account management, empowering administrators to control access, assign roles, and maintain user details. Refer to the <strong>Users</strong> section for detailed instructions on managing users.</p>
 <section id="navigating-to-users">
 <h2>Navigating to Users<a class="headerlink" href="#navigating-to-users" title="Link to this heading"></a></h2>
@@ -110,108 +109,108 @@
 <li><p>Select <strong>View Users</strong> to open the user management page.</p></li>
 </ol>
 </section>
-<section id="viewing-users">
-<h2>Viewing Users<a class="headerlink" href="#viewing-users" title="Link to this heading"></a></h2>
-<a class="reference internal image-reference" href="_images/viewusers.png"><img alt="Optional alt text for the image" class="align-center" src="_images/viewusers.png" style="width: 800px;" />
+<section id="view-all-users">
+<h2>View All Users<a class="headerlink" href="#view-all-users" title="Link to this heading"></a></h2>
+<a class="reference internal image-reference" href="_images/view_all_users.png"><img alt="Optional alt text for the image" class="align-center" src="_images/view_all_users.png" style="width: 800px;" />
 </a>
-<p>The <strong>View Users</strong> page displays all saved users in a table format. The table includes the following columns:</p>
+<br><br><dl class="simple">
+<dt><strong>Actions</strong></dt><dd><p>This column contains interactive icons for various actions:</p>
+</dd>
+</dl>
+<ul class="simple">
+<li><p><strong>View Icon</strong>: Opens a detailed view of the user.</p></li>
+<li><p><strong>Delete Icon</strong>: Removes the user from the system.</p></li>
+<li><p><strong>Update Icon</strong>: Opens the user form for editing.</p></li>
+</ul>
 </section>
-<section id="managing-users">
-<h2>Managing Users<a class="headerlink" href="#managing-users" title="Link to this heading"></a></h2>
-<section id="create-a-user">
-<h3>Create a User<a class="headerlink" href="#create-a-user" title="Link to this heading"></a></h3>
+<section id="user-fields">
+<h2>User Fields<a class="headerlink" href="#user-fields" title="Link to this heading"></a></h2>
+<a class="reference internal image-reference" href="_images/user_fields.png"><img alt="Optional alt text for the image" class="align-center" src="_images/user_fields.png" style="width: 600px; height: 550px;" />
+</a>
+<p>The following fields are available in the <strong>Create/Update User</strong>  form:</p>
+<ol class="arabic">
+<li><p><strong>Email</strong>:
+- The email address of the user. This field allows users to provide their contact information.</p></li>
+<li><p><strong>Phone</strong>:
+- The phone number of the user. Useful for direct communication or verification purposes.</p></li>
+<li><p><strong>Username</strong>:
+- The username selected by the user. This field is used for login and identification.</p></li>
+<li><p><strong>Password</strong>:
+- The password associated with the user account. Ensures account security.</p></li>
+<li><p><strong>Role</strong>:
+- The user’s role in the system, Helps assign appropriate permissions and responsibilities.</p>
 <blockquote>
 <div><ul class="simple">
+<li><p>The options are following: Tenant-Admin, Manager, Accountant, Sales-Rep, Support-Rep, Teacher, Affiliate, User, Guest.</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p><strong>First Name</strong>:
+- The first name of the user. Provides clarity on the user’s identity.</p></li>
+<li><p><strong>Last Name</strong>:
+- The last name of the user. Completes the user’s full name.</p></li>
+<li><p><strong>Gender</strong>:
+- The user’s gender, e.g., Male, Female, Other. Used for demographic categorization.</p></li>
+<li><p><strong>Address</strong>:
+- The user’s address. Used for delivery purposes.</p></li>
+<li><p><strong>City</strong>:
+- The city part of the address. Specifies the user’s location within a country.</p></li>
+<li><p><strong>Country</strong>:
+- The country part of the address. Essential for delivery categorization. The options are list of countries.</p></li>
+<li><p><strong>Zip Code</strong>:
+- The postal code for the address. Ensures accurate delivery.</p></li>
+</ol>
+<p><strong>Save Button</strong>: A button to save the user information.Submits the form for processing.</p>
+<p>Each field helps in managing and organizing the user’s information effectively.</p>
+</section>
+<section id="managing-user">
+<h2>Managing User<a class="headerlink" href="#managing-user" title="Link to this heading"></a></h2>
+<section id="create-a-user">
+<h3>Create a User<a class="headerlink" href="#create-a-user" title="Link to this heading"></a></h3>
+<a class="reference internal image-reference" href="_images/create_user.png"><img alt="Optional alt text for the image" class="align-center" src="_images/create_user.png" style="width: 800px;" />
+</a>
+<br><br><ol class="arabic simple">
 <li><p>Navigate to the <strong>View Users</strong> page.</p></li>
 <li><p>Click the <strong>Create User</strong> button.</p></li>
 <li><p>Fill in the required fields and click <strong>Save.</strong></p></li>
-</ul>
-</div></blockquote>
+</ol>
 </section>
 <section id="view-a-user">
 <h3>View a User<a class="headerlink" href="#view-a-user" title="Link to this heading"></a></h3>
 <blockquote>
-<div><ul class="simple">
+<div><a class="reference internal image-reference" href="_images/view_user.png"><img alt="Optional alt text for the image" class="align-center" src="_images/view_user.png" style="width: 800px;" />
+</a>
+<br><br><ol class="arabic simple">
 <li><p>Navigate to the <strong>View Users</strong> page.</p></li>
 <li><p>Users are displayed in a table format with all relevant details.</p></li>
-</ul>
+</ol>
 </div></blockquote>
 </section>
 <section id="update-a-user">
 <h3>Update a User<a class="headerlink" href="#update-a-user" title="Link to this heading"></a></h3>
 <blockquote>
-<div><ul class="simple">
+<div><a class="reference internal image-reference" href="_images/update_user.png"><img alt="Optional alt text for the image" class="align-center" src="_images/update_user.png" style="width: 800px;" />
+</a>
+<br><br><ol class="arabic simple">
 <li><p>On the <strong>View Users</strong> page, locate the user you want to modify.</p></li>
 <li><p>Click the <strong>Edit</strong> button in the <strong>Actions</strong> column.</p></li>
 <li><p>Make the necessary changes and click <strong>Save.</strong></p></li>
-</ul>
+</ol>
 </div></blockquote>
 </section>
 <section id="delete-a-user">
 <h3>Delete a User<a class="headerlink" href="#delete-a-user" title="Link to this heading"></a></h3>
 <blockquote>
-<div><ul class="simple">
+<div><blockquote>
+<div><a class="reference internal image-reference" href="_images/delete_user.png"><img alt="Optional alt text for the image" class="align-center" src="_images/delete_user.png" style="width: 800px;" />
+</a>
+<br><br></div></blockquote>
+<ol class="arabic simple">
 <li><p>On the <strong>View Users</strong> page, locate the user you want to delete.</p></li>
 <li><p>Click the <strong>Delete</strong> button in the <strong>Actions</strong> column.</p></li>
 <li><p>Confirm the deletion to remove the user permanently.</p></li>
-</ul>
-</div></blockquote>
-</section>
-<section id="user-table-columns">
-<h3>User Table Columns<a class="headerlink" href="#user-table-columns" title="Link to this heading"></a></h3>
-<a class="reference internal image-reference" href="_images/createusers.png"><img alt="Optional alt text for the image" class="align-center" src="_images/createusers.png" style="width: 800px;" />
-</a>
-<ol class="arabic">
-<li><p><strong>User ID</strong>:
-- An auto-generated unique identifier assigned to each user.
-- This column helps to differentiate between users easily.</p></li>
-<li><p><strong>Email</strong>:
-- The email address of the user.
-- This column allows users to view and verify contact information.</p></li>
-<li><p><strong>First Name</strong>:
-- The first name of the user.
-- This field provides clarity on the user’s identity.</p></li>
-<li><p><strong>Last Name</strong>:
-- The last name of the user.
-- Together with the first name, it fully identifies the user.</p></li>
-<li><p><strong>Role</strong>:
-- The user’s role in the system (e.g., Admin, Manager, Staff).
-- Helps assign appropriate permissions and responsibilities.</p></li>
-<li><p><strong>Created At</strong>:
-- The date and time when the user account was created.
-- Useful for tracking new accounts.</p></li>
-<li><p><strong>Updated At</strong>:
-- The date and time when the user account was last updated.
-- Useful for identifying recent changes.</p></li>
-<li><p><strong>Product</strong>:
-- The product or service associated with the user.
-- Useful for linking users to specific offerings.</p></li>
-<li><p><strong>Organization</strong>:
-- The organization the user is associated with.
-- Provides context on the user’s professional background.</p></li>
-<li><p><strong>CRM Campaign</strong>:
-- A text column containing the name or type of CRM campaign linked to the user.
-- Helps connect users to specific campaigns.</p></li>
-<li><p><strong>CRM Campaign Identifier</strong>:
-- A unique identifier for the CRM campaign.
-- Enables precise tracking of campaign associations.</p></li>
-<li><p><strong>CRM Campaign Timestamp</strong>:
-- The date and time related to the CRM campaign activity.
-- Useful for campaign timeline tracking.</p></li>
-<li><p><strong>CRM Source</strong>:
-- Indicates the origin of the CRM campaign (e.g., “Website,” “Referral”).
-- Helps track campaign sources.</p></li>
-<li><p><strong>Action</strong>:
-- This column contains interactive icons for various actions:</p>
-<blockquote>
-<div><ul class="simple">
-<li><p><strong>View Icon</strong>: Opens a detailed view of the user.</p></li>
-<li><p><strong>Delete Icon</strong>: Removes the user from the system.</p></li>
-<li><p><strong>Update Icon</strong>: Opens the user form for editing.</p></li>
-</ul>
-</div></blockquote>
-</li>
 </ol>
+</div></blockquote>
 </section>
 </section>
 </section>
@@ -220,7 +219,7 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="dashboard.html" class="btn btn-neutral float-left" title="Navigating the Dashboard" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="master_data.html" class="btn btn-neutral float-left" title="Master Data" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
         <a href="crm.html" class="btn btn-neutral float-right" title="CRM" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 

@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Role-Based Access Control (RBAC) &mdash; Genesys Admin  documentation</title>
+  <title>Role-Based Access Control (RBAC) &mdash; GeneSys  documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
 
@@ -19,8 +19,8 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Roles" href="roles.html" />
-    <link rel="prev" title="CRM" href="crm.html" /> 
+    <link rel="next" title="Logging In" href="login.html" />
+    <link rel="prev" title="Introduction" href="introduction.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -32,7 +32,7 @@
           
           
           <a href="index.html" class="icon icon-home">
-            Genesys Admin
+            GeneSys
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
@@ -45,16 +45,23 @@
               <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
-<li class="toctree-l1"><a class="reference internal" href="dashboard.html">Navigating the Dashboard</a></li>
-<li class="toctree-l1"><a class="reference internal" href="users.html">Users</a></li>
-<li class="toctree-l1"><a class="reference internal" href="crm.html">CRM</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Role-Based Access Control (RBAC)</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#roles-hierarchy">Roles Hierarchy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#key-concepts">Key Concepts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-rbac-works">How RBAC Works</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#example-scenarios">Example Scenarios</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#managing-a-blog">Managing a Blog</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#e-commerce-site">E-Commerce Site</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="roles.html">Roles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#roles-hierarchy">Roles Hierarchy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#access-control">Access Control</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="login.html">Logging In</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dashboard.html">GeneSys Dashboard</a></li>
 <li class="toctree-l1"><a class="reference internal" href="master_data.html">Master Data</a></li>
-<li class="toctree-l1"><a class="reference internal" href="access_control.html">Access Control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="users.html">Users</a></li>
+<li class="toctree-l1"><a class="reference internal" href="crm.html">CRM</a></li>
 </ul>
 
         </div>
@@ -63,7 +70,7 @@
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="index.html">Genesys Admin</a>
+          <a href="index.html">GeneSys</a>
       </nav>
 
       <div class="wy-nav-content">
@@ -83,13 +90,72 @@
              
   <section id="role-based-access-control-rbac">
 <h1>Role-Based Access Control (RBAC)<a class="headerlink" href="#role-based-access-control-rbac" title="Link to this heading"></a></h1>
-<p>GeneSys Admin implements a role hierarchy to control access to various features and sections of the application. Below is the hierarchical structure of roles:</p>
+<p>GeneSys implements a role hierarchy to control access to various features and sections of the application. Below is the hierarchical structure of roles:</p>
+<section id="key-concepts">
+<h2>Key Concepts<a class="headerlink" href="#key-concepts" title="Link to this heading"></a></h2>
+<p><strong>Roles</strong></p>
+<ul class="simple">
+<li><p>A “role” is a set of permissions grouped together.</p></li>
+<li><p><strong>Purpose</strong>: Define what a user can do based on their role.</p></li>
+<li><p><strong>Example</strong>: Tenant-Admin, Manager, Accountant, Sales-Rep, Support-Rep, Teacher, Affiliate, User, Guest.</p></li>
+</ul>
+<p><strong>Permissions</strong></p>
+<ul class="simple">
+<li><p>A “permission” is a specific action a user is allowed to perform.</p></li>
+<li><p><strong>Purpose</strong>: Control access to particular features or actions in the application.</p></li>
+<li><p><strong>Example</strong>: Edit User, View Dashboard, Delete User.</p></li>
+</ul>
+<p><strong>Users</strong></p>
+<ul class="simple">
+<li><p>Individuals who use the application.</p></li>
+<li><p><strong>Purpose</strong>: Users are assigned one role to define what they can access.</p></li>
+</ul>
+</section>
+<section id="how-rbac-works">
+<h2>How RBAC Works<a class="headerlink" href="#how-rbac-works" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><dl class="simple">
+<dt><strong>Assign Roles to Users</strong> :</dt><dd><p>Each user is assigned one roles based on their responsibilities in the application.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt><strong>Define Permissions for Roles</strong> :</dt><dd><p>Permissions are linked to roles to specify what actions each role can perform.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt><strong>Restrict Access</strong> :</dt><dd><p>The application checks a user’s role and associated permissions before allowing them to perform specific actions.</p>
+</dd>
+</dl>
+</li>
+</ul>
+</section>
+<section id="example-scenarios">
+<h2>Example Scenarios<a class="headerlink" href="#example-scenarios" title="Link to this heading"></a></h2>
+<section id="managing-a-blog">
+<h3>Managing a Blog<a class="headerlink" href="#managing-a-blog" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>Admin</strong>: Can create, edit, delete, and publish articles.</p></li>
+<li><p><strong>Editor</strong>: Can edit and publish articles but cannot delete them.</p></li>
+<li><p><strong>Viewer</strong>: Can only view articles.</p></li>
+</ul>
+</section>
+<section id="e-commerce-site">
+<h3>E-Commerce Site<a class="headerlink" href="#e-commerce-site" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>Customer</strong>: Can browse products, add items to a cart, and place orders.</p></li>
+<li><p><strong>Manager</strong>: Can manage products and view sales reports.</p></li>
+<li><p><strong>Admin</strong>: Has all permissions, including managing users and settings.</p></li>
+</ul>
+</section>
+</section>
 <section id="roles-hierarchy">
 <h2>Roles Hierarchy<a class="headerlink" href="#roles-hierarchy" title="Link to this heading"></a></h2>
-<p>The GeneSys Admin application uses a Role-Based Access Control (RBAC) system with the following hierarchy:</p>
+<p>The GeneSys application uses a Role-Based Access Control (RBAC) system with the following hierarchy.
+Permissions and roles can be structured hierarchically, with higher roles inheriting permissions from lower roles.</p>
+<p><strong>Example</strong>: An Tenant-Admin role might inherit permissions from the Manager Manager, Accountant, Sales-Rep, Support-Rep, Teacher, Affiliate, User, Guest.</p>
 <p><code class="docutils literal notranslate"><span class="pre">`</span>
-<span class="pre">ADMIN</span>
-<span class="pre">↓</span>
 <span class="pre">TENANT-ADMIN</span>
 <span class="pre">↓</span>
 <span class="pre">MANAGER</span>
@@ -98,19 +164,23 @@
 <span class="pre">SALES-REP</span> <span class="pre">,</span>
 <span class="pre">SUPPORT-REP</span>
 <span class="pre">`</span></code></p>
-<ul>
-<li><p><strong>Admin</strong>
-- Full access to all features and sections.
-- Parent role for all other roles.</p>
-<p>↓</p>
-<ul>
-<li><p><strong>Tenant Admin</strong>
-- Full access but subordinate to Admin.</p>
-<p>↓</p>
-<ul>
-<li><p><strong>Manager</strong>
-- Access to all features except login logs and system logs.</p>
-<p>↓</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Tenant Admin</strong></p></li>
+</ul>
+<blockquote>
+<div><ul>
+<li><p>Full access to all features and sections.</p></li>
+<li><p>Parent role for all other roles.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Manager</strong></p></li>
+</ul>
+<blockquote>
+<div><ul class="simple">
+<li><p>Access to all features except login logs and system logs.</p></li>
+</ul>
+</div></blockquote>
 <ul>
 <li><p><strong>Accountant</strong>
 - Access limited to the dashboard view only.</p></li>
@@ -135,22 +205,45 @@
 </div></blockquote>
 </li>
 </ul>
+</div></blockquote>
 </li>
 </ul>
-</li>
-</ul>
-</li>
-</ul>
-<p>The <strong>RBAC</strong> feature under <strong>Master Data</strong> includes:</p>
-<a class="reference internal image-reference" href="_images/rbac.png"><img alt="View Roles Table" class="align-center" src="_images/rbac.png" style="width: 800px;" />
-</a>
+</div></blockquote>
+</div></blockquote>
+</section>
+<section id="access-control">
+<h2>Access Control<a class="headerlink" href="#access-control" title="Link to this heading"></a></h2>
+<p>This section provides a breakdown of role-based permissions and functionalities.</p>
+<p><strong>Tenant-Admin Access</strong>:</p>
 <ul class="simple">
-<li><p><strong>Grant Access</strong>: Assign roles and permissions to users.</p></li>
-<li><p><strong>Roles</strong>: Manage roles as described above.</p></li>
-<li><p><strong>Rules</strong>: Define custom rules for access control.</p></li>
-<li><p><strong>Permissions</strong>: Specify detailed permissions for each role.</p></li>
+<li><p>Full access to all features, including:
+- Dashboard
+- Users
+- Roles
+- CRM (Leads, Calendar, Campaigns)
+- Contact Requests
+- Reviews
+- System Logs
+- Login Logs</p></li>
 </ul>
-<p>The <strong>Roles</strong> feature in the GeneSys Admin application simplifies user management by providing a structured way to define and assign permissions. Use the intuitive interface to create, view, and modify roles effectively, enhancing security and operational efficiency.</p>
+<p><strong>Manager Access</strong>:</p>
+<ul class="simple">
+<li><p>Inherits Tenant-Admin permissions except for:
+- Login Logs
+- System Logs</p></li>
+</ul>
+<p><strong>Accountant Access</strong>:</p>
+<ul class="simple">
+<li><p>Limited to:
+- Dashboard viewing only</p></li>
+</ul>
+<p><strong>Sales-Rep and Support-Rep Access</strong>:</p>
+<ul class="simple">
+<li><p>Access to:
+- Dashboard
+- Contact Requests
+- Leads (Calendar, View Leads, Create Leads, Import Leads)</p></li>
+</ul>
 </section>
 </section>
 
@@ -158,8 +251,8 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="crm.html" class="btn btn-neutral float-left" title="CRM" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="roles.html" class="btn btn-neutral float-right" title="Roles" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="introduction.html" class="btn btn-neutral float-left" title="Introduction" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="login.html" class="btn btn-neutral float-right" title="Logging In" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
