@@ -100,7 +100,7 @@ msgstr "Testo alternativo opzionale per l'immagine"
 
 #: ../source/users.rst:39
 msgid "**Actions**"
-msgstr ""
+msgstr "**Azioni**"
 
 #: ../source/users.rst:40
 #, fuzzy
@@ -128,111 +128,125 @@ msgstr "Utenti"
 
 #: ../source/users.rst:56
 msgid "The following fields are available in the **Create/Update User**  form:"
-msgstr ""
+msgstr "I seguenti campi sono disponibili nel modulo **Crea/Aggiorna Utente**:"
 
 #: ../source/users.rst:58
-#, fuzzy
 msgid ""
 "**Email**: - The email address of the user. This field allows users to "
 "provide their contact information."
 msgstr ""
-"**Email**: - L'indirizzo email dell'utente. - Questa colonna consente di "
-"visualizzare e verificare le informazioni di contatto."
+"**Email**: - L'indirizzo email dell'utente. Questo campo consente agli utenti "
+"di fornire le loro informazioni di contatto."
+
 
 #: ../source/users.rst:61
 msgid ""
 "**Phone**: - The phone number of the user. Useful for direct "
 "communication or verification purposes."
 msgstr ""
+"**Telefono**: - Il numero di telefono dell'utente. Utile per la "
+"comunicazione diretta o per scopi di verifica."
 
 #: ../source/users.rst:64
-#, fuzzy
 msgid ""
 "**Username**: - The username selected by the user. This field is used for"
 " login and identification."
 msgstr ""
-"**Nome**: - Il nome dell'utente. - Questo campo fornisce chiarezza "
-"sull'identità dell'utente."
+"**Nome utente**: - Il nome utente selezionato dall'utente. Questo campo è utilizzato per"
+" il login e l'identificazione."
 
 #: ../source/users.rst:67
 msgid ""
 "**Password**: - The password associated with the user account. Ensures "
 "account security."
 msgstr ""
+"**Password**: - La password associata all'account utente. Garantisce la "
+"sicurezza dell'account."
 
 #: ../source/users.rst:70
-#, fuzzy
 msgid ""
 "**Role**: - The user’s role in the system, Helps assign appropriate "
 "permissions and responsibilities."
 msgstr ""
-"**Ruolo**: - Il ruolo dell'utente nel sistema (ad esempio, Admin, "
-"Manager, Staff). - Aiuta ad assegnare permessi e responsabilità "
-"appropriati."
+"**Ruolo**: - Il ruolo dell'utente nel sistema, aiuta ad assegnare i permessi "
+"e le responsabilità appropriati."
 
 #: ../source/users.rst:72
 msgid ""
 "The options are following: Tenant-Admin, Manager, Accountant, Sales-Rep, "
 "Support-Rep, Teacher, Affiliate, User, Guest."
 msgstr ""
+"Le opzioni sono: Tenant-Admin, Manager, Accountant, Sales-Rep, Support-"
+"Rep, Teacher, Affiliate, User, Guest."
 
 #: ../source/users.rst:74
-#, fuzzy
 msgid ""
 "**First Name**: - The first name of the user. Provides clarity on the "
 "user’s identity."
 msgstr ""
-"**Nome**: - Il nome dell'utente. - Questo campo fornisce chiarezza "
-"sull'identità dell'utente."
+"**Nome**: - Il nome dell'utente. Fornisce chiarezza sull'identità dell'utente."
 
 #: ../source/users.rst:77
-#, fuzzy
 msgid ""
 "**Last Name**: - The last name of the user. Completes the user’s full "
 "name."
 msgstr ""
-"**Cognome**: - Il cognome dell'utente. - Insieme al nome, identifica "
-"completamente l'utente."
+"**Cognome**: - Il cognome dell'utente. Completa il nome completo dell'utente."
 
 #: ../source/users.rst:80
 msgid ""
 "**Gender**: - The user’s gender, e.g., Male, Female, Other. Used for "
 "demographic categorization."
 msgstr ""
+"**Genere**: - Il genere dell'utente, ad esempio Maschio, Femmina, Altro. "
+"Utilizzato per la categorizzazione demografica."
 
 #: ../source/users.rst:83
 msgid "**Address**: - The user’s address. Used for delivery purposes."
 msgstr ""
+"**Indirizzo**: - L'indirizzo dell'utente. Utilizzato per scopi di "
+"consegna."
 
 #: ../source/users.rst:86
 msgid ""
 "**City**: - The city part of the address. Specifies the user's location "
 "within a country."
 msgstr ""
+"**Città**: - La parte dell'indirizzo relativa alla città. Specifica la "
+"posizione dell'utente all'interno di un paese."
 
 #: ../source/users.rst:89
 msgid ""
 "**Country**: - The country part of the address. Essential for delivery "
 "categorization. The options are list of countries."
 msgstr ""
+"**Paese**: - La parte dell'indirizzo relativa al paese. Essenziale per la"
+" categorizzazione delle consegne. Le opzioni includono un elenco di "
+"paesi."
 
 #: ../source/users.rst:92
 msgid ""
 "**Zip Code**: - The postal code for the address. Ensures accurate "
 "delivery."
 msgstr ""
+"**CAP**: - Il codice postale dell'indirizzo. Garantisce una consegna "
+"accurata."
 
 #: ../source/users.rst:95
 msgid ""
 "**Save Button**: A button to save the user information.Submits the form "
 "for processing."
 msgstr ""
+"**Pulsante Salva**: Un pulsante per salvare le informazioni dell'utente. "
+"Invia il modulo per l'elaborazione."
 
 #: ../source/users.rst:98
 msgid ""
 "Each field helps in managing and organizing the user's information "
 "effectively."
 msgstr ""
+"Ogni campo aiuta a gestire e organizzare efficacemente le informazioni "
+"dell'utente."
 
 #: ../source/users.rst:103
 #, fuzzy

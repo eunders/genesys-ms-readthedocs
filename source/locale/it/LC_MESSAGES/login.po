@@ -36,7 +36,7 @@ msgid ""
 "**Login**: Go to the |project_name| website and log in with your "
 "credentials."
 msgstr ""
-"**Accesso**: Vai al sito web di |project_name| e accedi con le tue "
+"**Accesso**: Vai sul sito web di |project_name| e accedi con le tue "
 "credenziali."
 
 #: ../source/login.rst:20
@@ -44,5 +44,6 @@ msgid ""
 "The |project_name| dashboard serves as a central hub for managing various"
 " aspects of the application."
 msgstr ""
-"La dashboard di |project_name| funge da hub centrale per gestire vari "
-"aspetti dell'applicazione."
+"Il pannello di controllo di |project_name| serve come centro principale per "
+"gestire vari aspetti dell'applicazione."
+
