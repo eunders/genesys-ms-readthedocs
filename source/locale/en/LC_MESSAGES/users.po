@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Genesys Admin \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-12 23:02+0530\n"
+"POT-Creation-Date: 2025-01-28 22:33+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -80,174 +80,298 @@ msgid "Select **View Users** to open the user management page."
 msgstr ""
 
 #: ../source/users.rst:28
-msgid "Viewing Users"
+msgid "View All Users"
 msgstr ""
 
-#: ../source/users.rst:30 ../source/users.rst:72
+#: ../source/users.rst:30 ../source/users.rst:49 ../source/users.rst:110
+#: ../source/users.rst:126 ../source/users.rst:141 ../source/users.rst:157
 msgid "Optional alt text for the image"
 msgstr ""
 
-#: ../source/users.rst:35
-msgid ""
-"The **View Users** page displays all saved users in a table format. The "
-"table includes the following columns:"
+#: ../source/users.rst:39
+msgid "**Actions**"
 msgstr ""
 
-#: ../source/users.rst:39
-msgid "Managing Users"
+#: ../source/users.rst:40
+msgid "This column contains interactive icons for various actions:"
+msgstr ""
+
+#: ../source/users.rst:41
+msgid "**View Icon**: Opens a detailed view of the user."
 msgstr ""
 
 #: ../source/users.rst:42
-msgid "Create a User"
+msgid "**Delete Icon**: Removes the user from the system."
 msgstr ""
 
-#: ../source/users.rst:44 ../source/users.rst:51
-msgid "Navigate to the **View Users** page."
+#: ../source/users.rst:43
+msgid "**Update Icon**: Opens the user form for editing."
 msgstr ""
 
-#: ../source/users.rst:45
-msgid "Click the **Create User** button."
+#: ../source/users.rst:47
+msgid "User Fields"
 msgstr ""
 
-#: ../source/users.rst:46
-msgid "Fill in the required fields and click **Save.**"
-msgstr ""
-
-#: ../source/users.rst:49
-msgid "View a User"
-msgstr ""
-
-#: ../source/users.rst:52
-msgid "Users are displayed in a table format with all relevant details."
-msgstr ""
-
-#: ../source/users.rst:55
-msgid "Update a User"
-msgstr ""
-
-#: ../source/users.rst:57
-msgid "On the **View Users** page, locate the user you want to modify."
+#: ../source/users.rst:56
+msgid "The following fields are available in the **Create/Update User**  form:"
 msgstr ""
 
 #: ../source/users.rst:58
-msgid "Click the **Edit** button in the **Actions** column."
+msgid ""
+"**Email**: - The email address of the user. This field allows users to "
+"provide their contact information."
 msgstr ""
 
-#: ../source/users.rst:59
-msgid "Make the necessary changes and click **Save.**"
-msgstr ""
-
-#: ../source/users.rst:62
-msgid "Delete a User"
+#: ../source/users.rst:61
+msgid ""
+"**Phone**: - The phone number of the user. Useful for direct "
+"communication or verification purposes."
 msgstr ""
 
 #: ../source/users.rst:64
-msgid "On the **View Users** page, locate the user you want to delete."
+msgid ""
+"**Username**: - The username selected by the user. This field is used for"
+" login and identification."
 msgstr ""
 
-#: ../source/users.rst:65
-msgid "Click the **Delete** button in the **Actions** column."
-msgstr ""
-
-#: ../source/users.rst:66
-msgid "Confirm the deletion to remove the user permanently."
+#: ../source/users.rst:67
+msgid ""
+"**Password**: - The password associated with the user account. Ensures "
+"account security."
 msgstr ""
 
 #: ../source/users.rst:70
-msgid "User Table Columns"
+msgid ""
+"**Role**: - The user’s role in the system, Helps assign appropriate "
+"permissions and responsibilities."
+msgstr ""
+
+#: ../source/users.rst:72
+msgid ""
+"The options are following: Tenant-Admin, Manager, Accountant, Sales-Rep, "
+"Support-Rep, Teacher, Affiliate, User, Guest."
+msgstr ""
+
+#: ../source/users.rst:74
+msgid ""
+"**First Name**: - The first name of the user. Provides clarity on the "
+"user’s identity."
 msgstr ""
 
 #: ../source/users.rst:77
 msgid ""
-"**User ID**: - An auto-generated unique identifier assigned to each user."
-" - This column helps to differentiate between users easily."
+"**Last Name**: - The last name of the user. Completes the user’s full "
+"name."
 msgstr ""
 
-#: ../source/users.rst:81
+#: ../source/users.rst:80
 msgid ""
-"**Email**: - The email address of the user. - This column allows users to"
-" view and verify contact information."
+"**Gender**: - The user’s gender, e.g., Male, Female, Other. Used for "
+"demographic categorization."
 msgstr ""
 
-#: ../source/users.rst:85
+#: ../source/users.rst:83
+msgid "**Address**: - The user’s address. Used for delivery purposes."
+msgstr ""
+
+#: ../source/users.rst:86
 msgid ""
-"**First Name**: - The first name of the user. - This field provides "
-"clarity on the user’s identity."
+"**City**: - The city part of the address. Specifies the user's location "
+"within a country."
 msgstr ""
 
 #: ../source/users.rst:89
 msgid ""
-"**Last Name**: - The last name of the user. - Together with the first "
-"name, it fully identifies the user."
+"**Country**: - The country part of the address. Essential for delivery "
+"categorization. The options are list of countries."
 msgstr ""
 
-#: ../source/users.rst:93
+#: ../source/users.rst:92
 msgid ""
-"**Role**: - The user’s role in the system (e.g., Admin, Manager, Staff). "
-"- Helps assign appropriate permissions and responsibilities."
+"**Zip Code**: - The postal code for the address. Ensures accurate "
+"delivery."
 msgstr ""
 
-#: ../source/users.rst:97
+#: ../source/users.rst:95
 msgid ""
-"**Created At**: - The date and time when the user account was created. - "
-"Useful for tracking new accounts."
+"**Save Button**: A button to save the user information.Submits the form "
+"for processing."
 msgstr ""
 
-#: ../source/users.rst:101
+#: ../source/users.rst:98
 msgid ""
-"**Updated At**: - The date and time when the user account was last "
-"updated. - Useful for identifying recent changes."
+"Each field helps in managing and organizing the user's information "
+"effectively."
 msgstr ""
 
-#: ../source/users.rst:105
-msgid ""
-"**Product**: - The product or service associated with the user. - Useful "
-"for linking users to specific offerings."
+#: ../source/users.rst:103
+msgid "Managing User"
 msgstr ""
 
-#: ../source/users.rst:109
-msgid ""
-"**Organization**: - The organization the user is associated with. - "
-"Provides context on the user’s professional background."
+#: ../source/users.rst:107
+msgid "Create a User"
 msgstr ""
 
-#: ../source/users.rst:113
-msgid ""
-"**CRM Campaign**: - A text column containing the name or type of CRM "
-"campaign linked to the user. - Helps connect users to specific campaigns."
+#: ../source/users.rst:119 ../source/users.rst:135
+msgid "Navigate to the **View Users** page."
 msgstr ""
 
-#: ../source/users.rst:117
-msgid ""
-"**CRM Campaign Identifier**: - A unique identifier for the CRM campaign. "
-"- Enables precise tracking of campaign associations."
+#: ../source/users.rst:120
+msgid "Click the **Create User** button."
 msgstr ""
 
 #: ../source/users.rst:121
-msgid ""
-"**CRM Campaign Timestamp**: - The date and time related to the CRM "
-"campaign activity. - Useful for campaign timeline tracking."
+msgid "Fill in the required fields and click **Save.**"
 msgstr ""
 
-#: ../source/users.rst:125
-msgid ""
-"**CRM Source**: - Indicates the origin of the CRM campaign (e.g., "
-"\"Website,\" \"Referral\"). - Helps track campaign sources."
+#: ../source/users.rst:124
+msgid "View a User"
 msgstr ""
 
-#: ../source/users.rst:129
-msgid "**Action**: - This column contains interactive icons for various actions:"
+#: ../source/users.rst:136
+msgid "Users are displayed in a table format with all relevant details."
 msgstr ""
 
-#: ../source/users.rst:131
-msgid "**View Icon**: Opens a detailed view of the user."
+#: ../source/users.rst:139
+msgid "Update a User"
 msgstr ""
 
-#: ../source/users.rst:132
-msgid "**Delete Icon**: Removes the user from the system."
+#: ../source/users.rst:150
+msgid "On the **View Users** page, locate the user you want to modify."
 msgstr ""
 
-#: ../source/users.rst:133
-msgid "**Update Icon**: Opens the user form for editing."
+#: ../source/users.rst:151
+msgid "Click the **Edit** button in the **Actions** column."
 msgstr ""
+
+#: ../source/users.rst:152
+msgid "Make the necessary changes and click **Save.**"
+msgstr ""
+
+#: ../source/users.rst:155
+msgid "Delete a User"
+msgstr ""
+
+#: ../source/users.rst:167
+msgid "On the **View Users** page, locate the user you want to delete."
+msgstr ""
+
+#: ../source/users.rst:168
+msgid "Click the **Delete** button in the **Actions** column."
+msgstr ""
+
+#: ../source/users.rst:169
+msgid "Confirm the deletion to remove the user permanently."
+msgstr ""
+
+#~ msgid "Viewing Users"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The **View Users** page displays all "
+#~ "saved users in a table format. The"
+#~ " table includes the following columns:"
+#~ msgstr ""
+
+#~ msgid "Managing Users"
+#~ msgstr ""
+
+#~ msgid "User Table Columns"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**User ID**: - An auto-generated "
+#~ "unique identifier assigned to each user."
+#~ " - This column helps to differentiate"
+#~ " between users easily."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Email**: - The email address of "
+#~ "the user. - This column allows "
+#~ "users to view and verify contact "
+#~ "information."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**First Name**: - The first name "
+#~ "of the user. - This field provides"
+#~ " clarity on the user’s identity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Last Name**: - The last name of"
+#~ " the user. - Together with the "
+#~ "first name, it fully identifies the "
+#~ "user."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Role**: - The user’s role in the"
+#~ " system (e.g., Admin, Manager, Staff). "
+#~ "- Helps assign appropriate permissions "
+#~ "and responsibilities."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Created At**: - The date and "
+#~ "time when the user account was "
+#~ "created. - Useful for tracking new "
+#~ "accounts."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Updated At**: - The date and "
+#~ "time when the user account was "
+#~ "last updated. - Useful for identifying"
+#~ " recent changes."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Product**: - The product or service"
+#~ " associated with the user. - Useful"
+#~ " for linking users to specific "
+#~ "offerings."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Organization**: - The organization the "
+#~ "user is associated with. - Provides "
+#~ "context on the user’s professional "
+#~ "background."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**CRM Campaign**: - A text column "
+#~ "containing the name or type of CRM"
+#~ " campaign linked to the user. - "
+#~ "Helps connect users to specific "
+#~ "campaigns."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**CRM Campaign Identifier**: - A unique"
+#~ " identifier for the CRM campaign. -"
+#~ " Enables precise tracking of campaign "
+#~ "associations."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**CRM Campaign Timestamp**: - The date"
+#~ " and time related to the CRM "
+#~ "campaign activity. - Useful for campaign"
+#~ " timeline tracking."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**CRM Source**: - Indicates the origin"
+#~ " of the CRM campaign (e.g., "
+#~ "\"Website,\" \"Referral\"). - Helps track "
+#~ "campaign sources."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Action**: - This column contains "
+#~ "interactive icons for various actions:"
+#~ msgstr ""
 

@@ -16,14 +16,23 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../source/introduction.rst:2
-msgid "Introduction"
+#: ../source/login.rst:2
+msgid "Logging In"
 msgstr ""
 
-#: ../source/introduction.rst:4
-msgid "Welcome to the documentation for the |project_name| web application. Use the menu below to navigate through the key features and functionalities."
+#: ../source/login.rst:4
+msgid "To access the |project_name| web application, please follow these steps:"
 msgstr ""
 
-#: ../source/introduction.rst:6
-msgid "|project_name| is a role-based access control (RBAC) system designed to simplify user and role management, ensuring secure and efficient operations."
+#: ../source/login.rst:6
+#: ../source/login.rst:14
+msgid "Optional alt text for the image"
+msgstr ""
+
+#: ../source/login.rst:11
+msgid "**Login**: Go to the |project_name| website and log in with your credentials."
+msgstr ""
+
+#: ../source/login.rst:20
+msgid "The |project_name| dashboard serves as a central hub for managing various aspects of the application."
 msgstr ""

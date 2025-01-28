@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Genesys Admin \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-12 23:02+0530\n"
+"POT-Creation-Date: 2025-01-28 22:33+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -31,95 +31,151 @@ msgid ""
 "tools and their functions:"
 msgstr ""
 
-#: ../source/master_data.rst:7
-msgid "Key Sections"
+#: ../source/master_data.rst:8
+msgid "Navigating to Master Data"
 msgstr ""
 
-#: ../source/master_data.rst:9
-msgid "**RBAC**: Manage roles and permissions."
+#: ../source/master_data.rst:10
+msgid "To access the \"Master Data\" section:"
 msgstr ""
 
-#: ../source/master_data.rst:11
-msgid ""
-"The RBAC (Role-Based Access Control) system allows administrators to "
-"define and control user roles and their associated permissions."
+#: ../source/master_data.rst:12
+msgid "On the **Home Page**, locate the **Master Data**."
 msgstr ""
 
 #: ../source/master_data.rst:13
-msgid ""
-"Refer to the :doc:`Role-Based Access Control page <rbac>` for detailed "
-"instructions on configuring and managing roles and permissions."
-msgstr ""
-
-#: ../source/master_data.rst:15
-msgid "**Roles**: Add and modify user roles."
+msgid "Click on the **Master Data** menu item. This will expand a dropdown menu."
 msgstr ""
 
 #: ../source/master_data.rst:17
+msgid "Keywords"
+msgstr ""
+
+#: ../source/master_data.rst:18
 msgid ""
-"This section is specifically designed for creating, editing, and "
-"assigning user roles within the system."
+"Manage keywords for search optimization and categorization across the "
+"system."
 msgstr ""
 
-#: ../source/master_data.rst:19
-msgid ""
-"Refer to the :doc:`Roles page <roles>` for step-by-step guidance on role "
-"management."
+#: ../source/master_data.rst:21
+msgid "**View keyword**: Display a list of keyword in a table format."
 msgstr ""
 
-#: ../source/master_data.rst:23
-msgid "Additional Tools"
-msgstr ""
-
-#: ../source/master_data.rst:25
-msgid ""
-"**Client Apps**: Manage client-specific applications to customize "
-"functionalities for different clients."
-msgstr ""
-
-#: ../source/master_data.rst:26
-msgid ""
-"**Tenants**: Configure tenant-specific settings, including account "
-"information and preferences."
-msgstr ""
-
-#: ../source/master_data.rst:27
-msgid "**Tenant Apps**: Assign and configure applications for individual tenants."
-msgstr ""
-
-#: ../source/master_data.rst:28
-msgid ""
-"**Tenant DBs**: Manage and maintain tenant-specific databases, ensuring "
-"secure and isolated data storage."
-msgstr ""
-
-#: ../source/master_data.rst:29
-msgid ""
-"**Language**: Set and manage the system's supported languages for multi-"
-"language capabilities."
-msgstr ""
-
-#: ../source/master_data.rst:30
-msgid ""
-"**Site**: Configure global site settings such as branding, appearance, "
-"and policies."
-msgstr ""
-
-#: ../source/master_data.rst:31
-msgid ""
-"**Entities and Attributes**: Define the system’s core entities and their "
-"attributes for structured data management."
+#: ../source/master_data.rst:23 ../source/master_data.rst:34
+#: ../source/master_data.rst:52 ../source/master_data.rst:63
+msgid "Optional alt text for the image"
 msgstr ""
 
 #: ../source/master_data.rst:32
-msgid ""
-"**Keywords**: Manage keywords for search optimization and categorization "
-"across the system."
+msgid "**Create keyword**: Add new keyword."
 msgstr ""
 
-#: ../source/master_data.rst:33
-msgid ""
-"**Translations**: Handle translations for multilingual support, enabling "
-"localized experiences for users."
+#: ../source/master_data.rst:46
+msgid "Translations"
 msgstr ""
+
+#: ../source/master_data.rst:47
+msgid ""
+"Handle translations for multilingual support, enabling localized "
+"experiences for users."
+msgstr ""
+
+#: ../source/master_data.rst:50
+msgid "**View translations**: Display a list of translation in a table format."
+msgstr ""
+
+#: ../source/master_data.rst:61
+msgid "**Create translations**: Add new translations."
+msgstr ""
+
+#~ msgid "Key Sections"
+#~ msgstr ""
+
+#~ msgid "**RBAC**: Manage roles and permissions."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The RBAC (Role-Based Access Control) "
+#~ "system allows administrators to define "
+#~ "and control user roles and their "
+#~ "associated permissions."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Refer to the :doc:`Role-Based Access "
+#~ "Control page <rbac>` for detailed "
+#~ "instructions on configuring and managing "
+#~ "roles and permissions."
+#~ msgstr ""
+
+#~ msgid "**Roles**: Add and modify user roles."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This section is specifically designed "
+#~ "for creating, editing, and assigning "
+#~ "user roles within the system."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Refer to the :doc:`Roles page <roles>`"
+#~ " for step-by-step guidance on "
+#~ "role management."
+#~ msgstr ""
+
+#~ msgid "Additional Tools"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Client Apps**: Manage client-specific "
+#~ "applications to customize functionalities for"
+#~ " different clients."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Tenants**: Configure tenant-specific "
+#~ "settings, including account information and"
+#~ " preferences."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Tenant Apps**: Assign and configure "
+#~ "applications for individual tenants."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Tenant DBs**: Manage and maintain "
+#~ "tenant-specific databases, ensuring secure "
+#~ "and isolated data storage."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Language**: Set and manage the "
+#~ "system's supported languages for multi-"
+#~ "language capabilities."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Site**: Configure global site settings "
+#~ "such as branding, appearance, and "
+#~ "policies."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Entities and Attributes**: Define the "
+#~ "system’s core entities and their "
+#~ "attributes for structured data management."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Keywords**: Manage keywords for search "
+#~ "optimization and categorization across the "
+#~ "system."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Translations**: Handle translations for "
+#~ "multilingual support, enabling localized "
+#~ "experiences for users."
+#~ msgstr ""
 

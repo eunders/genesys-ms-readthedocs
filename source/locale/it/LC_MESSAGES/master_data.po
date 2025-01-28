@@ -1,3 +1,22 @@
+# Translations template for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-01-28 22:33+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
 #: ../source/master_data.rst:2
 msgid "Master Data"
 msgstr "Dati principali"
@@ -8,120 +27,187 @@ msgid ""
 "essential for the |project_name| platform. Below is a list of available "
 "tools and their functions:"
 msgstr ""
-"La sezione Dati principali fornisce strumenti per la gestione dei dati critici "
-"del sistema essenziali per la piattaforma |project_name|. Di seguito è riportato un elenco di strumenti disponibili e le loro funzioni:"
+"La sezione Dati principali fornisce strumenti per la gestione dei dati "
+"critici del sistema essenziali per la piattaforma |project_name|. Di "
+"seguito è riportato un elenco di strumenti disponibili e le loro "
+"funzioni:"
 
-#: ../source/master_data.rst:7
-msgid "Key Sections"
-msgstr "Sezioni principali"
+#: ../source/master_data.rst:8
+#, fuzzy
+msgid "Navigating to Master Data"
+msgstr "Navigare verso Dati principali"
 
-#: ../source/master_data.rst:9
-msgid "**RBAC**: Manage roles and permissions."
-msgstr "**RBAC**: Gestisci ruoli e permessi."
+#: ../source/master_data.rst:10
+msgid "To access the \"Master Data\" section:"
+msgstr "Per accedere alla sezione \"Dati principali\":"
 
-#: ../source/master_data.rst:11
-msgid ""
-"The RBAC (Role-Based Access Control) system allows administrators to "
-"define and control user roles and their associated permissions."
-msgstr ""
-"Il sistema RBAC (Controllo Accessi Basato su Ruoli) consente agli amministratori di "
-"definire e controllare i ruoli degli utenti e i relativi permessi."
+#: ../source/master_data.rst:12
+msgid "On the **Home Page**, locate the **Master Data**."
+msgstr "Nella **Home Page**, individua la sezione **Dati principali**."
 
 #: ../source/master_data.rst:13
-msgid ""
-"Refer to the :doc:`Role-Based Access Control page <rbac>` for detailed "
-"instructions on configuring and managing roles and permissions."
-msgstr ""
-"Fai riferimento alla :doc:`pagina del Controllo Accessi Basato su Ruoli <rbac>` per istruzioni dettagliate "
-"su come configurare e gestire i ruoli e i permessi."
-
-#: ../source/master_data.rst:15
-msgid "**Roles**: Add and modify user roles."
-msgstr "**Ruoli**: Aggiungi e modifica i ruoli utente."
+msgid "Click on the **Master Data** menu item. This will expand a dropdown menu."
+msgstr "Clicca sulla voce di menu **Dati principali**. Questo espanderà un menu a discesa."
 
 #: ../source/master_data.rst:17
+msgid "Keywords"
+msgstr "Parole chiave"
+
+#: ../source/master_data.rst:18
+#, fuzzy
 msgid ""
-"This section is specifically designed for creating, editing, and "
-"assigning user roles within the system."
+"Manage keywords for search optimization and categorization across the "
+"system."
 msgstr ""
-"Questa sezione è progettata specificamente per creare, modificare e "
-"assegnare i ruoli utente all'interno del sistema."
+"Gestisci le parole chiave per l'ottimizzazione della ricerca e la "
+"categorizzazione nel sistema."
 
-#: ../source/master_data.rst:19
-msgid ""
-"Refer to the :doc:`Roles page <roles>` for step-by-step guidance on role "
-"management."
-msgstr ""
-"Fai riferimento alla :doc:`pagina dei Ruoli <roles>` per una guida passo-passo sulla gestione dei ruoli."
+#: ../source/master_data.rst:21
+msgid "**View keyword**: Display a list of keyword in a table format."
+msgstr "**Visualizza parole chiave**: Mostra un elenco di parole chiave in formato tabella."
 
-#: ../source/master_data.rst:23
-msgid "Additional Tools"
-msgstr "Strumenti aggiuntivi"
-
-#: ../source/master_data.rst:25
-msgid ""
-"**Client Apps**: Manage client-specific applications to customize "
-"functionalities for different clients."
-msgstr ""
-"**App Client**: Gestisci le applicazioni specifiche per cliente per personalizzare "
-"le funzionalità per i diversi clienti."
-
-#: ../source/master_data.rst:26
-msgid ""
-"**Tenants**: Configure tenant-specific settings, including account "
-"information and preferences."
-msgstr ""
-"**Tenant**: Configura le impostazioni specifiche per tenant, inclusi i dati "
-"del account e le preferenze."
-
-#: ../source/master_data.rst:27
-msgid "**Tenant Apps**: Assign and configure applications for individual tenants."
-msgstr "**App Tenant**: Assegna e configura le applicazioni per ciascun tenant."
-
-#: ../source/master_data.rst:28
-msgid ""
-"**Tenant DBs**: Manage and maintain tenant-specific databases, ensuring "
-"secure and isolated data storage."
-msgstr ""
-"**DB Tenant**: Gestisci e mantieni i database specifici per tenant, garantendo "
-"un'archiviazione sicura e isolata dei dati."
-
-#: ../source/master_data.rst:29
-msgid ""
-"**Language**: Set and manage the system's supported languages for multi-"
-"language capabilities."
-msgstr ""
-"**Lingua**: Imposta e gestisci le lingue supportate dal sistema per "
-"capacità multilingue."
-
-#: ../source/master_data.rst:30
-msgid ""
-"**Site**: Configure global site settings such as branding, appearance, "
-"and policies."
-msgstr ""
-"**Sito**: Configura le impostazioni globali del sito come branding, aspetto, "
-"e politiche."
-
-#: ../source/master_data.rst:31
-msgid ""
-"**Entities and Attributes**: Define the system’s core entities and their "
-"attributes for structured data management."
-msgstr ""
-"**Entità e Attributi**: Definisci le entità principali del sistema e i loro "
-"attributi per una gestione strutturata dei dati."
+#: ../source/master_data.rst:23 ../source/master_data.rst:34
+#: ../source/master_data.rst:52 ../source/master_data.rst:63
+msgid "Optional alt text for the image"
+msgstr "Testo alternativo opzionale per l'immagine"
 
 #: ../source/master_data.rst:32
-msgid ""
-"**Keywords**: Manage keywords for search optimization and categorization "
-"across the system."
-msgstr ""
-"**Parole chiave**: Gestisci le parole chiave per l'ottimizzazione della ricerca e la categorizzazione "
-"nel sistema."
+msgid "**Create keyword**: Add new keyword."
+msgstr "**Crea parola chiave**: Aggiungi una nuova parola chiave."
 
-#: ../source/master_data.rst:33
+#: ../source/master_data.rst:46
+msgid "Translations"
+msgstr "Traduzioni"
+
+#: ../source/master_data.rst:47
+#, fuzzy
 msgid ""
-"**Translations**: Handle translations for multilingual support, enabling "
-"localized experiences for users."
+"Handle translations for multilingual support, enabling localized "
+"experiences for users."
 msgstr ""
-"**Traduzioni**: Gestisci le traduzioni per il supporto multilingue, abilitando "
-"esperienze localizzate per gli utenti."
+"Gestisci le traduzioni per il supporto multilingue, abilitando esperienze localizzate per gli utenti."
+
+#: ../source/master_data.rst:50
+msgid "**View translations**: Display a list of translation in a table format."
+msgstr "**Visualizza traduzioni**: Mostra un elenco di traduzioni in formato tabella."
+
+#: ../source/master_data.rst:61
+msgid "**Create translations**: Add new translations."
+msgstr "**Crea traduzioni**: Aggiungi nuove traduzioni."
+
+
+#~ msgid "Key Sections"
+#~ msgstr "Sezioni principali"
+
+#~ msgid "**RBAC**: Manage roles and permissions."
+#~ msgstr "**RBAC**: Gestisci ruoli e permessi."
+
+#~ msgid ""
+#~ "The RBAC (Role-Based Access Control) "
+#~ "system allows administrators to define "
+#~ "and control user roles and their "
+#~ "associated permissions."
+#~ msgstr ""
+#~ "Il sistema RBAC (Controllo Accessi "
+#~ "Basato su Ruoli) consente agli "
+#~ "amministratori di definire e controllare "
+#~ "i ruoli degli utenti e i relativi"
+#~ " permessi."
+
+#~ msgid ""
+#~ "Refer to the :doc:`Role-Based Access "
+#~ "Control page <rbac>` for detailed "
+#~ "instructions on configuring and managing "
+#~ "roles and permissions."
+#~ msgstr ""
+#~ "Fai riferimento alla :doc:`pagina del "
+#~ "Controllo Accessi Basato su Ruoli "
+#~ "<rbac>` per istruzioni dettagliate su "
+#~ "come configurare e gestire i ruoli "
+#~ "e i permessi."
+
+#~ msgid "**Roles**: Add and modify user roles."
+#~ msgstr "**Ruoli**: Aggiungi e modifica i ruoli utente."
+
+#~ msgid ""
+#~ "This section is specifically designed "
+#~ "for creating, editing, and assigning "
+#~ "user roles within the system."
+#~ msgstr ""
+#~ "Questa sezione è progettata specificamente "
+#~ "per creare, modificare e assegnare i "
+#~ "ruoli utente all'interno del sistema."
+
+#~ msgid ""
+#~ "Refer to the :doc:`Roles page <roles>`"
+#~ " for step-by-step guidance on "
+#~ "role management."
+#~ msgstr ""
+#~ "Fai riferimento alla :doc:`pagina dei "
+#~ "Ruoli <roles>` per una guida passo-"
+#~ "passo sulla gestione dei ruoli."
+
+#~ msgid "Additional Tools"
+#~ msgstr "Strumenti aggiuntivi"
+
+#~ msgid ""
+#~ "**Client Apps**: Manage client-specific "
+#~ "applications to customize functionalities for"
+#~ " different clients."
+#~ msgstr ""
+#~ "**App Client**: Gestisci le applicazioni "
+#~ "specifiche per cliente per personalizzare "
+#~ "le funzionalità per i diversi clienti."
+
+#~ msgid ""
+#~ "**Tenants**: Configure tenant-specific "
+#~ "settings, including account information and"
+#~ " preferences."
+#~ msgstr ""
+#~ "**Tenant**: Configura le impostazioni "
+#~ "specifiche per tenant, inclusi i dati"
+#~ " del account e le preferenze."
+
+#~ msgid ""
+#~ "**Tenant Apps**: Assign and configure "
+#~ "applications for individual tenants."
+#~ msgstr "**App Tenant**: Assegna e configura le applicazioni per ciascun tenant."
+
+#~ msgid ""
+#~ "**Tenant DBs**: Manage and maintain "
+#~ "tenant-specific databases, ensuring secure "
+#~ "and isolated data storage."
+#~ msgstr ""
+#~ "**DB Tenant**: Gestisci e mantieni i "
+#~ "database specifici per tenant, garantendo "
+#~ "un'archiviazione sicura e isolata dei "
+#~ "dati."
+
+#~ msgid ""
+#~ "**Language**: Set and manage the "
+#~ "system's supported languages for multi-"
+#~ "language capabilities."
+#~ msgstr ""
+#~ "**Lingua**: Imposta e gestisci le lingue"
+#~ " supportate dal sistema per capacità "
+#~ "multilingue."
+
+#~ msgid ""
+#~ "**Site**: Configure global site settings "
+#~ "such as branding, appearance, and "
+#~ "policies."
+#~ msgstr ""
+#~ "**Sito**: Configura le impostazioni globali"
+#~ " del sito come branding, aspetto, e"
+#~ " politiche."
+
+#~ msgid ""
+#~ "**Entities and Attributes**: Define the "
+#~ "system’s core entities and their "
+#~ "attributes for structured data management."
+#~ msgstr ""
+#~ "**Entità e Attributi**: Definisci le "
+#~ "entità principali del sistema e i "
+#~ "loro attributi per una gestione "
+#~ "strutturata dei dati."
+

@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Eunders
-# This file is distributed under the same license as the Genesys Admin package.
+# This file is distributed under the same license as the GeneSys package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Genesys Admin \n"
+"Project-Id-Version: GeneSys \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-12 23:02+0530\n"
+"POT-Creation-Date: 2025-01-28 22:33+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../source/dashboard.rst:2
-msgid "Navigating the Dashboard"
+msgid "|project_name| Dashboard"
 msgstr ""
 
 #: ../source/dashboard.rst:4
@@ -32,115 +32,74 @@ msgstr ""
 msgid "**Dashboard**:"
 msgstr ""
 
-#: ../source/dashboard.rst:13
+#: ../source/dashboard.rst:12
 msgid "Number of Users"
 msgstr ""
 
-#: ../source/dashboard.rst:14
-msgid "Orders"
-msgstr ""
-
-#: ../source/dashboard.rst:15
-msgid "Amount"
-msgstr ""
-
-#: ../source/dashboard.rst:16
+#: ../source/dashboard.rst:13
 msgid "Visitors"
 msgstr ""
 
-#: ../source/dashboard.rst:17
+#: ../source/dashboard.rst:14
 msgid "Leads"
 msgstr ""
 
-#: ../source/dashboard.rst:18
+#: ../source/dashboard.rst:15
 msgid "Conversions"
 msgstr ""
 
+#: ../source/dashboard.rst:18
+msgid "**Menu Bar**:"
+msgstr ""
+
+#: ../source/dashboard.rst:19
+msgid "The menu bar on the left-hand side provides access to the following Modules:"
+msgstr ""
+
 #: ../source/dashboard.rst:21
-msgid "**Manu Bar**:"
-msgstr ""
-
-#: ../source/dashboard.rst:22
-msgid "The menu bar on the left-hand side provides access to the following options:"
-msgstr ""
-
-#: ../source/dashboard.rst:23
 msgid "User"
 msgstr ""
 
-#: ../source/dashboard.rst:24
-#: ../source/dashboard.rst:35
+#: ../source/dashboard.rst:22
 msgid "Site"
 msgstr ""
 
-#: ../source/dashboard.rst:25
+#: ../source/dashboard.rst:23
 msgid "Crm"
 msgstr ""
 
-#: ../source/dashboard.rst:26
-msgid "Whatsapp"
+#: ../source/dashboard.rst:24
+msgid "WhatsApp"
 msgstr ""
 
-#: ../source/dashboard.rst:28
+#: ../source/dashboard.rst:26
 msgid "**Master Data**:"
 msgstr ""
 
-#: ../source/dashboard.rst:30
-msgid "Client Apps"
-msgstr ""
-
-#: ../source/dashboard.rst:31
-msgid "Tenants"
-msgstr ""
-
-#: ../source/dashboard.rst:32
-msgid "Tenant Apps"
-msgstr ""
-
-#: ../source/dashboard.rst:33
-msgid "Tenant DBs"
-msgstr ""
-
-#: ../source/dashboard.rst:34
-msgid "Language"
-msgstr ""
-
-#: ../source/dashboard.rst:36
-msgid "RBAC"
-msgstr ""
-
-#: ../source/dashboard.rst:37
-msgid "Entities and Attributes"
-msgstr ""
-
-#: ../source/dashboard.rst:38
+#: ../source/dashboard.rst:27
 msgid "Keywords"
 msgstr ""
 
-#: ../source/dashboard.rst:39
-msgid "Roles"
-msgstr ""
-
-#: ../source/dashboard.rst:40
+#: ../source/dashboard.rst:28
 msgid "Translations"
 msgstr ""
 
-#: ../source/dashboard.rst:43
+#: ../source/dashboard.rst:31
 msgid "**Right Sidebar**:"
 msgstr ""
 
-#: ../source/dashboard.rst:44
-msgid "Logs: - Mail Logs - Login Logs - Visitors"
+#: ../source/dashboard.rst:32
+msgid "Logs: - Mail Logs, Login Logs, Visitors"
 msgstr ""
 
-#: ../source/dashboard.rst:48
-msgid "System: - System Logs - Rewrite Rules - Sitemap - Maintenance Mode"
+#: ../source/dashboard.rst:34
+msgid "System: - System Logs"
 msgstr ""
 
-#: ../source/dashboard.rst:54
+#: ../source/dashboard.rst:38
 msgid "**Language Switcher**:"
 msgstr ""
 
-#: ../source/dashboard.rst:55
+#: ../source/dashboard.rst:39
 msgid "Toggle between English and Italiano."
 msgstr ""
