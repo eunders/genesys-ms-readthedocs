@@ -1,0 +1,38 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Eunders
+# This file is distributed under the same license as the GeneSys package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GeneSys \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-28 22:33+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../source/login.rst:2
+msgid "Logging In"
+msgstr ""
+
+#: ../source/login.rst:4
+msgid "To access the |project_name| web application, please follow these steps:"
+msgstr ""
+
+#: ../source/login.rst:6
+#: ../source/login.rst:14
+msgid "Optional alt text for the image"
+msgstr ""
+
+#: ../source/login.rst:11
+msgid "**Login**: Go to the |project_name| website and log in with your credentials."
+msgstr ""
+
+#: ../source/login.rst:20
+msgid "The |project_name| dashboard serves as a central hub for managing various aspects of the application."
+msgstr ""

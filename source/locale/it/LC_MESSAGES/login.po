@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Eunders
+# This file is distributed under the same license as the GeneSys package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GeneSys \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-28 22:33+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: it\n"
+"Language-Team: it <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../source/login.rst:2
+msgid "Logging In"
+msgstr "Accesso"
+
+#: ../source/login.rst:4
+msgid "To access the |project_name| web application, please follow these steps:"
+msgstr "Per accedere all'applicazione web |project_name|, segui questi passaggi:"
+
+#: ../source/login.rst:6 ../source/login.rst:14
+msgid "Optional alt text for the image"
+msgstr "Testo alternativo opzionale per l'immagine"
+
+#: ../source/login.rst:11
+msgid ""
+"**Login**: Go to the |project_name| website and log in with your "
+"credentials."
+msgstr ""
+"**Accesso**: Vai sul sito web di |project_name| e accedi con le tue "
+"credenziali."
+
+#: ../source/login.rst:20
+msgid ""
+"The |project_name| dashboard serves as a central hub for managing various"
+" aspects of the application."
+msgstr ""
+"Il pannello di controllo di |project_name| serve come centro principale per "
+"gestire vari aspetti dell'applicazione."
+

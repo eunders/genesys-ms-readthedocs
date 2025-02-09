@@ -34,3 +34,5 @@ _build/
 Thumbs.db
 
 *.code-workspace
+
+build/

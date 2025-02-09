@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Genesys Admin \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-12 23:02+0530\n"
+"POT-Creation-Date: 2025-01-28 22:33+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -31,93 +31,294 @@ msgid ""
 "structure of roles:"
 msgstr ""
 
-#: ../source/rbac.rst:10
-msgid "Roles Hierarchy"
+#: ../source/rbac.rst:9
+msgid "Key Concepts"
 msgstr ""
 
-#: ../source/rbac.rst:12
-msgid ""
-"The |project_name| application uses a Role-Based Access Control (RBAC) "
-"system with the following hierarchy:"
+#: ../source/rbac.rst:11
+msgid "**Roles**"
+msgstr ""
+
+#: ../source/rbac.rst:13
+msgid "A \"role\" is a set of permissions grouped together."
 msgstr ""
 
 #: ../source/rbac.rst:14
+msgid "**Purpose**: Define what a user can do based on their role."
+msgstr ""
+
+#: ../source/rbac.rst:15
 msgid ""
-"``` ADMIN ↓ TENANT-ADMIN ↓ MANAGER ↓ ACCOUNTANT , SALES-REP , SUPPORT-REP"
-" ```"
+"**Example**: Tenant-Admin, Manager, Accountant, Sales-Rep, Support-Rep, "
+"Teacher, Affiliate, User, Guest."
+msgstr ""
+
+#: ../source/rbac.rst:17
+msgid "**Permissions**"
+msgstr ""
+
+#: ../source/rbac.rst:19
+msgid "A \"permission\" is a specific action a user is allowed to perform."
+msgstr ""
+
+#: ../source/rbac.rst:20
+msgid ""
+"**Purpose**: Control access to particular features or actions in the "
+"application."
+msgstr ""
+
+#: ../source/rbac.rst:21
+msgid "**Example**: Edit User, View Dashboard, Delete User."
+msgstr ""
+
+#: ../source/rbac.rst:24
+msgid "**Users**"
 msgstr ""
 
 #: ../source/rbac.rst:26
-msgid ""
-"**Admin** - Full access to all features and sections. - Parent role for "
-"all other roles."
+msgid "Individuals who use the application."
 msgstr ""
 
-#: ../source/rbac.rst:30 ../source/rbac.rst:35 ../source/rbac.rst:40
-msgid "↓"
+#: ../source/rbac.rst:27
+msgid "**Purpose**: Users are assigned one role to define what they can access."
+msgstr ""
+
+#: ../source/rbac.rst:30
+msgid "How RBAC Works"
 msgstr ""
 
 #: ../source/rbac.rst:32
-msgid "**Tenant Admin** - Full access but subordinate to Admin."
+msgid "**Assign Roles to Users** :"
 msgstr ""
 
-#: ../source/rbac.rst:37
-msgid "**Manager** - Access to all features except login logs and system logs."
+#: ../source/rbac.rst:33
+msgid ""
+"Each user is assigned one roles based on their responsibilities in the "
+"application."
+msgstr ""
+
+#: ../source/rbac.rst:35
+msgid "**Define Permissions for Roles** :"
+msgstr ""
+
+#: ../source/rbac.rst:36
+msgid ""
+"Permissions are linked to roles to specify what actions each role can "
+"perform."
+msgstr ""
+
+#: ../source/rbac.rst:38
+msgid "**Restrict Access** :"
+msgstr ""
+
+#: ../source/rbac.rst:39
+msgid ""
+"The application checks a user’s role and associated permissions before "
+"allowing them to perform specific actions."
 msgstr ""
 
 #: ../source/rbac.rst:42
-msgid "**Accountant** - Access limited to the dashboard view only."
+msgid "Example Scenarios"
 msgstr ""
 
 #: ../source/rbac.rst:45
-msgid "**Sales-Rep** - Access to:"
+msgid "Managing a Blog"
 msgstr ""
 
-#: ../source/rbac.rst:47 ../source/rbac.rst:53
-msgid "Dashboard"
+#: ../source/rbac.rst:46
+msgid "**Admin**: Can create, edit, delete, and publish articles."
 msgstr ""
 
-#: ../source/rbac.rst:48 ../source/rbac.rst:54
-msgid "Contact Requests (in Site section)"
+#: ../source/rbac.rst:47
+msgid "**Editor**: Can edit and publish articles but cannot delete them."
 msgstr ""
 
-#: ../source/rbac.rst:49 ../source/rbac.rst:55
-msgid "Leads and Lead Calendar (in CRM section)"
+#: ../source/rbac.rst:48
+msgid "**Viewer**: Can only view articles."
 msgstr ""
 
 #: ../source/rbac.rst:51
+msgid "E-Commerce Site"
+msgstr ""
+
+#: ../source/rbac.rst:52
+msgid "**Customer**: Can browse products, add items to a cart, and place orders."
+msgstr ""
+
+#: ../source/rbac.rst:53
+msgid "**Manager**: Can manage products and view sales reports."
+msgstr ""
+
+#: ../source/rbac.rst:54
+msgid "**Admin**: Has all permissions, including managing users and settings."
+msgstr ""
+
+#: ../source/rbac.rst:59
+msgid "Roles Hierarchy"
+msgstr ""
+
+#: ../source/rbac.rst:61
+msgid ""
+"The |project_name| application uses a Role-Based Access Control (RBAC) "
+"system with the following hierarchy. Permissions and roles can be "
+"structured hierarchically, with higher roles inheriting permissions from "
+"lower roles."
+msgstr ""
+
+#: ../source/rbac.rst:64
+msgid ""
+"**Example**: An Tenant-Admin role might inherit permissions from the "
+"Manager Manager, Accountant, Sales-Rep, Support-Rep, Teacher, Affiliate, "
+"User, Guest."
+msgstr ""
+
+#: ../source/rbac.rst:66
+msgid "``` TENANT-ADMIN ↓ MANAGER ↓ ACCOUNTANT , SALES-REP , SUPPORT-REP ```"
+msgstr ""
+
+#: ../source/rbac.rst:76
+msgid "**Tenant Admin**"
+msgstr ""
+
+#: ../source/rbac.rst:77
+msgid "Full access to all features and sections."
+msgstr ""
+
+#: ../source/rbac.rst:78
+msgid "Parent role for all other roles."
+msgstr ""
+
+#: ../source/rbac.rst:80
+msgid "**Manager**"
+msgstr ""
+
+#: ../source/rbac.rst:81
+msgid "Access to all features except login logs and system logs."
+msgstr ""
+
+#: ../source/rbac.rst:83
+msgid "**Accountant** - Access limited to the dashboard view only."
+msgstr ""
+
+#: ../source/rbac.rst:86
+msgid "**Sales-Rep** - Access to:"
+msgstr ""
+
+#: ../source/rbac.rst:88 ../source/rbac.rst:94
+msgid "Dashboard"
+msgstr ""
+
+#: ../source/rbac.rst:89 ../source/rbac.rst:95
+msgid "Contact Requests (in Site section)"
+msgstr ""
+
+#: ../source/rbac.rst:90 ../source/rbac.rst:96
+msgid "Leads and Lead Calendar (in CRM section)"
+msgstr ""
+
+#: ../source/rbac.rst:92
 msgid "**Support-Rep** - Access to:"
 msgstr ""
 
-#: ../source/rbac.rst:60
-msgid "The **RBAC** feature under **Master Data** includes:"
+#: ../source/rbac.rst:100
+msgid "Access Control"
 msgstr ""
 
-#: ../source/rbac.rst:62
-msgid "View Roles Table"
-msgstr ""
-
-#: ../source/rbac.rst:67
-msgid "**Grant Access**: Assign roles and permissions to users."
-msgstr ""
-
-#: ../source/rbac.rst:68
-msgid "**Roles**: Manage roles as described above."
-msgstr ""
-
-#: ../source/rbac.rst:69
-msgid "**Rules**: Define custom rules for access control."
-msgstr ""
-
-#: ../source/rbac.rst:70
-msgid "**Permissions**: Specify detailed permissions for each role."
-msgstr ""
-
-#: ../source/rbac.rst:73
+#: ../source/rbac.rst:102
 msgid ""
-"The **Roles** feature in the |project_name| application simplifies user "
-"management by providing a structured way to define and assign "
-"permissions. Use the intuitive interface to create, view, and modify "
-"roles effectively, enhancing security and operational efficiency."
+"This section provides a breakdown of role-based permissions and "
+"functionalities."
 msgstr ""
+
+#: ../source/rbac.rst:105
+msgid "**Tenant-Admin Access**:"
+msgstr ""
+
+#: ../source/rbac.rst:107
+msgid ""
+"Full access to all features, including: - Dashboard - Users - Roles - CRM"
+" (Leads, Calendar, Campaigns) - Contact Requests - Reviews - System Logs "
+"- Login Logs"
+msgstr ""
+
+#: ../source/rbac.rst:117
+msgid "**Manager Access**:"
+msgstr ""
+
+#: ../source/rbac.rst:120
+msgid "Inherits Tenant-Admin permissions except for: - Login Logs - System Logs"
+msgstr ""
+
+#: ../source/rbac.rst:124
+msgid "**Accountant Access**:"
+msgstr ""
+
+#: ../source/rbac.rst:127
+msgid "Limited to: - Dashboard viewing only"
+msgstr ""
+
+#: ../source/rbac.rst:130
+msgid "**Sales-Rep and Support-Rep Access**:"
+msgstr ""
+
+#: ../source/rbac.rst:133
+msgid ""
+"Access to: - Dashboard - Contact Requests - Leads (Calendar, View Leads, "
+"Create Leads, Import Leads)"
+msgstr ""
+
+#~ msgid ""
+#~ "The |project_name| application uses a "
+#~ "Role-Based Access Control (RBAC) system "
+#~ "with the following hierarchy:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``` ADMIN ↓ TENANT-ADMIN ↓ MANAGER"
+#~ " ↓ ACCOUNTANT , SALES-REP , "
+#~ "SUPPORT-REP ```"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Admin** - Full access to all "
+#~ "features and sections. - Parent role "
+#~ "for all other roles."
+#~ msgstr ""
+
+#~ msgid "↓"
+#~ msgstr ""
+
+#~ msgid "**Tenant Admin** - Full access but subordinate to Admin."
+#~ msgstr ""
+
+#~ msgid "**Manager** - Access to all features except login logs and system logs."
+#~ msgstr ""
+
+#~ msgid "The **RBAC** feature under **Master Data** includes:"
+#~ msgstr ""
+
+#~ msgid "View Roles Table"
+#~ msgstr ""
+
+#~ msgid "**Grant Access**: Assign roles and permissions to users."
+#~ msgstr ""
+
+#~ msgid "**Roles**: Manage roles as described above."
+#~ msgstr ""
+
+#~ msgid "**Rules**: Define custom rules for access control."
+#~ msgstr ""
+
+#~ msgid "**Permissions**: Specify detailed permissions for each role."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The **Roles** feature in the "
+#~ "|project_name| application simplifies user "
+#~ "management by providing a structured way"
+#~ " to define and assign permissions. "
+#~ "Use the intuitive interface to create,"
+#~ " view, and modify roles effectively, "
+#~ "enhancing security and operational efficiency."
+#~ msgstr ""
 

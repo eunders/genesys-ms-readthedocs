@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Genesys Admin \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-12 23:02+0530\n"
+"POT-Creation-Date: 2025-01-28 22:33+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -37,27 +37,26 @@ msgid ""
 "operations."
 msgstr ""
 
-#: ../source/introduction.rst:10
-msgid "Accessing |project_name|"
-msgstr ""
+#~ msgid "Accessing |project_name|"
+#~ msgstr ""
 
-#: ../source/introduction.rst:12
-msgid "To access the |project_name| web application, please follow these steps:"
-msgstr ""
+#~ msgid ""
+#~ "To access the |project_name| web "
+#~ "application, please follow these steps:"
+#~ msgstr ""
 
-#: ../source/introduction.rst:14 ../source/introduction.rst:22
-msgid "Optional alt text for the image"
-msgstr ""
+#~ msgid "Optional alt text for the image"
+#~ msgstr ""
 
-#: ../source/introduction.rst:19
-msgid ""
-"**Login**: Go to the |project_name| website and log in with your "
-"credentials."
-msgstr ""
+#~ msgid ""
+#~ "**Login**: Go to the |project_name| "
+#~ "website and log in with your "
+#~ "credentials."
+#~ msgstr ""
 
-#: ../source/introduction.rst:28
-msgid ""
-"The |project_name| dashboard serves as a central hub for managing various"
-" aspects of the application."
-msgstr ""
+#~ msgid ""
+#~ "The |project_name| dashboard serves as a"
+#~ " central hub for managing various "
+#~ "aspects of the application."
+#~ msgstr ""
 
