@@ -1,0 +1,318 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3. Users &mdash; GeneSys  documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="4. Leads" href="crm.html" />
+    <link rel="prev" title="2. Dashboard" href="dashboard.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            GeneSys
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">PantaSys CRM Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="system.html">Prerequisites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="system.html#system-overview">System Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="master_data.html">Master Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="login.html">1. Accessing PantaSys</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dashboard.html">2. Dashboard</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">3. Users</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#navigating-to-users">3.1 Navigating to Users</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#view-all-users">3.2 View All Users</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#user-fields">3.3 User Fields</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#managing-users">3.4 Managing Users</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#add-user">3.4.1 Add User</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#fill-in-user-details">3.4.1.1 Fill in User Details</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#view-user">3.4.2 View User</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#update-user">3.4.3 Update User</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#delete-user">3.4.4 Delete User</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="crm.html">4. Leads</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contact.html">5. Contacts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="account.html">6. Accounts</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">GeneSys</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">3. Users</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/users.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="users">
+<h1>3. Users<a class="headerlink" href="#users" title="Link to this heading"></a></h1>
+<p>Manage all user-related operations within the application. The <strong>Users</strong> function focuses on account management, enabling a user with sufficient role to control access, assign roles, and maintain user details.</p>
+<p>The Users function focuses on user account management. A user with a sufficient role can:</p>
+<ol class="arabic simple">
+<li><p><strong>Create User</strong>: Add new users with specific roles.</p></li>
+<li><p><strong>View Users</strong>: Display a list of users in a table format.</p></li>
+<li><p><strong>Update User</strong>: Modify user details and roles.</p></li>
+<li><p><strong>Delete User</strong>: Remove users from the system.</p></li>
+</ol>
+<section id="navigating-to-users">
+<h2>3.1 Navigating to Users<a class="headerlink" href="#navigating-to-users" title="Link to this heading"></a></h2>
+<p>To access the <strong>Users</strong> section:</p>
+<ol class="arabic simple">
+<li><p>On the <strong>Home Page</strong>, locate the <strong>Sidebar Menu</strong>.</p></li>
+<li><p>Click on the <strong>Users</strong> menu item. This will expand a dropdown menu.</p></li>
+<li><p>Select <strong>View Users</strong> to open the user management page.</p></li>
+</ol>
+</section>
+<section id="view-all-users">
+<h2>3.2 View All Users<a class="headerlink" href="#view-all-users" title="Link to this heading"></a></h2>
+<p>The <strong>View Users</strong> page displays all saved users in a table format. The table includes the following columns:</p>
+<a class="reference internal image-reference" href="_images/view_all.jpg"><img alt="User list table" class="align-center" src="_images/view_all.jpg" style="width: 500px;" />
+</a>
+<p>In the right-hand side in the user detail section, there is an <strong>Action</strong> field from where you can view, edit, and delete the details of a user.</p>
+<a class="reference internal image-reference" href="_images/action.jpg"><img alt="User list table" class="align-center" src="_images/action.jpg" style="width: 800px;" />
+</a>
+</section>
+<section id="user-fields">
+<h2>3.3 User Fields<a class="headerlink" href="#user-fields" title="Link to this heading"></a></h2>
+<a class="reference internal image-reference" href="_images/user_fields.jpg"><img alt="User fields form" class="align-center" src="_images/user_fields.jpg" style="width: 800px;" />
+</a>
+<p>The following fields are available in the <strong>Create/Update User</strong> form:</p>
+<ol class="arabic simple">
+<li><p><strong>Email</strong></p>
+<ul class="simple">
+<li><p>Enter the user’s valid email address.</p></li>
+<li><p>Used for communication, notifications, and login.</p></li>
+</ul>
+</li>
+<li><p><strong>Phone</strong></p>
+<ul class="simple">
+<li><p>Enter the user’s contact number.</p></li>
+<li><p>Optional but useful for verification and communication.</p></li>
+</ul>
+</li>
+<li><p><strong>Username</strong></p>
+<ul class="simple">
+<li><p>Create a unique username for the user.</p></li>
+<li><p>May be required for login credentials.</p></li>
+</ul>
+</li>
+<li><p><strong>Password</strong></p>
+<ul class="simple">
+<li><p>Set a secure password for the user’s account.</p></li>
+<li><p>Should follow security standards (e.g., minimum 8 characters, mix of letters, numbers, and symbols).</p></li>
+</ul>
+</li>
+<li><p><strong>Role</strong></p>
+<ul class="simple">
+<li><p>Select the user’s role from the dropdown menu.</p></li>
+<li><p>Determines access permissions within PantaSys (e.g., Admin, Manager, Sales-rep).</p></li>
+</ul>
+</li>
+</ol>
+<a class="reference internal image-reference" href="_images/role.jpg"><img alt="Role selection" class="align-center" src="_images/role.jpg" style="width: 800px;" />
+</a>
+<ol class="arabic simple" start="6">
+<li><p><strong>First Name</strong></p>
+<ul class="simple">
+<li><p>Enter the user’s first name.</p></li>
+<li><p>Used for identification within the system.</p></li>
+</ul>
+</li>
+<li><p><strong>Last Name</strong></p>
+<ul class="simple">
+<li><p>Enter the user’s last name.</p></li>
+<li><p>Helps in differentiating users with similar first names.</p></li>
+</ul>
+</li>
+<li><p><strong>Gender</strong></p>
+<ul class="simple">
+<li><p>Choose the user’s gender from the dropdown (e.g., Male, Female, Other).</p></li>
+<li><p>Optional field.</p></li>
+</ul>
+</li>
+</ol>
+<a class="reference internal image-reference" href="_images/gender.jpg"><img alt="User gender selection" class="align-center" src="_images/gender.jpg" style="width: 800px;" />
+</a>
+<ol class="arabic simple" start="9">
+<li><p><strong>Address</strong></p>
+<ul class="simple">
+<li><p>Enter the user’s residential or work address.</p></li>
+<li><p>Helps in profile verification.</p></li>
+</ul>
+</li>
+<li><p><strong>City</strong></p>
+<ul class="simple">
+<li><p>Enter the city where the user is located.</p></li>
+<li><p>Useful for regional data segmentation.</p></li>
+</ul>
+</li>
+<li><p><strong>Country</strong></p>
+<ul class="simple">
+<li><p>Select the user’s country from the dropdown menu.</p></li>
+<li><p>Helps in geographic-based data handling.</p></li>
+</ul>
+</li>
+<li><p><strong>Zip Code</strong></p>
+<ul class="simple">
+<li><p>Enter the postal code for the user’s address.</p></li>
+<li><p>Important for location accuracy.</p></li>
+</ul>
+</li>
+</ol>
+<p><strong>Save Button</strong>: Click to save the user details and create a new account in the system.</p>
+</section>
+<section id="managing-users">
+<h2>3.4 Managing Users<a class="headerlink" href="#managing-users" title="Link to this heading"></a></h2>
+<p>Click on <strong>Users</strong> from the left menu bar to manage users.</p>
+<a class="reference internal image-reference" href="_images/manage_user.jpg"><img alt="Managing users menu" class="align-center" src="_images/manage_user.jpg" style="width: 800px;" />
+</a>
+<p>A user with a sufficient role can:</p>
+<ol class="arabic simple">
+<li><p><strong>Create User</strong></p>
+<ul class="simple">
+<li><p>Navigate to the <strong>View Users</strong> page.</p></li>
+<li><p>Click the <strong>Create User</strong> button.</p></li>
+<li><p>Fill in the fields and click <strong>Save</strong>.</p></li>
+</ul>
+</li>
+<li><p><strong>View User</strong></p>
+<ul class="simple">
+<li><p>Navigate to the <strong>View Users</strong> page.</p></li>
+<li><p>Users are displayed in a table format with all relevant details.</p></li>
+</ul>
+</li>
+<li><p><strong>Update User</strong></p>
+<ul class="simple">
+<li><p>On the <strong>View Users</strong> page, locate the user you want to modify.</p></li>
+<li><p>Click the <strong>Edit</strong> button in the <strong>Actions</strong> column.</p></li>
+<li><p>Make the necessary changes and click <strong>Save</strong>.</p></li>
+</ul>
+</li>
+<li><p><strong>Delete User</strong></p>
+<ul class="simple">
+<li><p>On the <strong>View Users</strong> page, locate the user you want to delete.</p></li>
+<li><p>Click the <strong>Delete</strong> button in the <strong>Actions</strong> column.</p></li>
+<li><p>Confirm the deletion to remove the user permanently.</p></li>
+</ul>
+</li>
+</ol>
+<section id="add-user">
+<h3>3.4.1 Add User<a class="headerlink" href="#add-user" title="Link to this heading"></a></h3>
+<p>Click <strong>Create User</strong>.</p>
+<a class="reference internal image-reference" href="_images/add_user.jpg"><img alt="Create user button" class="align-center" src="_images/add_user.jpg" style="width: 800px;" />
+</a>
+<section id="fill-in-user-details">
+<h4>3.4.1.1 Fill in User Details<a class="headerlink" href="#fill-in-user-details" title="Link to this heading"></a></h4>
+<p>Fill in the form with the fields as shown in the <strong>User Fields</strong> section. Once all the fields are filled in, click on the <strong>Save</strong> button. The system will create a new user account with the specified details.</p>
+</section>
+</section>
+<section id="view-user">
+<h3>3.4.2 View User<a class="headerlink" href="#view-user" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Click on the <strong>View icon</strong> to see the details of the user.</p></li>
+</ul>
+<a class="reference internal image-reference" href="_images/view_user.jpg"><img alt="View user details" class="align-center" src="_images/view_user.jpg" style="width: 800px;" />
+</a>
+</section>
+<section id="update-user">
+<h3>3.4.3 Update User<a class="headerlink" href="#update-user" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Click on the <strong>Edit icon</strong> to modify the details of the user.</p></li>
+</ul>
+<a class="reference internal image-reference" href="_images/update_user.jpg"><img alt="Edit user details" class="align-center" src="_images/update_user.jpg" style="width: 800px;" />
+</a>
+</section>
+<section id="delete-user">
+<h3>3.4.4 Delete User<a class="headerlink" href="#delete-user" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Click on the <strong>Delete icon</strong> to remove the user from the system.</p></li>
+</ul>
+<a class="reference internal image-reference" href="_images/delete_user.jpg"><img alt="Delete user" class="align-center" src="_images/delete_user.jpg" style="width: 800px;" />
+</a>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="dashboard.html" class="btn btn-neutral float-left" title="2. Dashboard" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="crm.html" class="btn btn-neutral float-right" title="4. Leads" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Eunders.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
