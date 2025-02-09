@@ -5,10 +5,10 @@ The \"Users\" module focuses on account management, enabling administrators to c
 
 The Users section focuses on user account management. Administrators can:
 
-1. **Create User**: Add new users with specific roles.
-2. **View Users**: Display a list of users in a table format.
-3. **Update User**: Modify user details and roles.
-4. **Delete User**: Remove users from the system.
+- **Create User**: Add new users with specific roles.
+- **View Users**: Display a list of users in a table format.
+- **Update User**: Modify user details and roles.
+- **Delete User**: Remove users from the system.
 
 
 The "Users" module focuses on user account management, empowering administrators to control access, assign roles, and maintain user details. Refer to the **Users** section for detailed instructions on managing users.
@@ -24,111 +24,149 @@ To access the "Users" section:
 3. Select **View Users** to open the user management page.
 
 ====================
-Viewing Users
+View All Users
 ====================
 
-.. image:: /_static/en/viewusers.png
+.. image:: /_static/en/view_all_users.png
     :alt: Optional alt text for the image
     :align: center
     :width: 800px
 
-The **View Users** page displays all saved users in a table format. The table includes the following columns:
+.. raw:: html
+
+      <br><br>
+
+**Actions**
+    This column contains interactive icons for various actions:
+- **View Icon**: Opens a detailed view of the user.  
+- **Delete Icon**: Removes the user from the system.  
+- **Update Icon**: Opens the user form for editing.
 
 ====================
-Managing Users
+User Fields
 ====================
+
+.. image:: /_static/en/user_fields.png
+    :alt: Optional alt text for the image
+    :align: center
+    :width: 600px
+    :height: 550px
+
+
+The following fields are available in the **Create/Update User**  form:
+
+1. **Email**:  
+   - The email address of the user. This field allows users to provide their contact information.
+
+2. **Phone**:  
+   - The phone number of the user. Useful for direct communication or verification purposes.
+
+3. **Username**:  
+   - The username selected by the user. This field is used for login and identification.
+
+4. **Password**:  
+   - The password associated with the user account. Ensures account security.
+
+5. **Role**:  
+   - The user’s role in the system, Helps assign appropriate permissions and responsibilities.
+    - The options are following: Tenant-Admin, Manager, Accountant, Sales-Rep, Support-Rep, Teacher, Affiliate, User, Guest.
+
+6. **First Name**:  
+   - The first name of the user. Provides clarity on the user’s identity.
+
+7. **Last Name**:  
+   - The last name of the user. Completes the user’s full name.
+
+8. **Gender**:  
+   - The user’s gender, e.g., Male, Female, Other. Used for demographic categorization.
+
+9. **Address**:  
+   - The user’s address. Used for delivery purposes.
+
+10. **City**:  
+    - The city part of the address. Specifies the user's location within a country.
+
+11. **Country**:  
+    - The country part of the address. Essential for delivery categorization. The options are list of countries. 
+
+12. **Zip Code**:  
+    - The postal code for the address. Ensures accurate delivery.
+
+**Save Button**: A button to save the user information.Submits the form for processing.  
+   
+
+Each field helps in managing and organizing the user's information effectively.
+
+
+====================
+Managing User
+====================
+
 
 Create a User
 ---------------------
 
-   - Navigate to the **View Users** page.
-   - Click the **Create User** button.
-   - Fill in the required fields and click **Save.**
+
+.. image:: /_static/en/create_user.png
+   :alt: Optional alt text for the image
+   :align: center
+   :width: 800px
+
+.. raw:: html
+
+   <br><br>
+
+1. Navigate to the **View Users** page.  
+2. Click the **Create User** button.  
+3. Fill in the required fields and click **Save.**
 
 View a User
 -----------
 
-   - Navigate to the **View Users** page.
-   - Users are displayed in a table format with all relevant details.
+   .. image:: /_static/en/view_user.png
+      :alt: Optional alt text for the image
+      :align: center
+      :width: 800px
+   
+   .. raw:: html
+
+      <br><br>
+
+   1. Navigate to the **View Users** page.
+   2. Users are displayed in a table format with all relevant details.
 
 Update a User
 ---------------
 
-   - On the **View Users** page, locate the user you want to modify.
-   - Click the **Edit** button in the **Actions** column.
-   - Make the necessary changes and click **Save.**
-
-Delete a User
----------------
-
-   - On the **View Users** page, locate the user you want to delete.
-   - Click the **Delete** button in the **Actions** column.
-   - Confirm the deletion to remove the user permanently.
-
-   
-User Table Columns
------------------- 
-
-.. image:: /_static/en/createusers.png
+   .. image:: /_static/en/update_user.png
     :alt: Optional alt text for the image
     :align: center
     :width: 800px
 
-1. **User ID**:  
-   - An auto-generated unique identifier assigned to each user.  
-   - This column helps to differentiate between users easily.
+   .. raw:: html
 
-2. **Email**:  
-   - The email address of the user.  
-   - This column allows users to view and verify contact information.
+      <br><br>
 
-3. **First Name**:  
-   - The first name of the user.  
-   - This field provides clarity on the user’s identity.
+   1. On the **View Users** page, locate the user you want to modify.
+   2. Click the **Edit** button in the **Actions** column.
+   3. Make the necessary changes and click **Save.**
 
-4. **Last Name**:  
-   - The last name of the user.  
-   - Together with the first name, it fully identifies the user.
+Delete a User
+---------------
 
-5. **Role**:  
-   - The user’s role in the system (e.g., Admin, Manager, Staff).  
-   - Helps assign appropriate permissions and responsibilities.
+    .. image:: /_static/en/delete_user.png
+      :alt: Optional alt text for the image
+      :align: center
+      :width: 800px
 
-6. **Created At**:  
-   - The date and time when the user account was created.  
-   - Useful for tracking new accounts.
+    .. raw:: html
 
-7. **Updated At**:  
-   - The date and time when the user account was last updated.  
-   - Useful for identifying recent changes.
+       <br><br>
 
-8. **Product**:  
-   - The product or service associated with the user.  
-   - Useful for linking users to specific offerings.
 
-9. **Organization**:  
-   - The organization the user is associated with.  
-   - Provides context on the user’s professional background.
+   1. On the **View Users** page, locate the user you want to delete.
+   2. Click the **Delete** button in the **Actions** column.
+   3. Confirm the deletion to remove the user permanently.
 
-10. **CRM Campaign**:  
-    - A text column containing the name or type of CRM campaign linked to the user.  
-    - Helps connect users to specific campaigns.
 
-11. **CRM Campaign Identifier**:  
-    - A unique identifier for the CRM campaign.  
-    - Enables precise tracking of campaign associations.
-
-12. **CRM Campaign Timestamp**:  
-    - The date and time related to the CRM campaign activity.  
-    - Useful for campaign timeline tracking.
-
-13. **CRM Source**:  
-    - Indicates the origin of the CRM campaign (e.g., "Website," "Referral").  
-    - Helps track campaign sources.
-
-14. **Action**:  
-    - This column contains interactive icons for various actions:  
-        - **View Icon**: Opens a detailed view of the user.  
-        - **Delete Icon**: Removes the user from the system.  
-        - **Update Icon**: Opens the user form for editing.
-
+    

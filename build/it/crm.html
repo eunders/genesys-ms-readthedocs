@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CRM &mdash; Genesys Admin  documentation</title>
+  <title>CRM &mdash; GeneSys  documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
 
@@ -19,7 +19,6 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Role-Based Access Control (RBAC)" href="rbac.html" />
     <link rel="prev" title="Users" href="users.html" /> 
 </head>
 
@@ -32,7 +31,7 @@
           
           
           <a href="index.html" class="icon icon-home">
-            Genesys Admin
+            GeneSys
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
@@ -45,7 +44,10 @@
               <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
-<li class="toctree-l1"><a class="reference internal" href="dashboard.html">Navigating the Dashboard</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rbac.html">Role-Based Access Control (RBAC)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="login.html">Logging In</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dashboard.html">GeneSys Dashboard</a></li>
+<li class="toctree-l1"><a class="reference internal" href="master_data.html">Master Data</a></li>
 <li class="toctree-l1"><a class="reference internal" href="users.html">Users</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">CRM</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#navigating-to-leads">Navigating to Leads</a></li>
@@ -60,10 +62,6 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="rbac.html">Role-Based Access Control (RBAC)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="roles.html">Roles</a></li>
-<li class="toctree-l1"><a class="reference internal" href="master_data.html">Master Data</a></li>
-<li class="toctree-l1"><a class="reference internal" href="access_control.html">Access Control</a></li>
 </ul>
 
         </div>
@@ -72,7 +70,7 @@
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="index.html">Genesys Admin</a>
+          <a href="index.html">GeneSys</a>
       </nav>
 
       <div class="wy-nav-content">
@@ -107,13 +105,21 @@
 <h2>Viewing Leads<a class="headerlink" href="#viewing-leads" title="Link to this heading"></a></h2>
 <a class="reference internal image-reference" href="_images/viewlead.png"><img alt="Optional alt text for the image" class="align-center" src="_images/viewlead.png" style="width: 800px;" />
 </a>
-<p>The <strong>View Leads</strong> page displays all saved leads in a table format. The table includes the following columns:</p>
+<br><br><dl class="simple">
+<dt><strong>Actions</strong></dt><dd><p>This column contains interactive icons for various actions:</p>
+</dd>
+</dl>
+<ul class="simple">
+<li><p><strong>View Icon</strong>: Opens a detailed view of the user.</p></li>
+<li><p><strong>Delete Icon</strong>: Removes the user from the system.</p></li>
+<li><p><strong>Update Icon</strong>: Opens the user form for editing.</p></li>
+</ul>
 <p><strong>Leads</strong>:</p>
-<ol class="arabic simple">
+<ul class="simple">
 <li><p><strong>View Leads</strong>: Displays a list of all existing leads.</p></li>
 <li><p><strong>Create Lead</strong>: Allows users to add new leads to the system.</p></li>
 <li><p><strong>Import Leads</strong>: Facilitates the import of leads from external sources.</p></li>
-</ol>
+</ul>
 <p>This section provides a detailed overview of the “Leads” feature, including navigation, CRUD operations, table columns, and additional functionalities.</p>
 </section>
 <section id="managing-leads">
@@ -121,47 +127,47 @@
 <section id="create-a-lead">
 <h3>Create a Lead<a class="headerlink" href="#create-a-lead" title="Link to this heading"></a></h3>
 <blockquote>
-<div><ul class="simple">
+<div><ol class="arabic simple">
 <li><p>Navigate to the <strong>View Leads</strong> page.</p></li>
 <li><p>Click the <strong>Create CRM Contact</strong> button.</p></li>
 <li><p>Fill in the required fields and click <strong>Save.</strong></p></li>
-</ul>
+</ol>
 </div></blockquote>
 </section>
 <section id="view-a-lead">
 <h3>View a Lead<a class="headerlink" href="#view-a-lead" title="Link to this heading"></a></h3>
 <blockquote>
-<div><ul class="simple">
+<div><ol class="arabic simple">
 <li><p>Navigate to the <strong>View Leads</strong> page.</p></li>
 <li><p>Leads are displayed in a table format with all relevant details.</p></li>
-</ul>
+</ol>
 </div></blockquote>
 </section>
 <section id="update-a-lead">
 <h3>Update a Lead<a class="headerlink" href="#update-a-lead" title="Link to this heading"></a></h3>
 <blockquote>
-<div><ul class="simple">
+<div><ol class="arabic simple">
 <li><p>On the <strong>View Leads</strong> page, locate the lead you want to modify.</p></li>
 <li><p>Click the <strong>Edit</strong> button in the <strong>Actions</strong> column.</p></li>
 <li><p>Make the necessary changes and click <strong>Save.</strong></p></li>
-</ul>
+</ol>
 </div></blockquote>
 </section>
 <section id="delete-a-lead">
 <h3>Delete a Lead<a class="headerlink" href="#delete-a-lead" title="Link to this heading"></a></h3>
 <blockquote>
-<div><ul class="simple">
+<div><ol class="arabic simple">
 <li><p>On the <strong>View Leads</strong> page, locate the lead you want to delete.</p></li>
 <li><p>Click the <strong>Delete</strong> button in the <strong>Actions</strong> column.</p></li>
 <li><p>Confirm the deletion to remove the lead permanently.</p></li>
-</ul>
+</ol>
 </div></blockquote>
 </section>
 <section id="lead-table-columns">
 <h3>Lead Table Columns<a class="headerlink" href="#lead-table-columns" title="Link to this heading"></a></h3>
 <a class="reference internal image-reference" href="_images/createlead.png"><img alt="Optional alt text for the image" class="align-center" src="_images/createlead.png" style="width: 800px;" />
 </a>
-<ol class="arabic">
+<ol class="arabic simple">
 <li><p><strong>Contact ID</strong>:
 - A unique identifier assigned to each lead.
 - This column helps to differentiate between leads easily.</p></li>
@@ -216,16 +222,6 @@
 <li><p><strong>Follow-up Date</strong>:
 - A date and time column for scheduling follow-up actions.
 - Ensures timely communication with leads.</p></li>
-<li><p><strong>Action</strong>:
-- This column contains interactive icons for various actions:</p>
-<blockquote>
-<div><ul class="simple">
-<li><p><strong>View Icon</strong>: Opens a detailed view of the lead.</p></li>
-<li><p><strong>Delete Icon</strong>: Removes the lead from the system.</p></li>
-<li><p><strong>Update Icon</strong>: Opens the lead form for editing.</p></li>
-</ul>
-</div></blockquote>
-</li>
 </ol>
 </section>
 </section>
@@ -236,7 +232,6 @@
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="users.html" class="btn btn-neutral float-left" title="Users" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="rbac.html" class="btn btn-neutral float-right" title="Role-Based Access Control (RBAC)" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

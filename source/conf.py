@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Genesys Admin'
+project = 'GeneSys'
 copyright = '2025, Eunders'
 author = 'Eunders'
 
@@ -31,5 +31,5 @@ locale_dirs = ['locale/']  # Path for translation files
 gettext_compact = False  # Disable compact files for better organization
 
 rst_epilog = """
-.. |project_name| replace:: GeneSys Admin
+.. |project_name| replace:: GeneSys
 """
