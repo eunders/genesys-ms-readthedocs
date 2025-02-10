@@ -34,7 +34,7 @@ In the right-hand side in the user detail section, there is an **Action** field 
 .. image:: /_static/en/action.jpg
     :alt: User list table
     :align: center
-    :width: 800px   
+    :width: 500px   
 
 3.3 User Fields
 ---------------
@@ -74,7 +74,7 @@ The following fields are available in the **Create/Update User** form:
 .. image:: /_static/en/role.jpg
     :alt: Role selection
     :align: center
-    :width: 800px
+    :width: 600px
 
 6. **First Name**
 
@@ -94,7 +94,7 @@ The following fields are available in the **Create/Update User** form:
 .. image:: /_static/en/gender.jpg
     :alt: User gender selection
     :align: center
-    :width: 800px
+    :width: 600px
 
 9. **Address**
 
@@ -151,7 +151,7 @@ A user with a sufficient role can:
 
    - On the **View Users** page, locate the user you want to delete.
    - Click the **Delete** button in the **Actions** column.
-   - Confirm the deletion to remove the user permanently.
+   - Confirm the deletion to remove the user.
 
 3.4.1 Add User
 ^^^^^^^^^^^^^^^^

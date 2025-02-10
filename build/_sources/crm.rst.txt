@@ -53,7 +53,33 @@ On the "View Leads" page, leads are displayed in a table format, providing a com
 
 These buttons are explained in the following section, *Managing Leads*.
 
-4.2 Managing Leads
+4.2 Create Lead Form
+--------------------
+
+The **Create Lead** form allows users to add new leads into the system.
+
+.. image:: /_static/en/create_lead_form.jpg
+    :alt: Optional alt text for the image
+    :align: center
+    :width: 800px
+
+
+Below are the field descriptions along with their expected input values:
+
+.. image:: /_static/en/table1.jpg
+    :alt: Optional alt text for the image
+    :align: center
+    :width: 800px
+
+
+**Form Functionality**
+
+- The form ensures structured lead entry to maintain data consistency.
+- Dropdown menus help in selecting predefined values, reducing manual errors.
+- The **Save** button finalizes the lead creation process.
+
+
+4.3 Managing Leads
 ------------------
 
 PantaSys CRM provides comprehensive functionalities to manage leads effectively.
@@ -98,29 +124,6 @@ To remove a lead from the system:
 2. **Delete Icon**: Locate the lead to be deleted and click the **Delete** icon.
 3. **Confirm Deletion**: Confirm the deletion when prompted to remove the lead.
 
-4.3 Create Lead Form
---------------------
-
-The **Create Lead** form allows users to add new leads into the system.
-
-.. image:: /_static/en/create_lead_form.jpg
-    :alt: Optional alt text for the image
-    :align: center
-    :width: 800px
-
-
-Below are the field descriptions along with their expected input values:
-
-.. image:: /_static/en/table1.jpg
-    :alt: Optional alt text for the image
-    :align: center
-    :width: 800px
-
-**Form Functionality**
-
-- The form ensures structured lead entry to maintain data consistency.
-- Dropdown menus help in selecting predefined values, reducing manual errors.
-- The **Save** button finalizes the lead creation process.
 
 4.4 Lead Table
 --------------

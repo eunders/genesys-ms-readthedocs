@@ -21,7 +21,34 @@ On the "View Accounts" page, accounts are displayed in a table format, providing
     :align: center
     :width: 600px
 
-6.3 Managing Accounts
+
+6.3 Create Account Form
+-----------------------
+
+The **Create Account** form allows users to add new accounts into the system. Below are the field descriptions along with their expected input values.
+
+.. image:: /_static/en/create_account.jpg
+    :alt: Optional alt text for the image
+    :align: center
+    :width: 600px
+
+
+
+Below are the field descriptions along with their expected input values:
+
+.. image:: /_static/en/account_table.jpg
+    :alt: Optional alt text for the image
+    :align: center
+    :width: 600px
+
+**Form Functionality**
+
+- This form is used to store and manage business accounts rather than individual contacts.
+- **Industry selection** helps categorize businesses efficiently.
+- **Tags** provide additional segmentation options for easy filtering.
+- The "Save" button finalizes the account creation process.
+
+6.4 Managing Accounts
 ----------------------
 
 PantaSys CRM provides comprehensive functionalities to manage accounts effectively. The **Accounts** function allows users to add new business accounts to the CRM system.
@@ -65,30 +92,3 @@ To remove an account from the system:
 1. **Navigate to View Account**: Access the "View Account" page.
 2. **Delete Icon**: Locate the account to be deleted and click the "Delete" icon.
 3. **Confirm Deletion**: Confirm the deletion when prompted to remove the account.
-
-Create Account Form
--------------------
-
-The **Create Account** form allows users to add new accounts into the system. Below are the field descriptions along with their expected input values.
-
-.. image:: /_static/en/create_account.jpg
-    :alt: Optional alt text for the image
-    :align: center
-    :width: 600px
-
-
-
-Below are the field descriptions along with their expected input values:
-
-.. image:: /_static/en/account_table.jpg
-    :alt: Optional alt text for the image
-    :align: center
-    :width: 600px
-
-Form Functionality
---------------------
-
-- This form is used to store and manage business accounts rather than individual contacts.
-- **Industry selection** helps categorize businesses efficiently.
-- **Tags** provide additional segmentation options for easy filtering.
-- The "Save" button finalizes the account creation process.

@@ -19,6 +19,7 @@ Refer to individual pages for detailed instructions on accessing these features.
    crm
    contact
    account
+   activities
   
 
   
