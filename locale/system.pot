@@ -1,0 +1,197 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Eunders
+# This file is distributed under the same license as the GeneSys package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GeneSys \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-10 22:53+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../source/system.rst:4
+msgid "Prerequisites"
+msgstr ""
+
+#: ../source/system.rst:5
+msgid "Before accessing the system, users need:"
+msgstr ""
+
+#: ../source/system.rst:7
+msgid "A valid username and password."
+msgstr ""
+
+#: ../source/system.rst:8
+msgid "Internet access and a compatible web browser (Chrome, Firefox, Edge)."
+msgstr ""
+
+#: ../source/system.rst:9
+msgid "Appropriate user role permissions (Admin, Sales Rep, Support Agent)."
+msgstr ""
+
+#: ../source/system.rst:14
+msgid "System Overview"
+msgstr ""
+
+#: ../source/system.rst:17
+msgid "Dashboard"
+msgstr ""
+
+#: ../source/system.rst:18
+msgid "Displays an overview of users, orders, revenue, and visitors."
+msgstr ""
+
+#: ../source/system.rst:19
+msgid "Includes a graphical daily user activity report."
+msgstr ""
+
+#: ../source/system.rst:22
+msgid "User Management"
+msgstr ""
+
+#: ../source/system.rst:23
+msgid "**View Users** – Lists all registered users."
+msgstr ""
+
+#: ../source/system.rst:24
+msgid "**Create User** – Allows adding new users."
+msgstr ""
+
+#: ../source/system.rst:25
+msgid "**Charts** – Visual representation of user statistics."
+msgstr ""
+
+#: ../source/system.rst:28
+msgid "Leads"
+msgstr ""
+
+#: ../source/system.rst:29
+msgid "**View Leads** – Access and track potential customers."
+msgstr ""
+
+#: ../source/system.rst:30
+msgid "**Create Lead** – Add new lead entries."
+msgstr ""
+
+#: ../source/system.rst:33
+msgid "Contacts"
+msgstr ""
+
+#: ../source/system.rst:34
+msgid "**View Contacts** – Manage and update customer details."
+msgstr ""
+
+#: ../source/system.rst:35
+msgid "**Create Contact** – Add new contacts to the system."
+msgstr ""
+
+#: ../source/system.rst:36
+msgid "**Assign Contacts to Accounts** – Link contacts with business accounts."
+msgstr ""
+
+#: ../source/system.rst:37
+msgid "**Manage Contact Information** – Update details such as phone, email, and address."
+msgstr ""
+
+#: ../source/system.rst:38
+msgid "**Track Communication History** – Maintain a log of interactions with each contact."
+msgstr ""
+
+#: ../source/system.rst:41
+msgid "Accounts"
+msgstr ""
+
+#: ../source/system.rst:42
+msgid "**View Accounts** – Manage business accounts linked to contacts."
+msgstr ""
+
+#: ../source/system.rst:43
+msgid "**Create Account** – Register new business entities."
+msgstr ""
+
+#: ../source/system.rst:44
+msgid "**Link Accounts to Contacts** – Connect multiple contacts to a single account."
+msgstr ""
+
+#: ../source/system.rst:45
+msgid "**Monitor Account Activities** – Track interactions, transactions, and notes related to an account."
+msgstr ""
+
+#: ../source/system.rst:46
+msgid "**Manage Account Hierarchy** – Organize parent-child relationships between accounts."
+msgstr ""
+
+#: ../source/system.rst:49
+msgid "Opportunities"
+msgstr ""
+
+#: ../source/system.rst:50
+msgid "**View Opportunities** – Track business deals in progress."
+msgstr ""
+
+#: ../source/system.rst:51
+msgid "**Create Opportunity** – Register new business opportunities."
+msgstr ""
+
+#: ../source/system.rst:54
+msgid "Cases"
+msgstr ""
+
+#: ../source/system.rst:55
+msgid "**View Cases** – Manage customer support requests."
+msgstr ""
+
+#: ../source/system.rst:56
+msgid "**Create Case** – Log new customer issues or complaints."
+msgstr ""
+
+#: ../source/system.rst:59
+msgid "Activities"
+msgstr ""
+
+#: ../source/system.rst:60
+msgid "**View Activities** – Monitor scheduled tasks and meetings."
+msgstr ""
+
+#: ../source/system.rst:61
+msgid "**Create Activity** – Add new activities related to leads, contacts, or accounts."
+msgstr ""
+
+#: ../source/system.rst:64
+msgid "Communication & Engagement"
+msgstr ""
+
+#: ../source/system.rst:65
+msgid "**WhatsApp** – Integrated messaging for lead management."
+msgstr ""
+
+#: ../source/system.rst:66
+msgid "**Email** – Enables email communication with leads and clients."
+msgstr ""
+
+#: ../source/system.rst:67
+msgid "**Campaign** – Manage marketing and outreach campaigns."
+msgstr ""
+
+#: ../source/system.rst:70
+msgid "Security & Compliance"
+msgstr ""
+
+#: ../source/system.rst:71
+msgid "**Role-Based Access Control (RBAC)** ensures restricted access based on user roles."
+msgstr ""
+
+#: ../source/system.rst:72
+msgid "**Data Encryption** protects customer and business data."
+msgstr ""
+
+#: ../source/system.rst:73
+msgid "**Audit Logs** track user activities within the system."
+msgstr ""

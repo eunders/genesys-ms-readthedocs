@@ -1,0 +1,201 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Eunders
+# This file is distributed under the same license as the GeneSys package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GeneSys \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-10 22:53+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../source/master_data.rst:4
+msgid "Master Data"
+msgstr ""
+
+#: ../source/master_data.rst:5
+msgid "Master Data refers to the core data essential to operations in a specific business or business unit."
+msgstr ""
+
+#: ../source/master_data.rst:7
+msgid "The **Master Data** section in PantaSys provides tools for managing critical system data that is essential for platform functionality. It allows users with sufficient roles to manage keywords, translations, and other configurable system settings for optimal operation."
+msgstr ""
+
+#: ../source/master_data.rst:12
+msgid "Navigating to Master Data"
+msgstr ""
+
+#: ../source/master_data.rst:13
+msgid "To access the **Master Data** section:"
+msgstr ""
+
+#: ../source/master_data.rst:15
+msgid "**Go to the Home Page** of PantaSys."
+msgstr ""
+
+#: ../source/master_data.rst:16
+msgid "**Locate the Master Data** menu on the sidebar."
+msgstr ""
+
+#: ../source/master_data.rst:17
+msgid "**Click on the Master Data menu item**, which will expand a dropdown list of available tools."
+msgstr ""
+
+#: ../source/master_data.rst:22
+msgid "Features of Master Data"
+msgstr ""
+
+#: ../source/master_data.rst:23
+msgid "The Master Data section includes tools for:"
+msgstr ""
+
+#: ../source/master_data.rst:25
+msgid "**Managing Keywords** – Useful for search optimization and categorization."
+msgstr ""
+
+#: ../source/master_data.rst:26
+msgid "**Handling Translations** – Supports multilingual capabilities to enhance user accessibility."
+msgstr ""
+
+#: ../source/master_data.rst:31
+msgid "1. Keywords"
+msgstr ""
+
+#: ../source/master_data.rst:32
+msgid "The **Keywords** module helps manage keywords for better search functionality and content categorization within PantaSys."
+msgstr ""
+
+#: ../source/master_data.rst:35
+msgid "Viewing Keywords"
+msgstr ""
+
+#: ../source/master_data.rst:36
+msgid "Users can view a list of all existing keywords in a structured table format."
+msgstr ""
+
+#: ../source/master_data.rst:37
+msgid "The table includes the following columns:"
+msgstr ""
+
+#: ../source/master_data.rst:39
+msgid "**Keyword ID** – A unique identifier for the keyword."
+msgstr ""
+
+#: ../source/master_data.rst:40
+msgid "**Name** – The actual keyword text."
+msgstr ""
+
+#: ../source/master_data.rst:41
+msgid "**Created At** – Timestamp of keyword creation."
+msgstr ""
+
+#: ../source/master_data.rst:42
+msgid "**Updated At** – Timestamp of last modification."
+msgstr ""
+
+#: ../source/master_data.rst:45
+msgid "Creating a New Keyword"
+msgstr ""
+
+#: ../source/master_data.rst:46
+msgid "To add a new keyword:"
+msgstr ""
+
+#: ../source/master_data.rst:48
+msgid "Navigate to **Master Data > Keywords**."
+msgstr ""
+
+#: ../source/master_data.rst:49
+msgid "Click on **Create Keyword**."
+msgstr ""
+
+#: ../source/master_data.rst:50
+msgid "Enter the **Name** of the new keyword."
+msgstr ""
+
+#: ../source/master_data.rst:51
+msgid "Click **Save** to add it to the system."
+msgstr ""
+
+#: ../source/master_data.rst:56
+msgid "2. Translations"
+msgstr ""
+
+#: ../source/master_data.rst:57
+msgid "The **Translations** module manages multilingual support, ensuring localized experiences for users in different regions."
+msgstr ""
+
+#: ../source/master_data.rst:60
+msgid "Viewing Translations"
+msgstr ""
+
+#: ../source/master_data.rst:61
+msgid "Users can view a list of all existing translations in a structured table format."
+msgstr ""
+
+#: ../source/master_data.rst:62
+msgid "The table includes the following fields:"
+msgstr ""
+
+#: ../source/master_data.rst:64
+msgid "**Translation ID** – A unique identifier for the translation entry."
+msgstr ""
+
+#: ../source/master_data.rst:65
+msgid "**Key** – The key used for referencing the translation in the system."
+msgstr ""
+
+#: ../source/master_data.rst:66
+msgid "**Created At** – Timestamp when the translation was added."
+msgstr ""
+
+#: ../source/master_data.rst:67
+msgid "**Updated At** – Timestamp of the last update."
+msgstr ""
+
+#: ../source/master_data.rst:70
+msgid "Creating a New Translation"
+msgstr ""
+
+#: ../source/master_data.rst:71
+msgid "To add a new translation:"
+msgstr ""
+
+#: ../source/master_data.rst:73
+msgid "Navigate to **Master Data > Translations**."
+msgstr ""
+
+#: ../source/master_data.rst:74
+msgid "Click on **Create Translation**."
+msgstr ""
+
+#: ../source/master_data.rst:75
+msgid "Enter the **Key** (reference text)."
+msgstr ""
+
+#: ../source/master_data.rst:76
+msgid "Click **Save** to store the translation."
+msgstr ""
+
+#: ../source/master_data.rst:81
+msgid "Additional Functionalities"
+msgstr ""
+
+#: ../source/master_data.rst:82
+msgid "The Master Data module ensures **consistency across the platform** by providing centralized management of key system elements."
+msgstr ""
+
+#: ../source/master_data.rst:83
+msgid "It integrates seamlessly with other PantaSys features, including **user management, leads, CRM, and campaign tools**."
+msgstr ""
+
+#: ../source/master_data.rst:84
+msgid "REST API endpoints are available for programmatic interaction with **Master Data**."
+msgstr ""

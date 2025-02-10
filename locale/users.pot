@@ -1,0 +1,379 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Eunders
+# This file is distributed under the same license as the GeneSys package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GeneSys \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-10 22:53+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../source/users.rst:2
+msgid "3. Users"
+msgstr ""
+
+#: ../source/users.rst:4
+msgid "Manage all user-related operations within the application. The **Users** function focuses on account management, enabling a user with sufficient role to control access, assign roles, and maintain user details."
+msgstr ""
+
+#: ../source/users.rst:6
+msgid "The Users function focuses on user account management. A user with a sufficient role can:"
+msgstr ""
+
+#: ../source/users.rst:8
+msgid "**Create User**: Add new users with specific roles."
+msgstr ""
+
+#: ../source/users.rst:9
+msgid "**View Users**: Display a list of users in a table format."
+msgstr ""
+
+#: ../source/users.rst:10
+msgid "**Update User**: Modify user details and roles."
+msgstr ""
+
+#: ../source/users.rst:11
+msgid "**Delete User**: Remove users from the system."
+msgstr ""
+
+#: ../source/users.rst:14
+msgid "3.1 Navigating to Users"
+msgstr ""
+
+#: ../source/users.rst:16
+msgid "To access the **Users** section:"
+msgstr ""
+
+#: ../source/users.rst:18
+msgid "On the **Home Page**, locate the **Sidebar Menu**."
+msgstr ""
+
+#: ../source/users.rst:19
+msgid "Click on the **Users** menu item. This will expand a dropdown menu."
+msgstr ""
+
+#: ../source/users.rst:20
+msgid "Select **View Users** to open the user management page."
+msgstr ""
+
+#: ../source/users.rst:23
+msgid "3.2 View All Users"
+msgstr ""
+
+#: ../source/users.rst:25
+msgid "The **View Users** page displays all saved users in a table format. The table includes the following columns:"
+msgstr ""
+
+#: ../source/users.rst:27
+#: ../source/users.rst:34
+msgid "User list table"
+msgstr ""
+
+#: ../source/users.rst:32
+msgid "In the right-hand side in the user detail section, there is an **Action** field from where you can view, edit, and delete the details of a user."
+msgstr ""
+
+#: ../source/users.rst:40
+msgid "3.3 User Fields"
+msgstr ""
+
+#: ../source/users.rst:42
+msgid "User fields form"
+msgstr ""
+
+#: ../source/users.rst:47
+msgid "The following fields are available in the **Create/Update User** form:"
+msgstr ""
+
+#: ../source/users.rst:49
+msgid "**Email**"
+msgstr ""
+
+#: ../source/users.rst:51
+msgid "Enter the user's valid email address."
+msgstr ""
+
+#: ../source/users.rst:52
+msgid "Used for communication, notifications, and login."
+msgstr ""
+
+#: ../source/users.rst:54
+msgid "**Phone**"
+msgstr ""
+
+#: ../source/users.rst:56
+msgid "Enter the user’s contact number."
+msgstr ""
+
+#: ../source/users.rst:57
+msgid "Optional but useful for verification and communication."
+msgstr ""
+
+#: ../source/users.rst:59
+msgid "**Username**"
+msgstr ""
+
+#: ../source/users.rst:61
+msgid "Create a unique username for the user."
+msgstr ""
+
+#: ../source/users.rst:62
+msgid "May be required for login credentials."
+msgstr ""
+
+#: ../source/users.rst:64
+msgid "**Password**"
+msgstr ""
+
+#: ../source/users.rst:66
+msgid "Set a secure password for the user’s account."
+msgstr ""
+
+#: ../source/users.rst:67
+msgid "Should follow security standards (e.g., minimum 8 characters, mix of letters, numbers, and symbols)."
+msgstr ""
+
+#: ../source/users.rst:69
+msgid "**Role**"
+msgstr ""
+
+#: ../source/users.rst:71
+msgid "Select the user’s role from the dropdown menu."
+msgstr ""
+
+#: ../source/users.rst:72
+msgid "Determines access permissions within PantaSys (e.g., Admin, Manager, Sales-rep)."
+msgstr ""
+
+#: ../source/users.rst:74
+msgid "Role selection"
+msgstr ""
+
+#: ../source/users.rst:79
+msgid "**First Name**"
+msgstr ""
+
+#: ../source/users.rst:81
+msgid "Enter the user’s first name."
+msgstr ""
+
+#: ../source/users.rst:82
+msgid "Used for identification within the system."
+msgstr ""
+
+#: ../source/users.rst:84
+msgid "**Last Name**"
+msgstr ""
+
+#: ../source/users.rst:86
+msgid "Enter the user’s last name."
+msgstr ""
+
+#: ../source/users.rst:87
+msgid "Helps in differentiating users with similar first names."
+msgstr ""
+
+#: ../source/users.rst:89
+msgid "**Gender**"
+msgstr ""
+
+#: ../source/users.rst:91
+msgid "Choose the user’s gender from the dropdown (e.g., Male, Female, Other)."
+msgstr ""
+
+#: ../source/users.rst:92
+msgid "Optional field."
+msgstr ""
+
+#: ../source/users.rst:94
+msgid "User gender selection"
+msgstr ""
+
+#: ../source/users.rst:99
+msgid "**Address**"
+msgstr ""
+
+#: ../source/users.rst:101
+msgid "Enter the user's residential or work address."
+msgstr ""
+
+#: ../source/users.rst:102
+msgid "Helps in profile verification."
+msgstr ""
+
+#: ../source/users.rst:104
+msgid "**City**"
+msgstr ""
+
+#: ../source/users.rst:106
+msgid "Enter the city where the user is located."
+msgstr ""
+
+#: ../source/users.rst:107
+msgid "Useful for regional data segmentation."
+msgstr ""
+
+#: ../source/users.rst:109
+msgid "**Country**"
+msgstr ""
+
+#: ../source/users.rst:111
+msgid "Select the user’s country from the dropdown menu."
+msgstr ""
+
+#: ../source/users.rst:112
+msgid "Helps in geographic-based data handling."
+msgstr ""
+
+#: ../source/users.rst:114
+msgid "**Zip Code**"
+msgstr ""
+
+#: ../source/users.rst:116
+msgid "Enter the postal code for the user’s address."
+msgstr ""
+
+#: ../source/users.rst:117
+msgid "Important for location accuracy."
+msgstr ""
+
+#: ../source/users.rst:119
+msgid "**Save Button**: Click to save the user details and create a new account in the system."
+msgstr ""
+
+#: ../source/users.rst:122
+msgid "3.4 Managing Users"
+msgstr ""
+
+#: ../source/users.rst:124
+msgid "Click on **Users** from the left menu bar to manage users."
+msgstr ""
+
+#: ../source/users.rst:126
+msgid "Managing users menu"
+msgstr ""
+
+#: ../source/users.rst:131
+msgid "A user with a sufficient role can:"
+msgstr ""
+
+#: ../source/users.rst:133
+msgid "**Create User**"
+msgstr ""
+
+#: ../source/users.rst:135
+#: ../source/users.rst:141
+msgid "Navigate to the **View Users** page."
+msgstr ""
+
+#: ../source/users.rst:136
+msgid "Click the **Create User** button."
+msgstr ""
+
+#: ../source/users.rst:137
+msgid "Fill in the fields and click **Save**."
+msgstr ""
+
+#: ../source/users.rst:139
+msgid "**View User**"
+msgstr ""
+
+#: ../source/users.rst:142
+msgid "Users are displayed in a table format with all relevant details."
+msgstr ""
+
+#: ../source/users.rst:144
+msgid "**Update User**"
+msgstr ""
+
+#: ../source/users.rst:146
+msgid "On the **View Users** page, locate the user you want to modify."
+msgstr ""
+
+#: ../source/users.rst:147
+msgid "Click the **Edit** button in the **Actions** column."
+msgstr ""
+
+#: ../source/users.rst:148
+msgid "Make the necessary changes and click **Save**."
+msgstr ""
+
+#: ../source/users.rst:150
+msgid "**Delete User**"
+msgstr ""
+
+#: ../source/users.rst:152
+msgid "On the **View Users** page, locate the user you want to delete."
+msgstr ""
+
+#: ../source/users.rst:153
+msgid "Click the **Delete** button in the **Actions** column."
+msgstr ""
+
+#: ../source/users.rst:154
+msgid "Confirm the deletion to remove the user."
+msgstr ""
+
+#: ../source/users.rst:157
+msgid "3.4.1 Add User"
+msgstr ""
+
+#: ../source/users.rst:159
+msgid "Click **Create User**."
+msgstr ""
+
+#: ../source/users.rst:161
+msgid "Create user button"
+msgstr ""
+
+#: ../source/users.rst:167
+msgid "3.4.1.1 Fill in User Details"
+msgstr ""
+
+#: ../source/users.rst:170
+msgid "Fill in the form with the fields as shown in the **User Fields** section. Once all the fields are filled in, click on the **Save** button. The system will create a new user account with the specified details."
+msgstr ""
+
+#: ../source/users.rst:173
+msgid "3.4.2 View User"
+msgstr ""
+
+#: ../source/users.rst:175
+msgid "Click on the **View icon** to see the details of the user."
+msgstr ""
+
+#: ../source/users.rst:177
+msgid "View user details"
+msgstr ""
+
+#: ../source/users.rst:183
+msgid "3.4.3 Update User"
+msgstr ""
+
+#: ../source/users.rst:185
+msgid "Click on the **Edit icon** to modify the details of the user."
+msgstr ""
+
+#: ../source/users.rst:187
+msgid "Edit user details"
+msgstr ""
+
+#: ../source/users.rst:193
+msgid "3.4.4 Delete User"
+msgstr ""
+
+#: ../source/users.rst:195
+msgid "Click on the **Delete icon** to remove the user from the system."
+msgstr ""
+
+#: ../source/users.rst:197
+msgid "Delete user"
+msgstr ""

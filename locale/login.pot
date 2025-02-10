@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Eunders
+# This file is distributed under the same license as the GeneSys package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GeneSys \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-10 22:53+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../source/login.rst:2
+msgid "1. Accessing PantaSys"
+msgstr ""
+
+#: ../source/login.rst:4
+msgid "To access the **PantaSys**, follow these steps:"
+msgstr ""
+
+#: ../source/login.rst:7
+msgid "1.1 Logging In"
+msgstr ""
+
+#: ../source/login.rst:9
+msgid "Optional alt text for the image"
+msgstr ""
+
+#: ../source/login.rst:14
+msgid "**Navigate to the Website** Open your preferred web browser and go to the **PantaSys** website."
+msgstr ""
+
+#: ../source/login.rst:17
+msgid "**Login** Enter your credentials (**username** and **password**) in the login fields provided."
+msgstr ""
+
+#: ../source/login.rst:20
+msgid "**Submit** Click the **\"Sign In\"** button to access the dashboard."
+msgstr ""

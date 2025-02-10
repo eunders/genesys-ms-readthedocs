@@ -1,0 +1,226 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Eunders
+# This file is distributed under the same license as the GeneSys package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GeneSys \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-10 22:53+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: it\n"
+"Language-Team: it <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../source/contact.rst:2
+msgid "5. Contacts"
+msgstr "5. Contatti"
+
+#: ../source/contact.rst:5
+msgid "5.1 Navigating to Contacts"
+msgstr "5.1 Navigazione ai Contatti"
+
+#: ../source/contact.rst:7
+msgid "To access the \"Contacts\" section:"
+msgstr "Per accedere alla sezione \"Contatti\":"
+
+#: ../source/contact.rst:9
+msgid "**Home Page**: Start from the PantaSys home page."
+msgstr "**Pagina iniziale**: Inizia dalla pagina principale di PantaSys."
+
+#: ../source/contact.rst:10
+msgid "**Sidebar Menu**: Locate the sidebar menu on the left-hand side."
+msgstr "**Menu laterale**: Trova il menu laterale sul lato sinistro."
+
+#: ../source/contact.rst:11
+msgid ""
+"**Contacts Menu Item**: Click on the \"Contacts\" menu item to expand a "
+"dropdown menu."
+msgstr ""
+"**Voce del menu Contatti**: Fai clic sulla voce di menu \"Contatti\" per espandere un "
+"menu a discesa."
+
+#: ../source/contact.rst:12
+msgid ""
+"**View Contacts**: Select \"View Contacts\" to open the contacts "
+"management page."
+msgstr ""
+"**Visualizza Contatti**: Seleziona \"Visualizza Contatti\" per aprire la pagina "
+"di gestione dei contatti."
+
+#: ../source/contact.rst:15
+msgid "5.2 Viewing all Contacts"
+msgstr "5.2 Visualizzare tutti i contatti"
+
+#: ../source/contact.rst:17
+msgid ""
+"On the \"View Contacts\" page, contacts are displayed in a table format, "
+"providing a comprehensive overview of all existing contacts."
+msgstr ""
+"Alla pagina \"Visualizza Contatti\", i contatti sono visualizzati in un formato tabellare, "
+"offrendo una panoramica completa di tutti i contatti esistenti."
+
+#: ../source/contact.rst:19 ../source/contact.rst:30 ../source/contact.rst:39
+#: ../source/contact.rst:77
+msgid "Optional alt text for the image"
+msgstr "Testo alternativo opzionale per l'immagine"
+
+#: ../source/contact.rst:26
+msgid "5.3 Create Contact Form"
+msgstr "5.3 Modulo Crea Contatto"
+
+#: ../source/contact.rst:28
+msgid ""
+"The **Create Contact** form allows users to add new contacts into the "
+"system. Below are the field descriptions along with their expected input "
+"values."
+msgstr ""
+"Il modulo **Crea Contatto** consente agli utenti di aggiungere nuovi contatti nel "
+"sistema. Di seguito sono riportate le descrizioni dei campi insieme ai relativi valori di input "
+"previsti."
+
+#: ../source/contact.rst:36
+msgid "Below are the field descriptions along with their expected input values:"
+msgstr "Di seguito sono le descrizioni dei campi con i relativi valori di input previsti:"
+
+#: ../source/contact.rst:45
+msgid "**Form Functionality**"
+msgstr "**Funzionalità del Modulo**"
+
+#: ../source/contact.rst:47
+msgid "This form is used to store detailed information about a contact."
+msgstr "Questo modulo viene utilizzato per memorizzare informazioni dettagliate su un contatto."
+
+#: ../source/contact.rst:48
+msgid "Dropdown selections help streamline data entry and prevent errors."
+msgstr "Le selezioni a discesa aiutano a semplificare l'inserimento dei dati e prevenire errori."
+
+#: ../source/contact.rst:49
+msgid "Users can categorize contacts using tags for better segmentation."
+msgstr "Gli utenti possono categorizzare i contatti utilizzando etichette per una migliore segmentazione."
+
+#: ../source/contact.rst:50
+msgid "The **Save** button finalizes the contact creation process."
+msgstr "Il pulsante **Salva** finalizza il processo di creazione del contatto."
+
+#: ../source/contact.rst:54
+msgid "5.4 Managing Contacts"
+msgstr "5.4 Gestire i contatti"
+
+#: ../source/contact.rst:56
+msgid ""
+"PantaSys CRM provides comprehensive functionalities to manage contacts "
+"effectively."
+msgstr ""
+"PantaSys CRM fornisce funzionalità complete per gestire i contatti "
+"efficacemente."
+
+#: ../source/contact.rst:58
+msgid "**Creating a Contact**"
+msgstr "**Creare un contatto**"
+
+#: ../source/contact.rst:61
+msgid "To add a new contact:"
+msgstr "Per aggiungere un nuovo contatto:"
+
+#: ../source/contact.rst:63
+msgid ""
+"**Navigate to Contacts**: Click the **Contacts** button and expand the "
+"dropdown list."
+msgstr ""
+"**Navigare ai contatti**: Fai clic sul pulsante **Contatti** e espandi la "
+"lista a discesa."
+
+#: ../source/contact.rst:64
+msgid "**Create Contact**: Click the **Create Contact** button."
+msgstr "**Crea Contatto**: Fai clic sul pulsante **Crea Contatto**."
+
+#: ../source/contact.rst:65
+msgid "**Fill in Details**: Complete the fields in the form."
+msgstr "**Compila i dettagli**: Completa i campi nel modulo."
+
+#: ../source/contact.rst:66
+msgid "**Save**: Click \"Save\" to add the new **contact** to the system."
+msgstr "**Salva**: Fai clic su \"Salva\" per aggiungere il nuovo **contatto** al sistema."
+
+#: ../source/contact.rst:68
+msgid "**Viewing a Contact**"
+msgstr "**Visualizzare un contatto**"
+
+#: ../source/contact.rst:71
+msgid "To view details of an existing contact:"
+msgstr "Per visualizzare i dettagli di un contatto esistente:"
+
+#: ../source/contact.rst:73 ../source/contact.rst:86 ../source/contact.rst:96
+msgid "**Navigate to View Contacts**: Access the **View Contacts** page."
+msgstr "**Naviga su Visualizza Contatti**: Accedi alla pagina **Visualizza Contatti**."
+
+#: ../source/contact.rst:74
+msgid ""
+"**Contacts Table**: Contacts are displayed in a table format with "
+"relevant details."
+msgstr ""
+"**Tabella dei contatti**: I contatti sono visualizzati in un formato tabellare con "
+"i dettagli rilevanti."
+
+#: ../source/contact.rst:75
+msgid ""
+"**View Icon**: Click the **View** icon in the Actions column "
+"corresponding to the desired contact to see detailed information."
+msgstr ""
+"**Icona Visualizza**: Fai clic sull'icona **Visualizza** nella colonna Azioni "
+"corrispondente al contatto desiderato per vedere informazioni dettagliate."
+
+#: ../source/contact.rst:82
+msgid "**Updating a Contact**"
+msgstr "**Aggiornare un contatto**"
+
+#: ../source/contact.rst:84
+msgid "To modify an existing contact:"
+msgstr "Per modificare un contatto esistente:"
+
+#: ../source/contact.rst:87
+msgid ""
+"**Edit Icon**: Locate the contact to be updated and click the **Edit** "
+"icon."
+msgstr ""
+"**Icona Modifica**: Trova il contatto da aggiornare e fai clic sull'icona **Modifica**."
+
+#: ../source/contact.rst:88
+msgid "**Modify Details**: Make the necessary changes in the form."
+msgstr "**Modifica i dettagli**: Apporta le modifiche necessarie nel modulo."
+
+#: ../source/contact.rst:89
+msgid "**Save**: Click **Save** to apply the updates."
+msgstr "**Salva**: Fai clic su **Salva** per applicare gli aggiornamenti."
+
+#: ../source/contact.rst:91
+msgid "**Deleting a Contact**"
+msgstr "**Eliminare un contatto**"
+
+#: ../source/contact.rst:94
+msgid "To remove a contact from the system:"
+msgstr "Per rimuovere un contatto dal sistema:"
+
+#: ../source/contact.rst:97
+msgid ""
+"**Delete Icon**: Locate the contact to be deleted and click the "
+"**Delete** icon."
+msgstr ""
+"**Icona Elimina**: Trova il contatto da eliminare e fai clic sull'icona "
+"**Elimina**."
+
+#: ../source/contact.rst:98
+msgid ""
+"**Confirm Deletion**: Confirm the deletion when prompted to remove the "
+"Contact."
+msgstr ""
+"**Conferma eliminazione**: Conferma l'eliminazione quando richiesto per rimuovere il "
+"Contatto."

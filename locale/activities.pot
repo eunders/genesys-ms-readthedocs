@@ -1,0 +1,168 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Eunders
+# This file is distributed under the same license as the GeneSys package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GeneSys \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-10 22:53+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../source/activities.rst:2
+msgid "7. Activities"
+msgstr ""
+
+#: ../source/activities.rst:5
+msgid "7.1 Navigating to Activities"
+msgstr ""
+
+#: ../source/activities.rst:7
+msgid "To access the **Activities** section:"
+msgstr ""
+
+#: ../source/activities.rst:9
+msgid "**Home Page**: Start from the PantaSys home page."
+msgstr ""
+
+#: ../source/activities.rst:10
+msgid "**Sidebar Menu**: Locate the sidebar menu on the left-hand side."
+msgstr ""
+
+#: ../source/activities.rst:11
+msgid "**Activities Menu Item**: Click on the **Activities** menu item to expand a dropdown menu."
+msgstr ""
+
+#: ../source/activities.rst:12
+msgid "**View or Create Activity**: Select **View Activities** or **Create Activity** as per the requirement."
+msgstr ""
+
+#: ../source/activities.rst:15
+msgid "7.2 Viewing all Activities"
+msgstr ""
+
+#: ../source/activities.rst:17
+msgid "On the **View Activities** page, activities are displayed in a table format, providing a comprehensive overview of all existing activities."
+msgstr ""
+
+#: ../source/activities.rst:19
+msgid "Activities overview"
+msgstr ""
+
+#: ../source/activities.rst:25
+msgid "7.3 Create Activity Form"
+msgstr ""
+
+#: ../source/activities.rst:27
+msgid "The **Create Activity** form allows users to add a new activity into the system. Below are the field descriptions along with their expected input values."
+msgstr ""
+
+#: ../source/activities.rst:30
+#: ../source/activities.rst:37
+msgid "Create Activity Form"
+msgstr ""
+
+#: ../source/activities.rst:35
+msgid "Below are the field descriptions and their expected inputs and functionality."
+msgstr ""
+
+#: ../source/activities.rst:43
+msgid "7.4 Managing Activities"
+msgstr ""
+
+#: ../source/activities.rst:45
+msgid "The PantaSys CRM provides comprehensive functionalities to manage Accounts effectively. The **Account** function allows users to add new business accounts to the CRM system."
+msgstr ""
+
+#: ../source/activities.rst:47
+msgid "**Creating an Activity**"
+msgstr ""
+
+#: ../source/activities.rst:49
+msgid "To add a new activity:"
+msgstr ""
+
+#: ../source/activities.rst:51
+msgid "**Navigate to Activities**: Click the **Activities** button to expand a dropdown list."
+msgstr ""
+
+#: ../source/activities.rst:52
+msgid "**Create Activity**: Click the **Create Activity** button."
+msgstr ""
+
+#: ../source/activities.rst:53
+msgid "**Fill in Details**: Complete the fields in the form."
+msgstr ""
+
+#: ../source/activities.rst:54
+msgid "**Save**: Click **Save** to add the new activity to the system."
+msgstr ""
+
+#: ../source/activities.rst:56
+msgid "**Viewing an Activity**"
+msgstr ""
+
+#: ../source/activities.rst:58
+msgid "To view details of an existing activity:"
+msgstr ""
+
+#: ../source/activities.rst:60
+#: ../source/activities.rst:73
+#: ../source/activities.rst:82
+msgid "**Navigate to View Activities**: Access the **View Activities** page."
+msgstr ""
+
+#: ../source/activities.rst:61
+msgid "**Activity Table**: Activities are displayed in a table format with relevant details."
+msgstr ""
+
+#: ../source/activities.rst:62
+msgid "**View Icon**: Click the **View** icon in the Actions column corresponding to the desired activity to see detailed information."
+msgstr ""
+
+#: ../source/activities.rst:64
+msgid "Viewing an Activity"
+msgstr ""
+
+#: ../source/activities.rst:69
+msgid "**Updating an Activity**"
+msgstr ""
+
+#: ../source/activities.rst:71
+msgid "To modify an existing activity:"
+msgstr ""
+
+#: ../source/activities.rst:74
+msgid "**Edit Icon**: Locate the activity to be updated and click the **Edit** icon."
+msgstr ""
+
+#: ../source/activities.rst:75
+msgid "**Modify Details**: Make the necessary changes in the form."
+msgstr ""
+
+#: ../source/activities.rst:76
+msgid "**Save**: Click **Save** to apply the updates."
+msgstr ""
+
+#: ../source/activities.rst:78
+msgid "**Deleting an Activity**"
+msgstr ""
+
+#: ../source/activities.rst:80
+msgid "To remove an activity from the system:"
+msgstr ""
+
+#: ../source/activities.rst:83
+msgid "**Delete Icon**: Locate the activity to be deleted and click the **Delete** icon."
+msgstr ""
+
+#: ../source/activities.rst:84
+msgid "**Confirm Deletion**: Confirm the deletion when prompted to remove the activity."
+msgstr ""

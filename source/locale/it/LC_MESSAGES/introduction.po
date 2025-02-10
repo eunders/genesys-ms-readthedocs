@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Eunders
+# This file is distributed under the same license as the GeneSys package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GeneSys \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-10 22:53+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: it\n"
+"Language-Team: it <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../source/introduction.rst:2
+msgid "PantaSys CRM Documentation"
+msgstr "Documentazione di PantaSys CRM"
+
+#: ../source/introduction.rst:5
+msgid "Introduction"
+msgstr "Introduzione"
+
+#: ../source/introduction.rst:7
+msgid "Welcome to the PantaSysCRM documentation."
+msgstr "Benvenuto nella documentazione di PantaSys CRM."
+
+#: ../source/introduction.rst:9
+msgid ""
+"PantaSys is a proprietary framework (GeneSys), designed to provide a "
+"highly flexible, scalable, and robust platform for various enterprise "
+"applications. It offers extensive REST API capabilities, allowing "
+"seamless communication between systems. Additionally, PantaSys supports "
+"integration with over multiple third-party applications, making it a "
+"powerful solution for businesses that require interoperability across "
+"multiple tools and services."
+msgstr ""
+"PantaSys è un framework proprietario (GeneSys), progettato per fornire una "
+"piattaforma altamente flessibile, scalabile e robusta per varie applicazioni aziendali. "
+"Offre ampie capacità REST API, consentendo una comunicazione fluida tra i sistemi. "
+"Inoltre, PantaSys supporta l'integrazione con numerose applicazioni di terze parti, "
+"rendendolo una soluzione potente per le aziende che richiedono interoperabilità tra diversi "
+"strumenti e servizi."
+
+#: ../source/introduction.rst:11
+msgid ""
+"This guide provides an overview of PantaSys, a platform designed to "
+"enhance business efficiency. It includes user management, lead tracking, "
+"case management, and communication tools such as WhatsApp integration and"
+" e-mail. The system provides an intuitive dashboard for monitoring "
+"business activities."
+msgstr ""
+"Questa guida fornisce una panoramica di PantaSys, una piattaforma progettata per "
+"migliorare l'efficienza aziendale. Include la gestione degli utenti, il monitoraggio dei lead, "
+"la gestione dei casi e strumenti di comunicazione come l'integrazione di WhatsApp e "
+"l'e-mail. Il sistema offre una dashboard intuitiva per monitorare le attività aziendali."
+
+#: ../source/introduction.rst:14
+msgid "Objective"
+msgstr "Obiettivo"
+
+#: ../source/introduction.rst:16
+msgid "The goal of the PantaSys is to:"
+msgstr "L'obiettivo di PantaSys è:"
+
+#: ../source/introduction.rst:18
+msgid "Provide a **centralized CRM** for managing leads, contacts, and accounts."
+msgstr "Fornire un **CRM centralizzato** per la gestione di lead, contatti e account."
+
+#: ../source/introduction.rst:19
+msgid "Seamless **Account Management**."
+msgstr "Gestione degli **Account** senza soluzione di continuità."
+
+#: ../source/introduction.rst:20
+msgid "Streamline **customer support** through case management."
+msgstr "Ottimizzare il **supporto clienti** tramite la gestione dei casi."
+
+#: ../source/introduction.rst:21
+msgid ""
+"Enable seamless communication using **WhatsApp integration and In-build "
+"one click e-mail feature**."
+msgstr ""
+"Abilitare una comunicazione fluida utilizzando l'**integrazione di WhatsApp e la funzione "
+"e-mail a un clic integrata**."
+
+#: ../source/introduction.rst:22
+msgid ""
+"Offer an easy-to-use interface for tracking **daily user activity and "
+"sales metrics**."
+msgstr ""
+"Offrire un'interfaccia facile da usare per tracciare l'**attività quotidiana degli utenti e "
+"le metriche di vendita**."
