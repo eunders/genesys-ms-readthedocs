@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeneSys \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-28 22:33+0530\n"
+"POT-Creation-Date: 2025-02-10 22:53+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: it\n"
@@ -20,30 +20,36 @@ msgstr ""
 "Generated-By: Babel 2.16.0\n"
 
 #: ../source/login.rst:2
-msgid "Logging In"
-msgstr "Accesso"
+msgid "1. Accessing PantaSys"
+msgstr "1. Accesso a PantaSys"
 
 #: ../source/login.rst:4
-msgid "To access the |project_name| web application, please follow these steps:"
-msgstr "Per accedere all'applicazione web |project_name|, segui questi passaggi:"
+msgid "To access the **PantaSys**, follow these steps:"
+msgstr "Per accedere a **PantaSys**, segui questi passaggi:"
 
-#: ../source/login.rst:6 ../source/login.rst:14
+#: ../source/login.rst:7
+msgid "1.1 Logging In"
+msgstr "1.1 Accesso"
+
+#: ../source/login.rst:9
 msgid "Optional alt text for the image"
 msgstr "Testo alternativo opzionale per l'immagine"
 
-#: ../source/login.rst:11
+#: ../source/login.rst:14
 msgid ""
-"**Login**: Go to the |project_name| website and log in with your "
-"credentials."
+"**Navigate to the Website** Open your preferred web browser and go to the"
+" **PantaSys** website."
 msgstr ""
-"**Accesso**: Vai sul sito web di |project_name| e accedi con le tue "
-"credenziali."
+"**Accedi al sito web** Apri il tuo browser preferito e vai al sito web di **PantaSys**."
+
+#: ../source/login.rst:17
+msgid ""
+"**Login** Enter your credentials (**username** and **password**) in the "
+"login fields provided."
+msgstr ""
+"**Accesso** Inserisci le tue credenziali (**nome utente** e **password**) nei campi di login."
 
 #: ../source/login.rst:20
-msgid ""
-"The |project_name| dashboard serves as a central hub for managing various"
-" aspects of the application."
+msgid "**Submit** Click the **\"Sign In\"** button to access the dashboard."
 msgstr ""
-"Il pannello di controllo di |project_name| serve come centro principale per "
-"gestire vari aspetti dell'applicazione."
-
+"**Invia** Fai clic sul pulsante **\"Accedi\"** per accedere alla dashboard."

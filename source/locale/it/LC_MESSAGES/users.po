@@ -1,15 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Eunders
-# This file is distributed under the same license as the Genesys Admin
-# package.
+# This file is distributed under the same license as the GeneSys package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Genesys Admin \n"
+"Project-Id-Version: GeneSys \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-28 22:33+0530\n"
+"POT-Creation-Date: 2025-02-10 22:53+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: it\n"
@@ -21,413 +20,398 @@ msgstr ""
 "Generated-By: Babel 2.16.0\n"
 
 #: ../source/users.rst:2
-msgid "Users"
-msgstr "Utenti"
+msgid "3. Users"
+msgstr "3. Utenti"
 
 #: ../source/users.rst:4
 msgid ""
-"The \\\"Users\\\" module focuses on account management, enabling "
-"administrators to control access, assign roles, and maintain user "
-"details."
+"Manage all user-related operations within the application. The **Users** "
+"function focuses on account management, enabling a user with sufficient "
+"role to control access, assign roles, and maintain user details."
 msgstr ""
-"Il modulo \\\"Utenti\\\" si concentra sulla gestione degli account, "
-"permettendo agli amministratori di controllare l'accesso, assegnare ruoli"
-" e mantenere i dettagli degli utenti."
+"Gestisci tutte le operazioni relative agli utenti all'interno dell'applicazione. "
+"La funzione **Utenti** si concentra sulla gestione degli account, consentendo "
+"a un utente con un ruolo adeguato di controllare l'accesso, assegnare ruoli e "
+"mantenere i dettagli degli utenti."
 
 #: ../source/users.rst:6
-msgid "The Users section focuses on user account management. Administrators can:"
+msgid ""
+"The Users function focuses on user account management. A user with a "
+"sufficient role can:"
 msgstr ""
-"La sezione Utenti si concentra sulla gestione degli account utente. Gli "
-"amministratori possono:"
+"La funzione Utenti si concentra sulla gestione degli account utente. Un utente "
+"con un ruolo sufficiente può:"
 
 #: ../source/users.rst:8
 msgid "**Create User**: Add new users with specific roles."
-msgstr "*Crea Utente*: Aggiungi nuovi utenti con ruoli specifici."
+msgstr "**Crea utente**: Aggiungi nuovi utenti con ruoli specifici."
 
 #: ../source/users.rst:9
 msgid "**View Users**: Display a list of users in a table format."
-msgstr "*Visualizza Utenti*: Mostra un elenco degli utenti in formato tabella."
+msgstr "**Visualizza utenti**: Mostra un elenco degli utenti in formato tabellare."
 
 #: ../source/users.rst:10
 msgid "**Update User**: Modify user details and roles."
-msgstr "*Aggiorna Utente*: Modifica i dettagli e i ruoli dell'utente."
+msgstr "**Aggiorna utente**: Modifica i dettagli e i ruoli degli utenti."
 
 #: ../source/users.rst:11
 msgid "**Delete User**: Remove users from the system."
-msgstr "*Elimina Utente*: Rimuovi gli utenti dal sistema."
+msgstr "**Elimina utente**: Rimuovi gli utenti dal sistema."
 
 #: ../source/users.rst:14
-msgid ""
-"The \"Users\" module focuses on user account management, empowering "
-"administrators to control access, assign roles, and maintain user "
-"details. Refer to the **Users** section for detailed instructions on "
-"managing users."
-msgstr ""
-"Il modulo \"Utenti\" si concentra sulla gestione degli account utente, "
-"dando agli amministratori il potere di controllare l'accesso, assegnare "
-"ruoli e mantenere i dettagli degli utenti. Consulta la sezione **Utenti**"
-" per istruzioni dettagliate sulla gestione degli utenti."
+msgid "3.1 Navigating to Users"
+msgstr "3.1 Navigare nella sezione Utenti"
+
+#: ../source/users.rst:16
+msgid "To access the **Users** section:"
+msgstr "Per accedere alla sezione **Utenti**:"
 
 #: ../source/users.rst:18
-msgid "Navigating to Users"
-msgstr "Navigare verso gli Utenti"
+msgid "On the **Home Page**, locate the **Sidebar Menu**."
+msgstr "Nella **Home Page**, trova il **Menu laterale**."
+
+#: ../source/users.rst:19
+msgid "Click on the **Users** menu item. This will expand a dropdown menu."
+msgstr "Fai clic sull'elemento di menu **Utenti**. Si espanderà un menu a discesa."
 
 #: ../source/users.rst:20
-msgid "To access the \"Users\" section:"
-msgstr "Per accedere alla sezione \"Utenti\":"
-
-#: ../source/users.rst:22
-msgid "On the **Home Page**, locate the **Sidebar Menu**."
-msgstr "Sulla **Pagina principale**, trova il **Menu laterale**."
+msgid "Select **View Users** to open the user management page."
+msgstr "Seleziona **Visualizza utenti** per aprire la pagina di gestione utenti."
 
 #: ../source/users.rst:23
-msgid "Click on the **Users** menu item. This will expand a dropdown menu."
-msgstr "Clicca sulla voce di menu **Utenti**. Questo espanderà un menu a discesa."
+msgid "3.2 View All Users"
+msgstr "3.2 Visualizza tutti gli utenti"
 
-#: ../source/users.rst:24
-msgid "Select **View Users** to open the user management page."
-msgstr "Seleziona **Visualizza Utenti** per aprire la pagina di gestione utenti."
+#: ../source/users.rst:25
+msgid ""
+"The **View Users** page displays all saved users in a table format. The "
+"table includes the following columns:"
+msgstr ""
+"La pagina **Visualizza utenti** mostra tutti gli utenti salvati in formato tabellare. "
+"La tabella include le seguenti colonne:"
 
-#: ../source/users.rst:28
-#, fuzzy
-msgid "View All Users"
-msgstr "Visualizza un Utente"
+#: ../source/users.rst:27 ../source/users.rst:34
+msgid "User list table"
+msgstr "Tabella elenco utenti"
 
-#: ../source/users.rst:30 ../source/users.rst:49 ../source/users.rst:110
-#: ../source/users.rst:126 ../source/users.rst:141 ../source/users.rst:157
-msgid "Optional alt text for the image"
-msgstr "Testo alternativo opzionale per l'immagine"
-
-#: ../source/users.rst:39
-msgid "**Actions**"
-msgstr "**Azioni**"
+#: ../source/users.rst:32
+msgid ""
+"In the right-hand side in the user detail section, there is an **Action**"
+" field from where you can view, edit, and delete the details of a user."
+msgstr ""
+"Nel lato destro della sezione dei dettagli utente, c'è un campo **Azione** "
+"da cui puoi visualizzare, modificare ed eliminare i dettagli di un utente."
 
 #: ../source/users.rst:40
-#, fuzzy
-msgid "This column contains interactive icons for various actions:"
-msgstr "**Azione**: - Questa colonna contiene icone interattive per varie azioni:"
-
-#: ../source/users.rst:41
-msgid "**View Icon**: Opens a detailed view of the user."
-msgstr ""
-"**Icona di Visualizzazione**: Apre una visualizzazione dettagliata "
-"dell'utente."
+msgid "3.3 User Fields"
+msgstr "3.3 Campi utente"
 
 #: ../source/users.rst:42
-msgid "**Delete Icon**: Removes the user from the system."
-msgstr "**Icona di Eliminazione**: Rimuove l'utente dal sistema."
-
-#: ../source/users.rst:43
-msgid "**Update Icon**: Opens the user form for editing."
-msgstr "**Icona di Aggiornamento**: Apre il modulo utente per la modifica."
+msgid "User fields form"
+msgstr "Modulo campi utente"
 
 #: ../source/users.rst:47
-#, fuzzy
-msgid "User Fields"
-msgstr "Utenti"
+msgid "The following fields are available in the **Create/Update User** form:"
+msgstr "I seguenti campi sono disponibili nel modulo **Crea/Aggiorna utente**:"
+
+#: ../source/users.rst:49
+msgid "**Email**"
+msgstr "**Email**"
+
+#: ../source/users.rst:51
+msgid "Enter the user's valid email address."
+msgstr "Inserisci l'indirizzo email valido dell'utente."
+
+#: ../source/users.rst:52
+msgid "Used for communication, notifications, and login."
+msgstr "Usato per la comunicazione, le notifiche e il login."
+
+#: ../source/users.rst:54
+msgid "**Phone**"
+msgstr "**Telefono**"
 
 #: ../source/users.rst:56
-msgid "The following fields are available in the **Create/Update User**  form:"
-msgstr "I seguenti campi sono disponibili nel modulo **Crea/Aggiorna Utente**:"
+msgid "Enter the user’s contact number."
+msgstr "Inserisci il numero di contatto dell'utente."
 
-#: ../source/users.rst:58
-msgid ""
-"**Email**: - The email address of the user. This field allows users to "
-"provide their contact information."
-msgstr ""
-"**Email**: - L'indirizzo email dell'utente. Questo campo consente agli utenti "
-"di fornire le loro informazioni di contatto."
+#: ../source/users.rst:57
+msgid "Optional but useful for verification and communication."
+msgstr "Facoltativo ma utile per la verifica e la comunicazione."
 
+#: ../source/users.rst:59
+msgid "**Username**"
+msgstr "**Nome utente**"
 
 #: ../source/users.rst:61
-msgid ""
-"**Phone**: - The phone number of the user. Useful for direct "
-"communication or verification purposes."
-msgstr ""
-"**Telefono**: - Il numero di telefono dell'utente. Utile per la "
-"comunicazione diretta o per scopi di verifica."
+msgid "Create a unique username for the user."
+msgstr "Crea un nome utente unico per l'utente."
+
+#: ../source/users.rst:62
+msgid "May be required for login credentials."
+msgstr "Potrebbe essere richiesto per le credenziali di accesso."
 
 #: ../source/users.rst:64
-msgid ""
-"**Username**: - The username selected by the user. This field is used for"
-" login and identification."
-msgstr ""
-"**Nome utente**: - Il nome utente selezionato dall'utente. Questo campo è utilizzato per"
-" il login e l'identificazione."
+msgid "**Password**"
+msgstr "**Password**"
+
+#: ../source/users.rst:66
+msgid "Set a secure password for the user’s account."
+msgstr "Imposta una password sicura per l'account dell'utente."
 
 #: ../source/users.rst:67
 msgid ""
-"**Password**: - The password associated with the user account. Ensures "
-"account security."
+"Should follow security standards (e.g., minimum 8 characters, mix of "
+"letters, numbers, and symbols)."
 msgstr ""
-"**Password**: - La password associata all'account utente. Garantisce la "
-"sicurezza dell'account."
+"Deve seguire gli standard di sicurezza (ad esempio, almeno 8 caratteri, mix di "
+"lettere, numeri e simboli)."
 
-#: ../source/users.rst:70
-msgid ""
-"**Role**: - The user’s role in the system, Helps assign appropriate "
-"permissions and responsibilities."
-msgstr ""
-"**Ruolo**: - Il ruolo dell'utente nel sistema, aiuta ad assegnare i permessi "
-"e le responsabilità appropriati."
+#: ../source/users.rst:69
+msgid "**Role**"
+msgstr "**Ruolo**"
+
+#: ../source/users.rst:71
+msgid "Select the user’s role from the dropdown menu."
+msgstr "Seleziona il ruolo dell'utente dal menu a discesa."
 
 #: ../source/users.rst:72
 msgid ""
-"The options are following: Tenant-Admin, Manager, Accountant, Sales-Rep, "
-"Support-Rep, Teacher, Affiliate, User, Guest."
+"Determines access permissions within PantaSys (e.g., Admin, Manager, "
+"Sales-rep)."
 msgstr ""
-"Le opzioni sono: Tenant-Admin, Manager, Accountant, Sales-Rep, Support-"
-"Rep, Teacher, Affiliate, User, Guest."
+"Determina le autorizzazioni di accesso all'interno di PantaSys (ad esempio, Admin, Manager, "
+"Sales-rep)."
 
 #: ../source/users.rst:74
-msgid ""
-"**First Name**: - The first name of the user. Provides clarity on the "
-"user’s identity."
-msgstr ""
-"**Nome**: - Il nome dell'utente. Fornisce chiarezza sull'identità dell'utente."
+msgid "Role selection"
+msgstr "Selezione del ruolo"
 
-#: ../source/users.rst:77
-msgid ""
-"**Last Name**: - The last name of the user. Completes the user’s full "
-"name."
-msgstr ""
-"**Cognome**: - Il cognome dell'utente. Completa il nome completo dell'utente."
+#: ../source/users.rst:79
+msgid "**First Name**"
+msgstr "**Nome**"
 
-#: ../source/users.rst:80
-msgid ""
-"**Gender**: - The user’s gender, e.g., Male, Female, Other. Used for "
-"demographic categorization."
-msgstr ""
-"**Genere**: - Il genere dell'utente, ad esempio Maschio, Femmina, Altro. "
-"Utilizzato per la categorizzazione demografica."
+#: ../source/users.rst:81
+msgid "Enter the user’s first name."
+msgstr "Inserisci il nome dell'utente."
 
-#: ../source/users.rst:83
-msgid "**Address**: - The user’s address. Used for delivery purposes."
-msgstr ""
-"**Indirizzo**: - L'indirizzo dell'utente. Utilizzato per scopi di "
-"consegna."
+#: ../source/users.rst:82
+msgid "Used for identification within the system."
+msgstr "Usato per l'identificazione all'interno del sistema."
+
+#: ../source/users.rst:84
+msgid "**Last Name**"
+msgstr "**Cognome**"
 
 #: ../source/users.rst:86
-msgid ""
-"**City**: - The city part of the address. Specifies the user's location "
-"within a country."
-msgstr ""
-"**Città**: - La parte dell'indirizzo relativa alla città. Specifica la "
-"posizione dell'utente all'interno di un paese."
+msgid "Enter the user’s last name."
+msgstr "Inserisci il cognome dell'utente."
+
+#: ../source/users.rst:87
+msgid "Helps in differentiating users with similar first names."
+msgstr "Aiuta a differenziare gli utenti con nomi simili."
 
 #: ../source/users.rst:89
-msgid ""
-"**Country**: - The country part of the address. Essential for delivery "
-"categorization. The options are list of countries."
-msgstr ""
-"**Paese**: - La parte dell'indirizzo relativa al paese. Essenziale per la"
-" categorizzazione delle consegne. Le opzioni includono un elenco di "
-"paesi."
+msgid "**Gender**"
+msgstr "**Genere**"
+
+#: ../source/users.rst:91
+msgid "Choose the user’s gender from the dropdown (e.g., Male, Female, Other)."
+msgstr "Scegli il genere dell'utente dal menu a discesa (ad esempio, Maschio, Femmina, Altro)."
 
 #: ../source/users.rst:92
-msgid ""
-"**Zip Code**: - The postal code for the address. Ensures accurate "
-"delivery."
-msgstr ""
-"**CAP**: - Il codice postale dell'indirizzo. Garantisce una consegna "
-"accurata."
+msgid "Optional field."
+msgstr "Campo facoltativo."
 
-#: ../source/users.rst:95
-msgid ""
-"**Save Button**: A button to save the user information.Submits the form "
-"for processing."
-msgstr ""
-"**Pulsante Salva**: Un pulsante per salvare le informazioni dell'utente. "
-"Invia il modulo per l'elaborazione."
+#: ../source/users.rst:94
+msgid "User gender selection"
+msgstr "Selezione del genere dell'utente"
 
-#: ../source/users.rst:98
-msgid ""
-"Each field helps in managing and organizing the user's information "
-"effectively."
-msgstr ""
-"Ogni campo aiuta a gestire e organizzare efficacemente le informazioni "
-"dell'utente."
+#: ../source/users.rst:99
+msgid "**Address**"
+msgstr "**Indirizzo**"
 
-#: ../source/users.rst:103
-#, fuzzy
-msgid "Managing User"
-msgstr "Gestire gli Utenti"
+#: ../source/users.rst:101
+msgid "Enter the user's residential or work address."
+msgstr "Inserisci l'indirizzo residenziale o di lavoro dell'utente."
+
+#: ../source/users.rst:102
+msgid "Helps in profile verification."
+msgstr "Aiuta nella verifica del profilo."
+
+#: ../source/users.rst:104
+msgid "**City**"
+msgstr "**Città**"
+
+#: ../source/users.rst:106
+msgid "Enter the city where the user is located."
+msgstr "Inserisci la città in cui si trova l'utente."
 
 #: ../source/users.rst:107
-msgid "Create a User"
-msgstr "Crea un Utente"
+msgid "Useful for regional data segmentation."
+msgstr "Utile per la segmentazione dei dati regionali."
 
-#: ../source/users.rst:119 ../source/users.rst:135
-msgid "Navigate to the **View Users** page."
-msgstr "Vai alla pagina **Visualizza Utenti**."
+#: ../source/users.rst:109
+msgid "**Country**"
+msgstr "**Paese**"
 
-#: ../source/users.rst:120
-msgid "Click the **Create User** button."
-msgstr "Clicca sul pulsante **Crea Utente**."
+#: ../source/users.rst:111
+msgid "Select the user’s country from the dropdown menu."
+msgstr "Seleziona il paese dell'utente dal menu a discesa."
 
-#: ../source/users.rst:121
-msgid "Fill in the required fields and click **Save.**"
-msgstr "Compila i campi richiesti e clicca su **Salva.**"
+#: ../source/users.rst:112
+msgid "Helps in geographic-based data handling."
+msgstr "Aiuta nella gestione dei dati basata sulla geografia."
+
+#: ../source/users.rst:114
+msgid "**Zip Code**"
+msgstr "**CAP**"
+
+#: ../source/users.rst:116
+msgid "Enter the postal code for the user’s address."
+msgstr "Inserisci il codice postale per l'indirizzo dell'utente."
+
+#: ../source/users.rst:117
+msgid "Important for location accuracy."
+msgstr "Importante per l'accuratezza della posizione."
+
+#: ../source/users.rst:119
+msgid ""
+"**Save Button**: Click to save the user details and create a new account "
+"in the system."
+msgstr ""
+"**Pulsante Salva**: Fai clic per salvare i dettagli dell'utente e creare un "
+"nuovo account nel sistema."
+
+#: ../source/users.rst:122
+msgid "3.4 Managing Users"
+msgstr "3.4 Gestione degli utenti"
 
 #: ../source/users.rst:124
-msgid "View a User"
-msgstr "Visualizza un Utente"
+msgid "Click on **Users** from the left menu bar to manage users."
+msgstr "Fai clic su **Utenti** dalla barra laterale sinistra per gestire gli utenti."
+
+#: ../source/users.rst:126
+msgid "Managing users menu"
+msgstr "Menu di gestione degli utenti"
+
+#: ../source/users.rst:131
+msgid "A user with a sufficient role can:"
+msgstr "Un utente con un ruolo adeguato può:"
+
+#: ../source/users.rst:133
+msgid "**Create User**"
+msgstr "**Crea utente**"
+
+#: ../source/users.rst:135 ../source/users.rst:141
+msgid "Navigate to the **View Users** page."
+msgstr "Naviga alla pagina **Visualizza utenti**."
 
 #: ../source/users.rst:136
-msgid "Users are displayed in a table format with all relevant details."
-msgstr ""
-"Gli utenti sono visualizzati in formato tabella con tutti i dettagli "
-"rilevanti."
+msgid "Click the **Create User** button."
+msgstr "Fai clic sul pulsante **Crea utente**."
+
+#: ../source/users.rst:137
+msgid "Fill in the fields and click **Save**."
+msgstr "Compila i campi e fai clic su **Salva**."
 
 #: ../source/users.rst:139
-msgid "Update a User"
-msgstr "Aggiorna un Utente"
+msgid "**View User**"
+msgstr "**Visualizza utente**"
+
+#: ../source/users.rst:142
+msgid "Users are displayed in a table format with all relevant details."
+msgstr "Gli utenti sono visualizzati in formato tabellare con tutti i dettagli pertinenti."
+
+#: ../source/users.rst:144
+msgid "**Update User**"
+msgstr "**Aggiorna utente**"
+
+#: ../source/users.rst:146
+msgid "On the **View Users** page, locate the user you want to modify."
+msgstr "Nella pagina **Visualizza utenti**, individua l'utente che desideri modificare."
+
+#: ../source/users.rst:147
+msgid "Click the **Edit** button in the **Actions** column."
+msgstr "Fai clic sul pulsante **Modifica** nella colonna **Azioni**."
+
+#: ../source/users.rst:148
+msgid "Make the necessary changes and click **Save**."
+msgstr "Apporta le modifiche necessarie e fai clic su **Salva**."
 
 #: ../source/users.rst:150
-msgid "On the **View Users** page, locate the user you want to modify."
-msgstr ""
-"Sulla pagina **Visualizza Utenti**, trova l'utente che desideri "
-"modificare."
-
-#: ../source/users.rst:151
-msgid "Click the **Edit** button in the **Actions** column."
-msgstr "Clicca sul pulsante **Modifica** nella colonna **Azioni**."
+msgid "**Delete User**"
+msgstr "**Elimina utente**"
 
 #: ../source/users.rst:152
-msgid "Make the necessary changes and click **Save.**"
-msgstr "Apporta le modifiche necessarie e clicca su **Salva.**"
+msgid "On the **View Users** page, locate the user you want to delete."
+msgstr "Nella pagina **Visualizza utenti**, individua l'utente che desideri eliminare."
 
-#: ../source/users.rst:155
-msgid "Delete a User"
-msgstr "Elimina un Utente"
+#: ../source/users.rst:153
+msgid "Click the **Delete** button in the **Actions** column."
+msgstr "Fai clic sul pulsante **Elimina** nella colonna **Azioni**."
+
+#: ../source/users.rst:154
+msgid "Confirm the deletion to remove the user."
+msgstr "Conferma l'eliminazione per rimuovere l'utente."
+
+#: ../source/users.rst:157
+msgid "3.4.1 Add User"
+msgstr "3.4.1 Aggiungi utente"
+
+#: ../source/users.rst:159
+msgid "Click **Create User**."
+msgstr "Fai clic su **Crea utente**."
+
+#: ../source/users.rst:161
+msgid "Create user button"
+msgstr "Pulsante crea utente"
 
 #: ../source/users.rst:167
-msgid "On the **View Users** page, locate the user you want to delete."
-msgstr "Sulla pagina **Visualizza Utenti**, trova l'utente che desideri eliminare."
+msgid "3.4.1.1 Fill in User Details"
+msgstr "3.4.1.1 Compilare i dettagli utente"
 
-#: ../source/users.rst:168
-msgid "Click the **Delete** button in the **Actions** column."
-msgstr "Clicca sul pulsante **Elimina** nella colonna **Azioni**."
+#: ../source/users.rst:170
+msgid ""
+"Fill in the form with the fields as shown in the **User Fields** section."
+" Once all the fields are filled in, click on the **Save** button. The "
+"system will create a new user account with the specified details."
+msgstr ""
+"Compila il modulo con i campi mostrati nella sezione **Campi utente**. "
+"Una volta compilati tutti i campi, fai clic sul pulsante **Salva**. Il "
+"sistema creerà un nuovo account utente con i dettagli specificati."
 
-#: ../source/users.rst:169
-msgid "Confirm the deletion to remove the user permanently."
-msgstr "Conferma l'eliminazione per rimuovere definitivamente l'utente."
+#: ../source/users.rst:173
+msgid "3.4.2 View User"
+msgstr "3.4.2 Visualizza utente"
 
-#~ msgid "Viewing Users"
-#~ msgstr "Visualizzare gli Utenti"
+#: ../source/users.rst:175
+msgid "Click on the **View icon** to see the details of the user."
+msgstr "Fai clic sull'**icona Visualizza** per vedere i dettagli dell'utente."
 
-#~ msgid ""
-#~ "The **View Users** page displays all "
-#~ "saved users in a table format. The"
-#~ " table includes the following columns:"
-#~ msgstr ""
-#~ "La pagina **Visualizza Utenti** mostra "
-#~ "tutti gli utenti salvati in formato "
-#~ "tabella. La tabella include le seguenti"
-#~ " colonne:"
+#: ../source/users.rst:177
+msgid "View user details"
+msgstr "Visualizza i dettagli dell'utente"
 
-#~ msgid "User Table Columns"
-#~ msgstr "Colonne della Tabella Utenti"
+#: ../source/users.rst:183
+msgid "3.4.3 Update User"
+msgstr "3.4.3 Aggiorna utente"
 
-#~ msgid ""
-#~ "**User ID**: - An auto-generated "
-#~ "unique identifier assigned to each user."
-#~ " - This column helps to differentiate"
-#~ " between users easily."
-#~ msgstr ""
-#~ "**ID Utente**: - Un identificatore unico"
-#~ " generato automaticamente assegnato a "
-#~ "ciascun utente. - Questa colonna aiuta"
-#~ " a differenziare facilmente gli utenti."
+#: ../source/users.rst:185
+msgid "Click on the **Edit icon** to modify the details of the user."
+msgstr "Fai clic sull'**icona Modifica** per modificare i dettagli dell'utente."
 
-#~ msgid ""
-#~ "**Created At**: - The date and "
-#~ "time when the user account was "
-#~ "created. - Useful for tracking new "
-#~ "accounts."
-#~ msgstr ""
-#~ "**Creato Il**: - La data e l'ora"
-#~ " in cui è stato creato l'account "
-#~ "utente. - Utile per tenere traccia "
-#~ "degli account nuovi."
+#: ../source/users.rst:187
+msgid "Edit user details"
+msgstr "Modifica i dettagli dell'utente"
 
-#~ msgid ""
-#~ "**Updated At**: - The date and "
-#~ "time when the user account was "
-#~ "last updated. - Useful for identifying"
-#~ " recent changes."
-#~ msgstr ""
-#~ "**Aggiornato Il**: - La data e "
-#~ "l'ora in cui l'account utente è "
-#~ "stato aggiornato per l'ultima volta. -"
-#~ " Utile per identificare le modifiche "
-#~ "recenti."
+#: ../source/users.rst:193
+msgid "3.4.4 Delete User"
+msgstr "3.4.4 Elimina utente"
 
-#~ msgid ""
-#~ "**Product**: - The product or service"
-#~ " associated with the user. - Useful"
-#~ " for linking users to specific "
-#~ "offerings."
-#~ msgstr ""
-#~ "**Prodotto**: - Il prodotto o il "
-#~ "servizio associato all'utente. - Utile "
-#~ "per collegare gli utenti a offerte "
-#~ "specifiche."
+#: ../source/users.rst:195
+msgid "Click on the **Delete icon** to remove the user from the system."
+msgstr "Fai clic sull'**icona Elimina** per rimuovere l'utente dal sistema."
 
-#~ msgid ""
-#~ "**Organization**: - The organization the "
-#~ "user is associated with. - Provides "
-#~ "context on the user’s professional "
-#~ "background."
-#~ msgstr ""
-#~ "**Organizzazione**: - L'organizzazione con cui"
-#~ " l'utente è associato. - Fornisce "
-#~ "contesto sul background professionale "
-#~ "dell'utente."
-
-#~ msgid ""
-#~ "**CRM Campaign**: - A text column "
-#~ "containing the name or type of CRM"
-#~ " campaign linked to the user. - "
-#~ "Helps connect users to specific "
-#~ "campaigns."
-#~ msgstr ""
-#~ "**Campagna CRM**: - Una colonna di "
-#~ "testo contenente il nome o il tipo"
-#~ " di campagna CRM associata all'utente. "
-#~ "- Aiuta a collegare gli utenti a"
-#~ " campagne specifiche."
-
-#~ msgid ""
-#~ "**CRM Campaign Identifier**: - A unique"
-#~ " identifier for the CRM campaign. -"
-#~ " Enables precise tracking of campaign "
-#~ "associations."
-#~ msgstr ""
-#~ "**Identificatore Campagna CRM**: - Un "
-#~ "identificatore unico per la campagna "
-#~ "CRM. - Permette un tracciamento preciso"
-#~ " delle associazioni alle campagne."
-
-#~ msgid ""
-#~ "**CRM Campaign Timestamp**: - The date"
-#~ " and time related to the CRM "
-#~ "campaign activity. - Useful for campaign"
-#~ " timeline tracking."
-#~ msgstr ""
-#~ "**Timestamp Campagna CRM**: - La data"
-#~ " e l'ora relative all'attività della "
-#~ "campagna CRM. - Utile per il "
-#~ "tracciamento della cronologia delle campagne."
-
-#~ msgid ""
-#~ "**CRM Source**: - Indicates the origin"
-#~ " of the CRM campaign (e.g., "
-#~ "\"Website,\" \"Referral\"). - Helps track "
-#~ "campaign sources."
-#~ msgstr ""
-#~ "**Fonte CRM**: - Indica l'origine della"
-#~ " campagna CRM (ad esempio, \"Sito "
-#~ "web\", \"Raccomandazione\"). - Aiuta a "
-#~ "tracciare le fonti della campagna."
-
+#: ../source/users.rst:197
+msgid "Delete user"
+msgstr "Elimina utente"

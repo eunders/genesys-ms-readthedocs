@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeneSys \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-28 22:33+0530\n"
+"POT-Creation-Date: 2025-02-10 22:53+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,90 +16,74 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../source/dashboard.rst:2
-msgid "|project_name| Dashboard"
+#: ../source/dashboard.rst:4
+msgid "2. Dashboard"
 msgstr ""
 
-#: ../source/dashboard.rst:4
+#: ../source/dashboard.rst:6
 msgid "Optional alt text for the image"
 msgstr ""
 
-#: ../source/dashboard.rst:9
+#: ../source/dashboard.rst:11
 msgid "The Dashboard provides an overview of key metrics and system status."
 msgstr ""
 
-#: ../source/dashboard.rst:11
-msgid "**Dashboard**:"
-msgstr ""
-
-#: ../source/dashboard.rst:12
-msgid "Number of Users"
-msgstr ""
-
-#: ../source/dashboard.rst:13
-msgid "Visitors"
-msgstr ""
-
 #: ../source/dashboard.rst:14
-msgid "Leads"
+msgid "2.1 Dashboard Overview"
 msgstr ""
 
-#: ../source/dashboard.rst:15
-msgid "Conversions"
+#: ../source/dashboard.rst:16
+msgid "The dashboard displays important metrics, including:"
 msgstr ""
 
 #: ../source/dashboard.rst:18
-msgid "**Menu Bar**:"
+msgid "Number of Users"
 msgstr ""
 
 #: ../source/dashboard.rst:19
-msgid "The menu bar on the left-hand side provides access to the following Modules:"
+msgid "Orders"
+msgstr ""
+
+#: ../source/dashboard.rst:20
+msgid "Amount"
 msgstr ""
 
 #: ../source/dashboard.rst:21
-msgid "User"
+msgid "Visitors"
 msgstr ""
 
 #: ../source/dashboard.rst:22
-msgid "Site"
+msgid "Leads"
 msgstr ""
 
 #: ../source/dashboard.rst:23
-msgid "Crm"
-msgstr ""
-
-#: ../source/dashboard.rst:24
-msgid "WhatsApp"
+msgid "Conversions"
 msgstr ""
 
 #: ../source/dashboard.rst:26
-msgid "**Master Data**:"
-msgstr ""
-
-#: ../source/dashboard.rst:27
-msgid "Keywords"
+msgid "2.2 Menu Bar"
 msgstr ""
 
 #: ../source/dashboard.rst:28
-msgid "Translations"
+msgid "The menu bar on the left-hand side provides access to the following options:"
+msgstr ""
+
+#: ../source/dashboard.rst:30
+msgid "**User**"
 msgstr ""
 
 #: ../source/dashboard.rst:31
-msgid "**Right Sidebar**:"
+msgid "**Site**"
 msgstr ""
 
 #: ../source/dashboard.rst:32
-msgid "Logs: - Mail Logs, Login Logs, Visitors"
+msgid "**CRM**"
 msgstr ""
 
-#: ../source/dashboard.rst:34
-msgid "System: - System Logs"
+#: ../source/dashboard.rst:33
+msgid "**WhatsApp**"
 msgstr ""
 
-#: ../source/dashboard.rst:38
-msgid "**Language Switcher**:"
-msgstr ""
-
-#: ../source/dashboard.rst:39
-msgid "Toggle between English and Italiano."
+#: ../source/dashboard.rst:35
+msgid "These options offer various features, which will be discussed in the following sections."
 msgstr ""

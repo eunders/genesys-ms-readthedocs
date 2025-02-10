@@ -11,12 +11,15 @@ Refer to individual pages for detailed instructions on accessing these features.
    :caption: Contents:
    
    introduction
-   rbac
+   system
+   master_data
    login
    dashboard
-   master_data
    users
    crm
+   contact
+   account
+   activities
   
 
   

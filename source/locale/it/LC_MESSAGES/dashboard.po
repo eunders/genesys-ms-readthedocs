@@ -1,15 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Eunders
-# This file is distributed under the same license as the Genesys Admin
-# package.
+# This file is distributed under the same license as the GeneSys package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Genesys Admin \n"
+"Project-Id-Version: GeneSys \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-28 22:33+0530\n"
+"POT-Creation-Date: 2025-02-10 22:53+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: it\n"
@@ -20,140 +19,74 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../source/dashboard.rst:2
-msgid "|project_name| Dashboard"
-msgstr ""
-
 #: ../source/dashboard.rst:4
-msgid "Optional alt text for the image"
-msgstr "Testo alternativo facoltativo per l'immagine"
+msgid "2. Dashboard"
+msgstr "2. Dashboard"
 
-#: ../source/dashboard.rst:9
-msgid "The Dashboard provides an overview of key metrics and system status."
-msgstr ""
-"Il Dashboard fornisce una panoramica delle metriche principali e dello "
-"stato del sistema."
+#: ../source/dashboard.rst:6
+msgid "Optional alt text for the image"
+msgstr "Testo alternativo opzionale per l'immagine"
 
 #: ../source/dashboard.rst:11
-msgid "**Dashboard**:"
-msgstr "**Dashboard**:"
+msgid "The Dashboard provides an overview of key metrics and system status."
+msgstr "La Dashboard fornisce una panoramica delle metriche principali e dello stato del sistema."
 
-#: ../source/dashboard.rst:12
+#: ../source/dashboard.rst:14
+msgid "2.1 Dashboard Overview"
+msgstr "2.1 Panoramica della Dashboard"
+
+#: ../source/dashboard.rst:16
+msgid "The dashboard displays important metrics, including:"
+msgstr "La dashboard mostra le metriche importanti, tra cui:"
+
+#: ../source/dashboard.rst:18
 msgid "Number of Users"
-msgstr "Numero di Utenti"
+msgstr "Numero di utenti"
 
-#: ../source/dashboard.rst:13
+#: ../source/dashboard.rst:19
+msgid "Orders"
+msgstr "Ordini"
+
+#: ../source/dashboard.rst:20
+msgid "Amount"
+msgstr "Importo"
+
+#: ../source/dashboard.rst:21
 msgid "Visitors"
 msgstr "Visitatori"
 
-#: ../source/dashboard.rst:14
+#: ../source/dashboard.rst:22
 msgid "Leads"
-msgstr "Contatti"
+msgstr "Lead"
 
-#: ../source/dashboard.rst:15
+#: ../source/dashboard.rst:23
 msgid "Conversions"
 msgstr "Conversioni"
 
-#: ../source/dashboard.rst:18
-#, fuzzy
-msgid "**Menu Bar**:"
-msgstr "**Barra di Navigazione**:"
-
-#: ../source/dashboard.rst:19
-#, fuzzy
-msgid ""
-"The menu bar on the left-hand side provides access to the following "
-"Modules:"
-msgstr ""
-"La barra di navigazione sul lato sinistro fornisce accesso alle seguenti "
-"opzioni:"
-
-#: ../source/dashboard.rst:21
-msgid "User"
-msgstr "Utente"
-
-#: ../source/dashboard.rst:22
-msgid "Site"
-msgstr "Sito"
-
-#: ../source/dashboard.rst:23
-msgid "Crm"
-msgstr "Crm"
-
-#: ../source/dashboard.rst:24
-#, fuzzy
-msgid "WhatsApp"
-msgstr "Whatsapp"
-
 #: ../source/dashboard.rst:26
-msgid "**Master Data**:"
-msgstr "**Dati Principali**:"
-
-#: ../source/dashboard.rst:27
-msgid "Keywords"
-msgstr "Parole Chiave"
+msgid "2.2 Menu Bar"
+msgstr "2.2 Barra del menu"
 
 #: ../source/dashboard.rst:28
-msgid "Translations"
-msgstr "Traduzioni"
+msgid "The menu bar on the left-hand side provides access to the following options:"
+msgstr "La barra del menu sul lato sinistro fornisce l'accesso alle seguenti opzioni:"
+
+#: ../source/dashboard.rst:30
+msgid "**User**"
+msgstr "**Utente**"
 
 #: ../source/dashboard.rst:31
-msgid "**Right Sidebar**:"
-msgstr "**Barra Laterale Destra**:"
+msgid "**Site**"
+msgstr "**Sito**"
 
 #: ../source/dashboard.rst:32
-#, fuzzy
-msgid "Logs: - Mail Logs, Login Logs, Visitors"
-msgstr "Log: - Log delle Email - Log di Accesso - Visitatori"
+msgid "**CRM**"
+msgstr "**CRM**"
 
-#: ../source/dashboard.rst:34
-msgid "System: - System Logs"
-msgstr ""
+#: ../source/dashboard.rst:33
+msgid "**WhatsApp**"
+msgstr "**WhatsApp**"
 
-#: ../source/dashboard.rst:38
-msgid "**Language Switcher**:"
-msgstr "**Selettore della Lingua**:"
-
-#: ../source/dashboard.rst:39
-msgid "Toggle between English and Italiano."
-msgstr "Passa tra Inglese e Italiano."
-
-#~ msgid "Navigating the Dashboard"
-#~ msgstr "Navigare nel Dashboard"
-
-#~ msgid "Orders"
-#~ msgstr "Ordini"
-
-#~ msgid "Amount"
-#~ msgstr "Importo"
-
-#~ msgid "Client Apps"
-#~ msgstr "App Clienti"
-
-#~ msgid "Tenants"
-#~ msgstr "Tenant"
-
-#~ msgid "Tenant Apps"
-#~ msgstr "App del Tenant"
-
-#~ msgid "Tenant DBs"
-#~ msgstr "DB del Tenant"
-
-#~ msgid "Language"
-#~ msgstr "Lingua"
-
-#~ msgid "RBAC"
-#~ msgstr "RBAC"
-
-#~ msgid "Entities and Attributes"
-#~ msgstr "Entità e Attributi"
-
-#~ msgid "Roles"
-#~ msgstr "Ruoli"
-
-#~ msgid "System: - System Logs - Rewrite Rules - Sitemap - Maintenance Mode"
-#~ msgstr ""
-#~ "Sistema: - Log di Sistema - Regole"
-#~ " di Riscrittura - Sitemap - Modalità"
-#~ " Manutenzione"
-
+#: ../source/dashboard.rst:35
+msgid "These options offer various features, which will be discussed in the following sections."
+msgstr "Queste opzioni offrono diverse funzionalità, che verranno discusse nelle sezioni successive."
