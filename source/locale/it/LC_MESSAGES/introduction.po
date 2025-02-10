@@ -1,15 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025, Eunders
-# This file is distributed under the same license as the Genesys Admin
-# package.
+# This file is distributed under the same license as the GeneSys package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Genesys Admin \n"
+"Project-Id-Version: GeneSys \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-28 22:33+0530\n"
+"POT-Creation-Date: 2025-02-10 22:53+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: it\n"
@@ -21,56 +20,79 @@ msgstr ""
 "Generated-By: Babel 2.16.0\n"
 
 #: ../source/introduction.rst:2
+msgid "PantaSys CRM Documentation"
+msgstr "Documentazione di PantaSys CRM"
+
+#: ../source/introduction.rst:5
 msgid "Introduction"
 msgstr "Introduzione"
 
-#: ../source/introduction.rst:4
+#: ../source/introduction.rst:7
+msgid "Welcome to the PantaSysCRM documentation."
+msgstr "Benvenuto nella documentazione di PantaSys CRM."
+
+#: ../source/introduction.rst:9
 msgid ""
-"Welcome to the documentation for the |project_name| web application. Use "
-"the menu below to navigate through the key features and functionalities."
+"PantaSys is a proprietary framework (GeneSys), designed to provide a "
+"highly flexible, scalable, and robust platform for various enterprise "
+"applications. It offers extensive REST API capabilities, allowing "
+"seamless communication between systems. Additionally, PantaSys supports "
+"integration with over multiple third-party applications, making it a "
+"powerful solution for businesses that require interoperability across "
+"multiple tools and services."
 msgstr ""
-"Benvenuto nella documentazione dell'applicazione web |project_name|. Usa "
-"il menu qui sotto per navigare tra le principali funzionalità e "
-"caratteristiche."
+"PantaSys è un framework proprietario (GeneSys), progettato per fornire una "
+"piattaforma altamente flessibile, scalabile e robusta per varie applicazioni aziendali. "
+"Offre ampie capacità REST API, consentendo una comunicazione fluida tra i sistemi. "
+"Inoltre, PantaSys supporta l'integrazione con numerose applicazioni di terze parti, "
+"rendendolo una soluzione potente per le aziende che richiedono interoperabilità tra diversi "
+"strumenti e servizi."
 
-#: ../source/introduction.rst:6
+#: ../source/introduction.rst:11
 msgid ""
-"|project_name| is a role-based access control (RBAC) system designed to "
-"simplify user and role management, ensuring secure and efficient "
-"operations."
+"This guide provides an overview of PantaSys, a platform designed to "
+"enhance business efficiency. It includes user management, lead tracking, "
+"case management, and communication tools such as WhatsApp integration and"
+" e-mail. The system provides an intuitive dashboard for monitoring "
+"business activities."
 msgstr ""
-"|project_name| è un sistema di controllo degli accessi basato sui ruoli "
-"(RBAC) progettato per semplificare la gestione di utenti e ruoli, "
-"garantendo operazioni sicure ed efficienti."
+"Questa guida fornisce una panoramica di PantaSys, una piattaforma progettata per "
+"migliorare l'efficienza aziendale. Include la gestione degli utenti, il monitoraggio dei lead, "
+"la gestione dei casi e strumenti di comunicazione come l'integrazione di WhatsApp e "
+"l'e-mail. Il sistema offre una dashboard intuitiva per monitorare le attività aziendali."
 
-#~ msgid "Accessing |project_name|"
-#~ msgstr "Accesso a |project_name|"
+#: ../source/introduction.rst:14
+msgid "Objective"
+msgstr "Obiettivo"
 
-#~ msgid ""
-#~ "To access the |project_name| web "
-#~ "application, please follow these steps:"
-#~ msgstr ""
-#~ "Per accedere all'applicazione web "
-#~ "|project_name|, segui questi passaggi:"
+#: ../source/introduction.rst:16
+msgid "The goal of the PantaSys is to:"
+msgstr "L'obiettivo di PantaSys è:"
 
-#~ msgid "Optional alt text for the image"
-#~ msgstr "Testo alternativo facoltativo per l'immagine"
+#: ../source/introduction.rst:18
+msgid "Provide a **centralized CRM** for managing leads, contacts, and accounts."
+msgstr "Fornire un **CRM centralizzato** per la gestione di lead, contatti e account."
 
-#~ msgid ""
-#~ "**Login**: Go to the |project_name| "
-#~ "website and log in with your "
-#~ "credentials."
-#~ msgstr ""
-#~ "**Login**: Vai al sito web di "
-#~ "|project_name| ed effettua l'accesso con "
-#~ "le tue credenziali."
+#: ../source/introduction.rst:19
+msgid "Seamless **Account Management**."
+msgstr "Gestione degli **Account** senza soluzione di continuità."
 
-#~ msgid ""
-#~ "The |project_name| dashboard serves as a"
-#~ " central hub for managing various "
-#~ "aspects of the application."
-#~ msgstr ""
-#~ "Il dashboard di |project_name| funge da"
-#~ " centro nevralgico per la gestione di"
-#~ " vari aspetti dell'applicazione."
+#: ../source/introduction.rst:20
+msgid "Streamline **customer support** through case management."
+msgstr "Ottimizzare il **supporto clienti** tramite la gestione dei casi."
 
+#: ../source/introduction.rst:21
+msgid ""
+"Enable seamless communication using **WhatsApp integration and In-build "
+"one click e-mail feature**."
+msgstr ""
+"Abilitare una comunicazione fluida utilizzando l'**integrazione di WhatsApp e la funzione "
+"e-mail a un clic integrata**."
+
+#: ../source/introduction.rst:22
+msgid ""
+"Offer an easy-to-use interface for tracking **daily user activity and "
+"sales metrics**."
+msgstr ""
+"Offrire un'interfaccia facile da usare per tracciare l'**attività quotidiana degli utenti e "
+"le metriche di vendita**."

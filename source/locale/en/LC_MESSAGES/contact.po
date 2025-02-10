@@ -1,0 +1,205 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Eunders
+# This file is distributed under the same license as the GeneSys package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GeneSys \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-10 22:53+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../source/contact.rst:2
+msgid "5. Contacts"
+msgstr ""
+
+#: ../source/contact.rst:5
+msgid "5.1 Navigating to Contacts"
+msgstr ""
+
+#: ../source/contact.rst:7
+msgid "To access the \"Contacts\" section:"
+msgstr ""
+
+#: ../source/contact.rst:9
+msgid "**Home Page**: Start from the PantaSys home page."
+msgstr ""
+
+#: ../source/contact.rst:10
+msgid "**Sidebar Menu**: Locate the sidebar menu on the left-hand side."
+msgstr ""
+
+#: ../source/contact.rst:11
+msgid ""
+"**Contacts Menu Item**: Click on the \"Contacts\" menu item to expand a "
+"dropdown menu."
+msgstr ""
+
+#: ../source/contact.rst:12
+msgid ""
+"**View Contacts**: Select \"View Contacts\" to open the contacts "
+"management page."
+msgstr ""
+
+#: ../source/contact.rst:15
+msgid "5.2 Viewing all Contacts"
+msgstr ""
+
+#: ../source/contact.rst:17
+msgid ""
+"On the \"View Contacts\" page, contacts are displayed in a table format, "
+"providing a comprehensive overview of all existing contacts."
+msgstr ""
+
+#: ../source/contact.rst:19 ../source/contact.rst:30 ../source/contact.rst:39
+#: ../source/contact.rst:77
+msgid "Optional alt text for the image"
+msgstr ""
+
+#: ../source/contact.rst:26
+msgid "5.3 Create Contact Form"
+msgstr ""
+
+#: ../source/contact.rst:28
+msgid ""
+"The **Create Contact** form allows users to add new contacts into the "
+"system. Below are the field descriptions along with their expected input "
+"values."
+msgstr ""
+
+#: ../source/contact.rst:36
+msgid "Below are the field descriptions along with their expected input values:"
+msgstr ""
+
+#: ../source/contact.rst:45
+msgid "**Form Functionality**"
+msgstr ""
+
+#: ../source/contact.rst:47
+msgid "This form is used to store detailed information about a contact."
+msgstr ""
+
+#: ../source/contact.rst:48
+msgid "Dropdown selections help streamline data entry and prevent errors."
+msgstr ""
+
+#: ../source/contact.rst:49
+msgid "Users can categorize contacts using tags for better segmentation."
+msgstr ""
+
+#: ../source/contact.rst:50
+msgid "The **Save** button finalizes the contact creation process."
+msgstr ""
+
+#: ../source/contact.rst:54
+msgid "5.4 Managing Contacts"
+msgstr ""
+
+#: ../source/contact.rst:56
+msgid ""
+"PantaSys CRM provides comprehensive functionalities to manage contacts "
+"effectively."
+msgstr ""
+
+#: ../source/contact.rst:58
+msgid "**Creating a Contact**"
+msgstr ""
+
+#: ../source/contact.rst:61
+msgid "To add a new contact:"
+msgstr ""
+
+#: ../source/contact.rst:63
+msgid ""
+"**Navigate to Contacts**: Click the **Contacts** button and expand the "
+"dropdown list."
+msgstr ""
+
+#: ../source/contact.rst:64
+msgid "**Create Contact**: Click the **Create Contact** button."
+msgstr ""
+
+#: ../source/contact.rst:65
+msgid "**Fill in Details**: Complete the fields in the form."
+msgstr ""
+
+#: ../source/contact.rst:66
+msgid "**Save**: Click \"Save\" to add the new **contact** to the system."
+msgstr ""
+
+#: ../source/contact.rst:68
+msgid "**Viewing a Contact**"
+msgstr ""
+
+#: ../source/contact.rst:71
+msgid "To view details of an existing contact:"
+msgstr ""
+
+#: ../source/contact.rst:73 ../source/contact.rst:86 ../source/contact.rst:96
+msgid "**Navigate to View Contacts**: Access the **View Contacts** page."
+msgstr ""
+
+#: ../source/contact.rst:74
+msgid ""
+"**Contacts Table**: Contacts are displayed in a table format with "
+"relevant details."
+msgstr ""
+
+#: ../source/contact.rst:75
+msgid ""
+"**View Icon**: Click the **View** icon in the Actions column "
+"corresponding to the desired contact to see detailed information."
+msgstr ""
+
+#: ../source/contact.rst:82
+msgid "**Updating a Contact**"
+msgstr ""
+
+#: ../source/contact.rst:84
+msgid "To modify an existing contact:"
+msgstr ""
+
+#: ../source/contact.rst:87
+msgid ""
+"**Edit Icon**: Locate the contact to be updated and click the **Edit** "
+"icon."
+msgstr ""
+
+#: ../source/contact.rst:88
+msgid "**Modify Details**: Make the necessary changes in the form."
+msgstr ""
+
+#: ../source/contact.rst:89
+msgid "**Save**: Click **Save** to apply the updates."
+msgstr ""
+
+#: ../source/contact.rst:91
+msgid "**Deleting a Contact**"
+msgstr ""
+
+#: ../source/contact.rst:94
+msgid "To remove a contact from the system:"
+msgstr ""
+
+#: ../source/contact.rst:97
+msgid ""
+"**Delete Icon**: Locate the contact to be deleted and click the "
+"**Delete** icon."
+msgstr ""
+
+#: ../source/contact.rst:98
+msgid ""
+"**Confirm Deletion**: Confirm the deletion when prompted to remove the "
+"Contact."
+msgstr ""
+

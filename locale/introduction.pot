@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeneSys \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-28 22:33+0530\n"
+"POT-Creation-Date: 2025-02-10 22:53+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,13 +17,49 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../source/introduction.rst:2
+msgid "PantaSys CRM Documentation"
+msgstr ""
+
+#: ../source/introduction.rst:5
 msgid "Introduction"
 msgstr ""
 
-#: ../source/introduction.rst:4
-msgid "Welcome to the documentation for the |project_name| web application. Use the menu below to navigate through the key features and functionalities."
+#: ../source/introduction.rst:7
+msgid "Welcome to the PantaSysCRM documentation."
 msgstr ""
 
-#: ../source/introduction.rst:6
-msgid "|project_name| is a role-based access control (RBAC) system designed to simplify user and role management, ensuring secure and efficient operations."
+#: ../source/introduction.rst:9
+msgid "PantaSys is a proprietary framework (GeneSys), designed to provide a highly flexible, scalable, and robust platform for various enterprise applications. It offers extensive REST API capabilities, allowing seamless communication between systems. Additionally, PantaSys supports integration with over multiple third-party applications, making it a powerful solution for businesses that require interoperability across multiple tools and services."
+msgstr ""
+
+#: ../source/introduction.rst:11
+msgid "This guide provides an overview of PantaSys, a platform designed to enhance business efficiency. It includes user management, lead tracking, case management, and communication tools such as WhatsApp integration and e-mail. The system provides an intuitive dashboard for monitoring business activities."
+msgstr ""
+
+#: ../source/introduction.rst:14
+msgid "Objective"
+msgstr ""
+
+#: ../source/introduction.rst:16
+msgid "The goal of the PantaSys is to:"
+msgstr ""
+
+#: ../source/introduction.rst:18
+msgid "Provide a **centralized CRM** for managing leads, contacts, and accounts."
+msgstr ""
+
+#: ../source/introduction.rst:19
+msgid "Seamless **Account Management**."
+msgstr ""
+
+#: ../source/introduction.rst:20
+msgid "Streamline **customer support** through case management."
+msgstr ""
+
+#: ../source/introduction.rst:21
+msgid "Enable seamless communication using **WhatsApp integration and In-build one click e-mail feature**."
+msgstr ""
+
+#: ../source/introduction.rst:22
+msgid "Offer an easy-to-use interface for tracking **daily user activity and sales metrics**."
 msgstr ""

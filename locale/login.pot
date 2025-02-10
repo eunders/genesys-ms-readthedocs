@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeneSys \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-28 22:33+0530\n"
+"POT-Creation-Date: 2025-02-10 22:53+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,22 +17,29 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../source/login.rst:2
-msgid "Logging In"
+msgid "1. Accessing PantaSys"
 msgstr ""
 
 #: ../source/login.rst:4
-msgid "To access the |project_name| web application, please follow these steps:"
+msgid "To access the **PantaSys**, follow these steps:"
 msgstr ""
 
-#: ../source/login.rst:6
-#: ../source/login.rst:14
+#: ../source/login.rst:7
+msgid "1.1 Logging In"
+msgstr ""
+
+#: ../source/login.rst:9
 msgid "Optional alt text for the image"
 msgstr ""
 
-#: ../source/login.rst:11
-msgid "**Login**: Go to the |project_name| website and log in with your credentials."
+#: ../source/login.rst:14
+msgid "**Navigate to the Website** Open your preferred web browser and go to the **PantaSys** website."
+msgstr ""
+
+#: ../source/login.rst:17
+msgid "**Login** Enter your credentials (**username** and **password**) in the login fields provided."
 msgstr ""
 
 #: ../source/login.rst:20
-msgid "The |project_name| dashboard serves as a central hub for managing various aspects of the application."
+msgid "**Submit** Click the **\"Sign In\"** button to access the dashboard."
 msgstr ""
