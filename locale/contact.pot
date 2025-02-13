@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeneSys \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-10 22:53+0530\n"
+"POT-Creation-Date: 2025-02-11 23:31+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "To access the \"Contacts\" section:"
 msgstr ""
 
 #: ../source/contact.rst:9
-msgid "**Home Page**: Start from the PantaSys home page."
+msgid "**Home Page**: Start from the |project_name| home page."
 msgstr ""
 
 #: ../source/contact.rst:10
@@ -96,7 +96,7 @@ msgid "5.4 Managing Contacts"
 msgstr ""
 
 #: ../source/contact.rst:56
-msgid "PantaSys CRM provides comprehensive functionalities to manage contacts effectively."
+msgid "|project_name| CRM provides comprehensive functionalities to manage contacts effectively."
 msgstr ""
 
 #: ../source/contact.rst:58

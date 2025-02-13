@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeneSys \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-10 22:53+0530\n"
+"POT-Creation-Date: 2025-02-11 23:31+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -20,11 +20,11 @@ msgstr ""
 "Generated-By: Babel 2.16.0\n"
 
 #: ../source/login.rst:2
-msgid "1. Accessing PantaSys"
+msgid "1. Accessing |project_name|"
 msgstr ""
 
 #: ../source/login.rst:4
-msgid "To access the **PantaSys**, follow these steps:"
+msgid "To access the **|project_name|**, follow these steps:"
 msgstr ""
 
 #: ../source/login.rst:7
@@ -38,7 +38,7 @@ msgstr ""
 #: ../source/login.rst:14
 msgid ""
 "**Navigate to the Website** Open your preferred web browser and go to the"
-" **PantaSys** website."
+" **|project_name|** website."
 msgstr ""
 
 #: ../source/login.rst:17
@@ -50,4 +50,32 @@ msgstr ""
 #: ../source/login.rst:20
 msgid "**Submit** Click the **\"Sign In\"** button to access the dashboard."
 msgstr ""
+
+#: ../source/login.rst:24
+msgid "1.2 Logging Out"
+msgstr ""
+
+#: ../source/login.rst:26
+msgid "Navigate to the top right side of the page"
+msgstr ""
+
+#: ../source/login.rst:27
+msgid "You will see these three options"
+msgstr ""
+
+#: ../source/login.rst:28
+msgid "Click on the icon in the middle to log out ."
+msgstr ""
+
+#~ msgid "1. Accessing PantaSys"
+#~ msgstr ""
+
+#~ msgid "To access the **PantaSys**, follow these steps:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Navigate to the Website** Open your"
+#~ " preferred web browser and go to "
+#~ "the **PantaSys** website."
+#~ msgstr ""
 

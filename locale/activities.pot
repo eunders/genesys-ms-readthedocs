@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeneSys \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-10 22:53+0530\n"
+"POT-Creation-Date: 2025-02-11 23:31+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "To access the **Activities** section:"
 msgstr ""
 
 #: ../source/activities.rst:9
-msgid "**Home Page**: Start from the PantaSys home page."
+msgid "**Home Page**: Start from the |project_name| home page."
 msgstr ""
 
 #: ../source/activities.rst:10
@@ -78,7 +78,7 @@ msgid "7.4 Managing Activities"
 msgstr ""
 
 #: ../source/activities.rst:45
-msgid "The PantaSys CRM provides comprehensive functionalities to manage Accounts effectively. The **Account** function allows users to add new business accounts to the CRM system."
+msgid "The |project_name| CRM provides comprehensive functionalities to manage Accounts effectively. The **Account** function allows users to add new business accounts to the CRM system."
 msgstr ""
 
 #: ../source/activities.rst:47

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeneSys \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-10 22:53+0530\n"
+"POT-Creation-Date: 2025-02-11 23:31+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgid "Master Data refers to the core data essential to operations in a specific
 msgstr ""
 
 #: ../source/master_data.rst:7
-msgid "The **Master Data** section in PantaSys provides tools for managing critical system data that is essential for platform functionality. It allows users with sufficient roles to manage keywords, translations, and other configurable system settings for optimal operation."
+msgid "The **Master Data** section in |project_name| provides tools for managing critical system data that is essential for platform functionality. It allows users with sufficient roles to manage keywords, translations, and other configurable system settings for optimal operation."
 msgstr ""
 
 #: ../source/master_data.rst:12
@@ -37,7 +37,7 @@ msgid "To access the **Master Data** section:"
 msgstr ""
 
 #: ../source/master_data.rst:15
-msgid "**Go to the Home Page** of PantaSys."
+msgid "**Go to the Home Page** of |project_name|."
 msgstr ""
 
 #: ../source/master_data.rst:16
@@ -69,7 +69,7 @@ msgid "1. Keywords"
 msgstr ""
 
 #: ../source/master_data.rst:32
-msgid "The **Keywords** module helps manage keywords for better search functionality and content categorization within PantaSys."
+msgid "The **Keywords** module helps manage keywords for better search functionality and content categorization within |project_name|."
 msgstr ""
 
 #: ../source/master_data.rst:35
@@ -184,18 +184,82 @@ msgstr ""
 msgid "Click **Save** to store the translation."
 msgstr ""
 
-#: ../source/master_data.rst:81
-msgid "Additional Functionalities"
+#: ../source/master_data.rst:79
+msgid "Role-Based Access Control (RBAC)"
 msgstr ""
 
-#: ../source/master_data.rst:82
-msgid "The Master Data module ensures **consistency across the platform** by providing centralized management of key system elements."
+#: ../source/master_data.rst:81
+msgid "RBAC in |project_name| ensures secure and organized access management by assigning roles and permissions to users based on their responsibilities. It follows a hierarchical structure where roles define what actions a user can perform."
 msgstr ""
 
 #: ../source/master_data.rst:83
-msgid "It integrates seamlessly with other PantaSys features, including **user management, leads, CRM, and campaign tools**."
+msgid "**Key Concepts of RBAC**"
 msgstr ""
 
-#: ../source/master_data.rst:84
+#: ../source/master_data.rst:86
+msgid "**Roles** – Define sets of permissions for different types of users (e.g., Manager, Sales-Rep, Tenant-Admin)."
+msgstr ""
+
+#: ../source/master_data.rst:87
+msgid "**Permissions** – Allow specific actions, such as viewing , editing, or deleting data."
+msgstr ""
+
+#: ../source/master_data.rst:88
+msgid "**Rules** – Optional conditions that restrict permissions based on context (e.g., a user can only edit their own records, a user can view leads assigned to him only)."
+msgstr ""
+
+#: ../source/master_data.rst:89
+msgid "**Assignments** – Link roles to users dynamically, allowing flexible access control."
+msgstr ""
+
+#: ../source/master_data.rst:91
+msgid "**Roles in |project_name|**"
+msgstr ""
+
+#: ../source/master_data.rst:94
+msgid "**Tenant-Admin**: Full control over tenant-level settings, user management, and configurations."
+msgstr ""
+
+#: ../source/master_data.rst:95
+msgid "**Manager**: Can oversee operations, manage accounts, and assign tasks."
+msgstr ""
+
+#: ../source/master_data.rst:96
+msgid "**Accountant**: Can manage sales records etc."
+msgstr ""
+
+#: ../source/master_data.rst:97
+msgid "**Sales-Rep/Support-Rep**: Limited access to leads, contacts, and opportunities."
+msgstr ""
+
+#: ../source/master_data.rst:99
+msgid "**How RBAC Works in |project_name|**"
+msgstr ""
+
+#: ../source/master_data.rst:102
+msgid "**Assign Roles to Users** : A Tenant-Admin can assign roles to users and manage permissions."
+msgstr ""
+
+#: ../source/master_data.rst:103
+msgid "**Define Permissions for Roles** : Permissions are linked to roles to specify what actions each role can perform."
+msgstr ""
+
+#: ../source/master_data.rst:104
+msgid "**Restrict Access** : The application checks a user’s role and associated permissions before allowing them to perform specific actions."
+msgstr ""
+
+#: ../source/master_data.rst:109
+msgid "Additional Functionalities"
+msgstr ""
+
+#: ../source/master_data.rst:110
+msgid "The Master Data module ensures **consistency across the platform** by providing centralized management of key system elements."
+msgstr ""
+
+#: ../source/master_data.rst:111
+msgid "It integrates seamlessly with other |project_name| features, including **user management, leads, CRM, and campaign tools**."
+msgstr ""
+
+#: ../source/master_data.rst:112
 msgid "REST API endpoints are available for programmatic interaction with **Master Data**."
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeneSys \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-10 22:53+0530\n"
+"POT-Creation-Date: 2025-02-11 23:31+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgid "**Customer Relationship Management (CRM)**"
 msgstr ""
 
 #: ../source/crm.rst:4
-msgid "The **CRM** in PantaSys is designed to streamline the management of leads, contacts, accounts, opportunities, activities, cases, calendars, and campaigns, enabling efficient tracking and nurturing of customer relationships."
+msgid "The **CRM** in |project_name| is designed to streamline the management of leads, contacts, accounts, opportunities, activities, cases, calendars, and campaigns, enabling efficient tracking and nurturing of customer relationships."
 msgstr ""
 
 #: ../source/crm.rst:7
@@ -53,7 +53,7 @@ msgid "To access the \"Leads\" section:"
 msgstr ""
 
 #: ../source/crm.rst:21
-msgid "**Home Page**: Start from the PantaSys home page."
+msgid "**Home Page**: Start from the |project_name| home page."
 msgstr ""
 
 #: ../source/crm.rst:22
@@ -84,6 +84,7 @@ msgstr ""
 #: ../source/crm.rst:104
 #: ../source/crm.rst:133
 #: ../source/crm.rst:143
+#: ../source/crm.rst:148
 msgid "Optional alt text for the image"
 msgstr ""
 
@@ -136,7 +137,7 @@ msgid "4.3 Managing Leads"
 msgstr ""
 
 #: ../source/crm.rst:85
-msgid "PantaSys CRM provides comprehensive functionalities to manage leads effectively."
+msgid "|project_name| CRM provides comprehensive functionalities to manage leads effectively."
 msgstr ""
 
 #: ../source/crm.rst:87
@@ -237,10 +238,10 @@ msgstr ""
 msgid "On the right-hand side of each lead entry, there are action buttons that allow users to perform quick actions."
 msgstr ""
 
-#: ../source/crm.rst:148
+#: ../source/crm.rst:153
 msgid "Each of these buttons helps users manage leads efficiently, improving communication and lead conversion."
 msgstr ""
 
-#: ../source/crm.rst:150
+#: ../source/crm.rst:155
 msgid "**Note: lead once promoted to a contact/account, cannot be edited later**."
 msgstr ""

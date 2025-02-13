@@ -19,7 +19,7 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="1. Accessing PantaSys" href="login.html" />
+    <link rel="next" title="1. Accessing GeneSys" href="login.html" />
     <link rel="prev" title="Prerequisites" href="system.html" /> 
 </head>
 
@@ -44,7 +44,7 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="introduction.html">PantaSys CRM Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">GeneSys CRM Documentation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="system.html">Prerequisites</a></li>
 <li class="toctree-l1"><a class="reference internal" href="system.html#system-overview">System Overview</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Master Data</a><ul>
@@ -60,10 +60,11 @@
 <li class="toctree-l3"><a class="reference internal" href="#creating-a-new-translation">Creating a New Translation</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="#role-based-access-control-rbac">Role-Based Access Control (RBAC)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#additional-functionalities">Additional Functionalities</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="login.html">1. Accessing PantaSys</a></li>
+<li class="toctree-l1"><a class="reference internal" href="login.html">1. Accessing <strong>GeneSys</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="dashboard.html">2. Dashboard</a></li>
 <li class="toctree-l1"><a class="reference internal" href="users.html">3. Users</a></li>
 <li class="toctree-l1"><a class="reference internal" href="crm.html">4. Leads</a></li>
@@ -99,12 +100,12 @@
   <section id="master-data">
 <span id="id1"></span><h1>Master Data<a class="headerlink" href="#master-data" title="Link to this heading"></a></h1>
 <p>Master Data refers to the core data essential to operations in a specific business or business unit.</p>
-<p>The <strong>Master Data</strong> section in PantaSys provides tools for managing critical system data that is essential for platform functionality. It allows users with sufficient roles to manage keywords, translations, and other configurable system settings for optimal operation.</p>
+<p>The <strong>Master Data</strong> section in GeneSys provides tools for managing critical system data that is essential for platform functionality. It allows users with sufficient roles to manage keywords, translations, and other configurable system settings for optimal operation.</p>
 <section id="navigating-to-master-data">
 <span id="navigating-master-data"></span><h2>Navigating to Master Data<a class="headerlink" href="#navigating-to-master-data" title="Link to this heading"></a></h2>
 <p>To access the <strong>Master Data</strong> section:</p>
 <ol class="arabic simple">
-<li><p><strong>Go to the Home Page</strong> of PantaSys.</p></li>
+<li><p><strong>Go to the Home Page</strong> of GeneSys.</p></li>
 <li><p><strong>Locate the Master Data</strong> menu on the sidebar.</p></li>
 <li><p><strong>Click on the Master Data menu item</strong>, which will expand a dropdown list of available tools.</p></li>
 </ol>
@@ -119,7 +120,7 @@
 </section>
 <section id="keywords">
 <span id="id2"></span><h2>1. Keywords<a class="headerlink" href="#keywords" title="Link to this heading"></a></h2>
-<p>The <strong>Keywords</strong> module helps manage keywords for better search functionality and content categorization within PantaSys.</p>
+<p>The <strong>Keywords</strong> module helps manage keywords for better search functionality and content categorization within GeneSys.</p>
 <section id="viewing-keywords">
 <h3>Viewing Keywords<a class="headerlink" href="#viewing-keywords" title="Link to this heading"></a></h3>
 <ul class="simple">
@@ -173,11 +174,43 @@
 </ol>
 </section>
 </section>
+<section id="role-based-access-control-rbac">
+<h2>Role-Based Access Control (RBAC)<a class="headerlink" href="#role-based-access-control-rbac" title="Link to this heading"></a></h2>
+<p>RBAC in <strong>GeneSys</strong> ensures secure and organized access management by assigning roles and permissions to users based on their responsibilities. It follows a hierarchical structure where <strong>roles</strong> define what actions a user can perform.</p>
+<p><strong>Key Concepts of RBAC</strong></p>
+<ol class="arabic simple">
+<li><p><strong>Roles</strong> – Define sets of permissions for different types of users (e.g., Manager, Sales-Rep, Tenant-Admin).</p></li>
+<li><p><strong>Permissions</strong> – Allow specific actions, such as viewing , editing, or deleting data.</p></li>
+<li><p><strong>Rules</strong> – Optional conditions that restrict permissions based on context (e.g., a user can only edit their own records, a user can view leads assigned to him only).</p></li>
+<li><p><strong>Assignments</strong> – Link roles to users dynamically, allowing flexible access control.</p></li>
+</ol>
+<p><strong>Roles in</strong> <strong>GeneSys</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Tenant-Admin</strong>: Full control over tenant-level settings, user management, and configurations.</p></li>
+<li><p><strong>Manager</strong>: Can oversee operations, manage accounts, and assign tasks.</p></li>
+<li><p><strong>Accountant</strong>: Can manage sales records etc.</p></li>
+<li><p><strong>Sales-Rep/Support-Rep</strong>: Limited access to leads, contacts, and opportunities.</p></li>
+</ul>
+</div></blockquote>
+<p><strong>How RBAC Works in</strong> <strong>GeneSys</strong></p>
+<blockquote>
+<div><blockquote>
+<div><ul class="simple">
+<li><p><strong>Assign Roles to Users</strong> : A Tenant-Admin can assign roles to users and manage permissions.</p></li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li><p><strong>Define Permissions for Roles</strong> : Permissions are linked to roles to specify what actions each role can perform.</p></li>
+<li><p><strong>Restrict Access</strong> : The application checks a user’s role and associated permissions before allowing them to perform specific actions.</p></li>
+</ul>
+</div></blockquote>
+</section>
 <section id="additional-functionalities">
 <span id="id4"></span><h2>Additional Functionalities<a class="headerlink" href="#additional-functionalities" title="Link to this heading"></a></h2>
 <ul class="simple">
 <li><p>The Master Data module ensures <strong>consistency across the platform</strong> by providing centralized management of key system elements.</p></li>
-<li><p>It integrates seamlessly with other PantaSys features, including <strong>user management, leads, CRM, and campaign tools</strong>.</p></li>
+<li><p>It integrates seamlessly with other GeneSys features, including <strong>user management, leads, CRM, and campaign tools</strong>.</p></li>
 <li><p>REST API endpoints are available for programmatic interaction with <strong>Master Data</strong>.</p></li>
 </ul>
 </section>
@@ -188,7 +221,7 @@
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="system.html" class="btn btn-neutral float-left" title="Prerequisites" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="login.html" class="btn btn-neutral float-right" title="1. Accessing PantaSys" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="login.html" class="btn btn-neutral float-right" title="1. Accessing GeneSys" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

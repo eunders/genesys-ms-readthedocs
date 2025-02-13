@@ -6,7 +6,7 @@
 
 To access the "Contacts" section:
 
-1. **Home Page**: Start from the PantaSys home page.
+1. **Home Page**: Start from the |project_name| home page.
 2. **Sidebar Menu**: Locate the sidebar menu on the left-hand side.
 3. **Contacts Menu Item**: Click on the "Contacts" menu item to expand a dropdown menu.
 4. **View Contacts**: Select "View Contacts" to open the contacts management page.
@@ -53,7 +53,7 @@ Below are the field descriptions along with their expected input values:
 5.4 Managing Contacts
 --------------------------
 
-PantaSys CRM provides comprehensive functionalities to manage contacts effectively.
+|project_name| CRM provides comprehensive functionalities to manage contacts effectively.
 
 **Creating a Contact**
 

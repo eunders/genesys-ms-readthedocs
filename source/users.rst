@@ -153,7 +153,7 @@ A user with a sufficient role can:
    - Click the **Delete** button in the **Actions** column.
    - Confirm the deletion to remove the user.
 
-3.4.1 Add User
+3.4.1 Create User
 ^^^^^^^^^^^^^^^^
 
 Click **Create User**.
@@ -163,11 +163,8 @@ Click **Create User**.
     :align: center
     :width: 800px
 
-3.4.1.1 Fill in User Details
-""""""""""""""""""""""""""""
 
-
-Fill in the form with the fields as shown in the **User Fields** section. Once all the fields are filled in, click on the **Save** button. The system will create a new user account with the specified details.
+You have to fill in the form with the fields as shown in the **User Fields** section. Once all the fields are filled in, click on the **Save** button. The system will create a new user account with the specified details.
 
 3.4.2 View User
 ^^^^^^^^^^^^^^^^

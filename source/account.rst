@@ -6,7 +6,7 @@
 
 To access the "Accounts" section:
 
-1. **Home Page**: Start from the PantaSys home page.
+1. **Home Page**: Start from the |project_name| home page.
 2. **Sidebar Menu**: Locate the sidebar menu on the left-hand side.
 3. **Accounts Menu Item**: Click on the "Accounts" menu item to expand a dropdown menu.
 4. **View or Create Account**: Select "View Account" or "Create Account" as per the requirement.
@@ -51,7 +51,7 @@ Below are the field descriptions along with their expected input values:
 6.4 Managing Accounts
 ----------------------
 
-PantaSys CRM provides comprehensive functionalities to manage accounts effectively. The **Accounts** function allows users to add new business accounts to the CRM system.
+|project_name| CRM provides comprehensive functionalities to manage accounts effectively. The **Accounts** function allows users to add new business accounts to the CRM system.
 
 **Creating an Account**
 

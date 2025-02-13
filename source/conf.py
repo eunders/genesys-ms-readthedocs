@@ -32,4 +32,5 @@ gettext_compact = False  # Disable compact files for better organization
 
 rst_epilog = """
 .. |project_name| replace:: GeneSys
+.. |bold_project_name| replace:: **GeneSys**
 """

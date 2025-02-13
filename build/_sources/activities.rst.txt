@@ -6,7 +6,7 @@
 
 To access the **Activities** section:
 
-1. **Home Page**: Start from the PantaSys home page.
+1. **Home Page**: Start from the |project_name| home page.
 2. **Sidebar Menu**: Locate the sidebar menu on the left-hand side.
 3. **Activities Menu Item**: Click on the **Activities** menu item to expand a dropdown menu.
 4. **View or Create Activity**: Select **View Activities** or **Create Activity** as per the requirement.
@@ -42,7 +42,7 @@ Below are the field descriptions and their expected inputs and functionality.
 7.4 Managing Activities
 ------------------------------
 
-The PantaSys CRM provides comprehensive functionalities to manage Accounts effectively. The **Account** function allows users to add new business accounts to the CRM system.
+The |project_name| CRM provides comprehensive functionalities to manage Accounts effectively. The **Account** function allows users to add new business accounts to the CRM system.
 
 **Creating an Activity**
 

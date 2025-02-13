@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeneSys \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-10 22:53+0530\n"
+"POT-Creation-Date: 2025-02-11 23:31+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: it\n"
@@ -32,8 +32,9 @@ msgid "To access the **Activities** section:"
 msgstr "Per accedere alla sezione **Attività**:"
 
 #: ../source/activities.rst:9
-msgid "**Home Page**: Start from the PantaSys home page."
-msgstr "**Home Page**: Inizia dalla pagina principale di PantaSys."
+msgid "**Home Page**: Start from the |project_name| home page."
+msgstr "**Home Page**: Inizia dalla home page di |project_name|."
+
 
 #: ../source/activities.rst:10
 msgid "**Sidebar Menu**: Locate the sidebar menu on the left-hand side."
@@ -44,16 +45,16 @@ msgid ""
 "**Activities Menu Item**: Click on the **Activities** menu item to expand"
 " a dropdown menu."
 msgstr ""
-"**Elemento del Menu Attività**: Fai clic sull'elemento del menu **Attività** "
-"per espandere un menu a discesa."
+"**Elemento del Menu Attività**: Fai clic sull'elemento del menu "
+"**Attività** per espandere un menu a discesa."
 
 #: ../source/activities.rst:12
 msgid ""
 "**View or Create Activity**: Select **View Activities** or **Create "
 "Activity** as per the requirement."
 msgstr ""
-"**Visualizza o Crea Attività**: Seleziona **Visualizza Attività** o **Crea "
-"Attività** a seconda delle necessità."
+"**Visualizza o Crea Attività**: Seleziona **Visualizza Attività** o "
+"**Crea Attività** a seconda delle necessità."
 
 #: ../source/activities.rst:15
 msgid "7.2 Viewing all Activities"
@@ -64,8 +65,9 @@ msgid ""
 "On the **View Activities** page, activities are displayed in a table "
 "format, providing a comprehensive overview of all existing activities."
 msgstr ""
-"Nella pagina **Visualizza Attività**, le attività sono visualizzate in formato "
-"tabellare, fornendo una panoramica completa di tutte le attività esistenti."
+"Nella pagina **Visualizza Attività**, le attività sono visualizzate in "
+"formato tabellare, fornendo una panoramica completa di tutte le attività "
+"esistenti."
 
 #: ../source/activities.rst:19
 msgid "Activities overview"
@@ -81,9 +83,9 @@ msgid ""
 "system. Below are the field descriptions along with their expected input "
 "values."
 msgstr ""
-"Il modulo **Crea Attività** consente agli utenti di aggiungere una nuova attività "
-"nel sistema. Di seguito sono riportate le descrizioni dei campi insieme ai valori di input "
-"attesi."
+"Il modulo **Crea Attività** consente agli utenti di aggiungere una nuova "
+"attività nel sistema. Di seguito sono riportate le descrizioni dei campi "
+"insieme ai valori di input attesi."
 
 #: ../source/activities.rst:30 ../source/activities.rst:37
 msgid "Create Activity Form"
@@ -94,8 +96,8 @@ msgid ""
 "Below are the field descriptions and their expected inputs and "
 "functionality."
 msgstr ""
-"Di seguito sono riportate le descrizioni dei campi, i relativi input attesi e "
-"le funzionalità."
+"Di seguito sono riportate le descrizioni dei campi, i relativi input "
+"attesi e le funzionalità."
 
 #: ../source/activities.rst:43
 msgid "7.4 Managing Activities"
@@ -103,12 +105,12 @@ msgstr "7.4 Gestire le Attività"
 
 #: ../source/activities.rst:45
 msgid ""
-"The PantaSys CRM provides comprehensive functionalities to manage "
+"The |project_name| CRM provides comprehensive functionalities to manage "
 "Accounts effectively. The **Account** function allows users to add new "
 "business accounts to the CRM system."
 msgstr ""
-"Il CRM PantaSys offre funzionalità complete per gestire gli "
-"Account in modo efficace. La funzione **Account** consente agli utenti di aggiungere nuovi "
+"Il CRM di |project_name| offre funzionalità complete per gestire gli "
+"account in modo efficace. La funzione **Account** consente agli utenti di aggiungere nuovi "
 "account aziendali al sistema CRM."
 
 #: ../source/activities.rst:47
@@ -124,8 +126,8 @@ msgid ""
 "**Navigate to Activities**: Click the **Activities** button to expand a "
 "dropdown list."
 msgstr ""
-"**Naviga nelle Attività**: Fai clic sul pulsante **Attività** per espandere un "
-"elenco a discesa."
+"**Naviga nelle Attività**: Fai clic sul pulsante **Attività** per "
+"espandere un elenco a discesa."
 
 #: ../source/activities.rst:52
 msgid "**Create Activity**: Click the **Create Activity** button."
@@ -137,7 +139,9 @@ msgstr "**Compila i Dettagli**: Completa i campi nel modulo."
 
 #: ../source/activities.rst:54
 msgid "**Save**: Click **Save** to add the new activity to the system."
-msgstr "**Salva**: Fai clic su **Salva** per aggiungere la nuova attività al sistema."
+msgstr ""
+"**Salva**: Fai clic su **Salva** per aggiungere la nuova attività al "
+"sistema."
 
 #: ../source/activities.rst:56
 msgid "**Viewing an Activity**"
@@ -151,23 +155,25 @@ msgstr "Per visualizzare i dettagli di un'attività esistente:"
 #: ../source/activities.rst:82
 msgid "**Navigate to View Activities**: Access the **View Activities** page."
 msgstr ""
-"**Naviga su Visualizza Attività**: Accedi alla pagina **Visualizza Attività**."
+"**Naviga su Visualizza Attività**: Accedi alla pagina **Visualizza "
+"Attività**."
 
 #: ../source/activities.rst:61
 msgid ""
 "**Activity Table**: Activities are displayed in a table format with "
 "relevant details."
 msgstr ""
-"**Tabella Attività**: Le attività sono visualizzate in formato tabellare con "
-"i dettagli pertinenti."
+"**Tabella Attività**: Le attività sono visualizzate in formato tabellare "
+"con i dettagli pertinenti."
 
 #: ../source/activities.rst:62
 msgid ""
 "**View Icon**: Click the **View** icon in the Actions column "
 "corresponding to the desired activity to see detailed information."
 msgstr ""
-"**Icona Visualizza**: Fai clic sull'icona **Visualizza** nella colonna Azioni "
-"corrispondente all'attività desiderata per vedere informazioni dettagliate."
+"**Icona Visualizza**: Fai clic sull'icona **Visualizza** nella colonna "
+"Azioni corrispondente all'attività desiderata per vedere informazioni "
+"dettagliate."
 
 #: ../source/activities.rst:64
 msgid "Viewing an Activity"
@@ -186,7 +192,8 @@ msgid ""
 "**Edit Icon**: Locate the activity to be updated and click the **Edit** "
 "icon."
 msgstr ""
-"**Icona Modifica**: Trova l'attività da aggiornare e fai clic sull'icona **Modifica**."
+"**Icona Modifica**: Trova l'attività da aggiornare e fai clic sull'icona "
+"**Modifica**."
 
 #: ../source/activities.rst:75
 msgid "**Modify Details**: Make the necessary changes in the form."
@@ -217,5 +224,6 @@ msgid ""
 "**Confirm Deletion**: Confirm the deletion when prompted to remove the "
 "activity."
 msgstr ""
-"**Conferma Eliminazione**: Conferma l'eliminazione quando richiesto per rimuovere "
-"l'attività."
+"**Conferma Eliminazione**: Conferma l'eliminazione quando richiesto per "
+"rimuovere l'attività."
+

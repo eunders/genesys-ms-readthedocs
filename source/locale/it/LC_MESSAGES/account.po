@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeneSys \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-10 22:53+0530\n"
+"POT-Creation-Date: 2025-02-11 23:31+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: it\n"
@@ -32,30 +32,43 @@ msgid "To access the \"Accounts\" section:"
 msgstr "Per accedere alla sezione \"Conti\":"
 
 #: ../source/account.rst:9
-msgid "**Home Page**: Start from the PantaSys home page."
-msgstr "**Pagina principale**: Inizia dalla pagina principale di PantaSys."
+msgid "**Home Page**: Start from the |project_name| home page."
+msgstr "**Home Page**: Inizia dalla home page di |project_name|."
 
 #: ../source/account.rst:10
 msgid "**Sidebar Menu**: Locate the sidebar menu on the left-hand side."
 msgstr "**Menu laterale**: Trova il menu laterale sul lato sinistro."
 
 #: ../source/account.rst:11
-msgid "**Accounts Menu Item**: Click on the \"Accounts\" menu item to expand a dropdown menu."
-msgstr "**Voce di menu Conti**: Clicca sulla voce \"Conti\" per espandere il menu a discesa."
+msgid ""
+"**Accounts Menu Item**: Click on the \"Accounts\" menu item to expand a "
+"dropdown menu."
+msgstr ""
+"**Voce di menu Conti**: Clicca sulla voce \"Conti\" per espandere il menu"
+" a discesa."
 
 #: ../source/account.rst:12
-msgid "**View or Create Account**: Select \"View Account\" or \"Create Account\" as per the requirement."
-msgstr "**Visualizza o Crea Conto**: Seleziona \"Visualizza Conto\" o \"Crea Conto\" in base alle necessità."
+msgid ""
+"**View or Create Account**: Select \"View Account\" or \"Create Account\""
+" as per the requirement."
+msgstr ""
+"**Visualizza o Crea Conto**: Seleziona \"Visualizza Conto\" o \"Crea "
+"Conto\" in base alle necessità."
 
 #: ../source/account.rst:15
 msgid "6.2 Viewing all Accounts"
 msgstr "6.2 Visualizzazione di tutti i Conti"
 
 #: ../source/account.rst:17
-msgid "On the \"View Accounts\" page, accounts are displayed in a table format, providing a comprehensive overview of all existing accounts."
-msgstr "Nella pagina \"Visualizza Conti\", i conti sono visualizzati in formato tabella, fornendo una panoramica completa di tutti i conti esistenti."
+msgid ""
+"On the \"View Accounts\" page, accounts are displayed in a table format, "
+"providing a comprehensive overview of all existing accounts."
+msgstr ""
+"Nella pagina \"Visualizza Conti\", i conti sono visualizzati in formato "
+"tabella, fornendo una panoramica completa di tutti i conti esistenti."
 
-#: ../source/account.rst:19 ../source/account.rst:30 ../source/account.rst:39 ../source/account.rst:74
+#: ../source/account.rst:19 ../source/account.rst:30 ../source/account.rst:39
+#: ../source/account.rst:74
 msgid "Optional alt text for the image"
 msgstr "Testo alternativo opzionale per l'immagine"
 
@@ -64,28 +77,44 @@ msgid "6.3 Create Account Form"
 msgstr "6.3 Modulo di Creazione Conto"
 
 #: ../source/account.rst:28
-msgid "The **Create Account** form allows users to add new accounts into the system. Below are the field descriptions along with their expected input values."
-msgstr "Il modulo **Crea Conto** consente agli utenti di aggiungere nuovi conti nel sistema. Di seguito sono riportate le descrizioni dei campi e i valori di input previsti."
+msgid ""
+"The **Create Account** form allows users to add new accounts into the "
+"system. Below are the field descriptions along with their expected input "
+"values."
+msgstr ""
+"Il modulo **Crea Conto** consente agli utenti di aggiungere nuovi conti "
+"nel sistema. Di seguito sono riportate le descrizioni dei campi e i "
+"valori di input previsti."
 
 #: ../source/account.rst:37
 msgid "Below are the field descriptions along with their expected input values:"
-msgstr "Di seguito sono riportate le descrizioni dei campi e i valori di input previsti:"
+msgstr ""
+"Di seguito sono riportate le descrizioni dei campi e i valori di input "
+"previsti:"
 
 #: ../source/account.rst:44
 msgid "**Form Functionality**"
 msgstr "**Funzionalità del Modulo**"
 
 #: ../source/account.rst:46
-msgid "This form is used to store and manage business accounts rather than individual contacts."
-msgstr "Questo modulo viene utilizzato per memorizzare e gestire conti aziendali piuttosto che contatti individuali."
+msgid ""
+"This form is used to store and manage business accounts rather than "
+"individual contacts."
+msgstr ""
+"Questo modulo viene utilizzato per memorizzare e gestire conti aziendali "
+"piuttosto che contatti individuali."
 
 #: ../source/account.rst:47
 msgid "**Industry selection** helps categorize businesses efficiently."
-msgstr "La **selezione dell'industria** aiuta a categorizzare le aziende in modo efficiente."
+msgstr ""
+"La **selezione dell'industria** aiuta a categorizzare le aziende in modo "
+"efficiente."
 
 #: ../source/account.rst:48
 msgid "**Tags** provide additional segmentation options for easy filtering."
-msgstr "I **tag** offrono opzioni di segmentazione aggiuntive per un facile filtraggio."
+msgstr ""
+"I **tag** offrono opzioni di segmentazione aggiuntive per un facile "
+"filtraggio."
 
 #: ../source/account.rst:49
 msgid "The \"Save\" button finalizes the account creation process."
@@ -96,8 +125,15 @@ msgid "6.4 Managing Accounts"
 msgstr "6.4 Gestione dei Conti"
 
 #: ../source/account.rst:54
-msgid "PantaSys CRM provides comprehensive functionalities to manage accounts effectively. The **Accounts** function allows users to add new business accounts to the CRM system."
-msgstr "PantaSys CRM fornisce funzionalità complete per gestire i conti in modo efficace. La funzione **Conti** consente agli utenti di aggiungere nuovi conti aziendali al sistema CRM."
+msgid ""
+"|project_name| CRM provides comprehensive functionalities to manage "
+"accounts effectively. The **Accounts** function allows users to add new "
+"business accounts to the CRM system."
+msgstr ""
+"Il CRM di |project_name| offre funzionalità complete per gestire gli "
+"account in modo efficace. La funzione **Accounts** consente agli utenti di aggiungere nuovi "
+"account aziendali al sistema CRM."
+
 
 #: ../source/account.rst:56
 msgid "**Creating an Account**"
@@ -107,10 +143,13 @@ msgstr "**Creazione di un Conto**"
 msgid "To add a new account:"
 msgstr "Per aggiungere un nuovo conto:"
 
-
 #: ../source/account.rst:61
-msgid "**Navigate to Accounts**: Click the \"Accounts\" button and expand the dropdown list."
-msgstr "**Navigare nei Conti**: Clicca sul pulsante \"Conti\" ed espandi l'elenco a discesa."
+msgid ""
+"**Navigate to Accounts**: Click the \"Accounts\" button and expand the "
+"dropdown list."
+msgstr ""
+"**Navigare nei Conti**: Clicca sul pulsante \"Conti\" ed espandi l'elenco"
+" a discesa."
 
 #: ../source/account.rst:62
 msgid "**Create Account**: Click the \"Create Account\" button."
@@ -134,15 +173,25 @@ msgstr "Per visualizzare i dettagli di un conto esistente:"
 
 #: ../source/account.rst:70 ../source/account.rst:83 ../source/account.rst:92
 msgid "**Navigate to View Account**: Access the \"View Account\" page."
-msgstr "**Navigare alla Visualizzazione Conto**: Accedi alla pagina \"Visualizza Conto\"."
+msgstr ""
+"**Navigare alla Visualizzazione Conto**: Accedi alla pagina \"Visualizza "
+"Conto\"."
 
 #: ../source/account.rst:71
-msgid "**Accounts Table**: Accounts are displayed in a table format with relevant details."
-msgstr "**Tabella dei Conti**: I conti sono visualizzati in formato tabella con dettagli rilevanti."
+msgid ""
+"**Accounts Table**: Accounts are displayed in a table format with "
+"relevant details."
+msgstr ""
+"**Tabella dei Conti**: I conti sono visualizzati in formato tabella con "
+"dettagli rilevanti."
 
 #: ../source/account.rst:72
-msgid "**View Icon**: Click the \"View\" icon in the Actions column corresponding to the desired account to see detailed information."
-msgstr "**Icona Visualizza**: Clicca sull'icona \"Visualizza\" nella colonna Azioni corrispondente al conto desiderato per vedere i dettagli."
+msgid ""
+"**View Icon**: Click the \"View\" icon in the Actions column "
+"corresponding to the desired account to see detailed information."
+msgstr ""
+"**Icona Visualizza**: Clicca sull'icona \"Visualizza\" nella colonna "
+"Azioni corrispondente al conto desiderato per vedere i dettagli."
 
 #: ../source/account.rst:79
 msgid "**Updating an Account**"
@@ -153,8 +202,12 @@ msgid "To modify an existing account:"
 msgstr "Per modificare un conto esistente:"
 
 #: ../source/account.rst:84
-msgid "**Edit Icon**: Locate the account to be updated and click the \"Edit\" icon."
-msgstr "**Icona Modifica**: Trova il conto da aggiornare e clicca sull'icona \"Modifica\"."
+msgid ""
+"**Edit Icon**: Locate the account to be updated and click the \"Edit\" "
+"icon."
+msgstr ""
+"**Icona Modifica**: Trova il conto da aggiornare e clicca sull'icona "
+"\"Modifica\"."
 
 #: ../source/account.rst:85
 msgid "**Modify Details**: Make the necessary changes in the form."
@@ -173,9 +226,18 @@ msgid "To remove an account from the system:"
 msgstr "Per rimuovere un conto dal sistema:"
 
 #: ../source/account.rst:93
-msgid "**Delete Icon**: Locate the account to be deleted and click the \"Delete\" icon."
-msgstr "**Icona Elimina**: Trova il conto da eliminare e clicca sull'icona \"Elimina\"."
+msgid ""
+"**Delete Icon**: Locate the account to be deleted and click the "
+"\"Delete\" icon."
+msgstr ""
+"**Icona Elimina**: Trova il conto da eliminare e clicca sull'icona "
+"\"Elimina\"."
 
 #: ../source/account.rst:94
-msgid "**Confirm Deletion**: Confirm the deletion when prompted to remove the account."
-msgstr "**Conferma Eliminazione**: Conferma l'eliminazione quando richiesto per rimuovere il conto."
+msgid ""
+"**Confirm Deletion**: Confirm the deletion when prompted to remove the "
+"account."
+msgstr ""
+"**Conferma Eliminazione**: Conferma l'eliminazione quando richiesto per "
+"rimuovere il conto."
+

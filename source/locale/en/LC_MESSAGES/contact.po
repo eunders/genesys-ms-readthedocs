@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeneSys \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-10 22:53+0530\n"
+"POT-Creation-Date: 2025-02-11 23:31+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -32,7 +32,7 @@ msgid "To access the \"Contacts\" section:"
 msgstr ""
 
 #: ../source/contact.rst:9
-msgid "**Home Page**: Start from the PantaSys home page."
+msgid "**Home Page**: Start from the |project_name| home page."
 msgstr ""
 
 #: ../source/contact.rst:10
@@ -107,8 +107,8 @@ msgstr ""
 
 #: ../source/contact.rst:56
 msgid ""
-"PantaSys CRM provides comprehensive functionalities to manage contacts "
-"effectively."
+"|project_name| CRM provides comprehensive functionalities to manage "
+"contacts effectively."
 msgstr ""
 
 #: ../source/contact.rst:58
@@ -202,4 +202,13 @@ msgid ""
 "**Confirm Deletion**: Confirm the deletion when prompted to remove the "
 "Contact."
 msgstr ""
+
+#~ msgid "**Home Page**: Start from the PantaSys home page."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "PantaSys CRM provides comprehensive "
+#~ "functionalities to manage contacts "
+#~ "effectively."
+#~ msgstr ""
 

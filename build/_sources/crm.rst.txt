@@ -1,7 +1,7 @@
 **Customer Relationship Management (CRM)**
 
 
-The **CRM** in PantaSys is designed to streamline the management of leads, contacts, accounts, opportunities, activities, cases, calendars, and campaigns, enabling efficient tracking and nurturing of customer relationships.
+The **CRM** in |project_name| is designed to streamline the management of leads, contacts, accounts, opportunities, activities, cases, calendars, and campaigns, enabling efficient tracking and nurturing of customer relationships.
 
 4. Leads
 ========
@@ -18,10 +18,10 @@ Users with sufficient roles can:
 
 To access the "Leads" section:
 
-1. **Home Page**: Start from the PantaSys home page.
+1. **Home Page**: Start from the |project_name| home page.
 2. **Sidebar Menu**: Locate the sidebar menu on the left-hand side.
 3. **Leads Menu Item**: Click on the "Leads" menu item to expand a dropdown menu.
-4. **View Leads**: Select "View Leads" to open the leads management page.
+4. **View or Create Leads**: Select "View Leads" or "Create Lead" as per requirement.
 
 4.1.1 Viewing all Leads
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -51,7 +51,7 @@ On the "View Leads" page, leads are displayed in a table format, providing a com
     :align: center
     :width: 100px
 
-These buttons are explained in the following section, *Managing Leads*.
+These buttons are explained in the following section of Managing Leads.
 
 4.2 Create Lead Form
 --------------------
@@ -82,7 +82,7 @@ Below are the field descriptions along with their expected input values:
 4.3 Managing Leads
 ------------------
 
-PantaSys CRM provides comprehensive functionalities to manage leads effectively.
+|project_name| CRM provides comprehensive functionalities to manage leads effectively.
 
 **Creating a Lead**
 
@@ -141,6 +141,11 @@ The **Lead Table** provides a structured view of lead information with the follo
 On the right-hand side of each lead entry, there are action buttons that allow users to perform quick actions.
 
 .. image:: /_static/en/table3.jpg
+    :alt: Optional alt text for the image
+    :align: center
+    :width: 50px
+
+.. image:: /_static/en/table4.jpg
     :alt: Optional alt text for the image
     :align: center
     :width: 700px

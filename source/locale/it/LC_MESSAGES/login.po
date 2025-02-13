@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeneSys \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-10 22:53+0530\n"
+"POT-Creation-Date: 2025-02-11 23:31+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: it\n"
@@ -20,12 +20,12 @@ msgstr ""
 "Generated-By: Babel 2.16.0\n"
 
 #: ../source/login.rst:2
-msgid "1. Accessing PantaSys"
-msgstr "1. Accesso a PantaSys"
+msgid "1. Accessing |project_name|"
+msgstr "1. Accedere a |project_name|"
 
 #: ../source/login.rst:4
-msgid "To access the **PantaSys**, follow these steps:"
-msgstr "Per accedere a **PantaSys**, segui questi passaggi:"
+msgid "To access the **|project_name|**, follow these steps:"
+msgstr "Per accedere a **|project_name|**, segui questi passaggi:"
 
 #: ../source/login.rst:7
 msgid "1.1 Logging In"
@@ -38,18 +38,39 @@ msgstr "Testo alternativo opzionale per l'immagine"
 #: ../source/login.rst:14
 msgid ""
 "**Navigate to the Website** Open your preferred web browser and go to the"
-" **PantaSys** website."
+" **|project_name|** website."
 msgstr ""
-"**Accedi al sito web** Apri il tuo browser preferito e vai al sito web di **PantaSys**."
+"**Naviga sul sito web** Apri il tuo browser web preferito e vai sul sito "
+"web di **|project_name|**."
 
 #: ../source/login.rst:17
 msgid ""
 "**Login** Enter your credentials (**username** and **password**) in the "
 "login fields provided."
 msgstr ""
-"**Accesso** Inserisci le tue credenziali (**nome utente** e **password**) nei campi di login."
+"**Accesso** Inserisci le tue credenziali (**nome utente** e **password**)"
+" nei campi di login."
 
 #: ../source/login.rst:20
 msgid "**Submit** Click the **\"Sign In\"** button to access the dashboard."
 msgstr ""
-"**Invia** Fai clic sul pulsante **\"Accedi\"** per accedere alla dashboard."
+"**Invia** Fai clic sul pulsante **\"Accedi\"** per accedere alla "
+"dashboard."
+
+#: ../source/login.rst:24
+msgid "1.2 Logging Out"
+msgstr "1.2 Disconnettersi"
+
+#: ../source/login.rst:26
+msgid "Navigate to the top right side of the page"
+msgstr "Vai sulla parte superiore destra della pagina"
+
+#: ../source/login.rst:27
+msgid "You will see these three options"
+msgstr "Vedrai queste tre opzioni"
+
+#: ../source/login.rst:28
+#, fuzzy
+msgid "Click on the icon in the middle to log out ."
+msgstr "Clicca sull'icona al centro per disconnetterti."
+

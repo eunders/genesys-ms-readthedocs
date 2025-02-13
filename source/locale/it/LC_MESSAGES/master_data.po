@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeneSys \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-10 22:53+0530\n"
+"POT-Creation-Date: 2025-02-11 23:31+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: it\n"
@@ -28,16 +28,21 @@ msgid ""
 "Master Data refers to the core data essential to operations in a specific"
 " business or business unit."
 msgstr ""
-"I Dati Master si riferiscono ai dati fondamentali essenziali per le operazioni di un'attività o di un'unità aziendale."
+"I Dati Master si riferiscono ai dati fondamentali essenziali per le "
+"operazioni di un'attività o di un'unità aziendale."
 
 #: ../source/master_data.rst:7
 msgid ""
-"The **Master Data** section in PantaSys provides tools for managing "
-"critical system data that is essential for platform functionality. It "
+"The **Master Data** section in |project_name| provides tools for managing"
+" critical system data that is essential for platform functionality. It "
 "allows users with sufficient roles to manage keywords, translations, and "
 "other configurable system settings for optimal operation."
 msgstr ""
-"La sezione **Dati Master** in PantaSys offre strumenti per la gestione dei dati critici del sistema, essenziali per il funzionamento della piattaforma. Permette agli utenti con ruoli sufficienti di gestire parole chiave, traduzioni e altre impostazioni del sistema configurabili per un'operazione ottimale."
+"La sezione **Master Data** in |project_name| fornisce strumenti per "
+"gestire i dati critici del sistema che sono essenziali per il "
+"funzionamento della piattaforma. Consente agli utenti con i ruoli "
+"sufficienti di gestire parole chiave, traduzioni e altri parametri "
+"configurabili del sistema per un'operazione ottimale."
 
 #: ../source/master_data.rst:12
 msgid "Navigating to Master Data"
@@ -48,8 +53,8 @@ msgid "To access the **Master Data** section:"
 msgstr "Per accedere alla sezione **Dati Master**:"
 
 #: ../source/master_data.rst:15
-msgid "**Go to the Home Page** of PantaSys."
-msgstr "**Vai alla Home Page** di PantaSys."
+msgid "**Go to the Home Page** of |project_name|."
+msgstr "**Vai alla Home Page** di |project_name|."
 
 #: ../source/master_data.rst:16
 msgid "**Locate the Master Data** menu on the sidebar."
@@ -60,7 +65,8 @@ msgid ""
 "**Click on the Master Data menu item**, which will expand a dropdown list"
 " of available tools."
 msgstr ""
-"**Fai clic sull'elemento di menu Dati Master**, che espanderà un elenco a discesa degli strumenti disponibili."
+"**Fai clic sull'elemento di menu Dati Master**, che espanderà un elenco a"
+" discesa degli strumenti disponibili."
 
 #: ../source/master_data.rst:22
 msgid "Features of Master Data"
@@ -72,14 +78,17 @@ msgstr "La sezione Dati Master include strumenti per:"
 
 #: ../source/master_data.rst:25
 msgid "**Managing Keywords** – Useful for search optimization and categorization."
-msgstr "**Gestire le Parole Chiave** – Utile per l'ottimizzazione della ricerca e la categorizzazione."
+msgstr ""
+"**Gestire le Parole Chiave** – Utile per l'ottimizzazione della ricerca e"
+" la categorizzazione."
 
 #: ../source/master_data.rst:26
 msgid ""
 "**Handling Translations** – Supports multilingual capabilities to enhance"
 " user accessibility."
 msgstr ""
-"**Gestire le Traduzioni** – Supporta funzionalità multilingue per migliorare l'accessibilità per gli utenti."
+"**Gestire le Traduzioni** – Supporta funzionalità multilingue per "
+"migliorare l'accessibilità per gli utenti."
 
 #: ../source/master_data.rst:31
 msgid "1. Keywords"
@@ -88,9 +97,11 @@ msgstr "1. Parole Chiave"
 #: ../source/master_data.rst:32
 msgid ""
 "The **Keywords** module helps manage keywords for better search "
-"functionality and content categorization within PantaSys."
+"functionality and content categorization within |project_name|."
 msgstr ""
-"Il modulo **Parole Chiave** aiuta a gestire le parole chiave per migliorare la funzionalità di ricerca e la categorizzazione dei contenuti all'interno di PantaSys."
+"Il modulo **Keywords** aiuta a gestire le parole chiave per migliorare le"
+" funzionalità di ricerca e la categorizzazione dei contenuti all'interno "
+"di |project_name|."
 
 #: ../source/master_data.rst:35
 msgid "Viewing Keywords"
@@ -101,7 +112,8 @@ msgid ""
 "Users can view a list of all existing keywords in a structured table "
 "format."
 msgstr ""
-"Gli utenti possono visualizzare un elenco di tutte le parole chiave esistenti in formato tabellare."
+"Gli utenti possono visualizzare un elenco di tutte le parole chiave "
+"esistenti in formato tabellare."
 
 #: ../source/master_data.rst:37
 msgid "The table includes the following columns:"
@@ -156,7 +168,8 @@ msgid ""
 "The **Translations** module manages multilingual support, ensuring "
 "localized experiences for users in different regions."
 msgstr ""
-"Il modulo **Traduzioni** gestisce il supporto multilingue, garantendo esperienze localizzate per gli utenti in diverse regioni."
+"Il modulo **Traduzioni** gestisce il supporto multilingue, garantendo "
+"esperienze localizzate per gli utenti in diverse regioni."
 
 #: ../source/master_data.rst:60
 msgid "Viewing Translations"
@@ -167,7 +180,8 @@ msgid ""
 "Users can view a list of all existing translations in a structured table "
 "format."
 msgstr ""
-"Gli utenti possono visualizzare un elenco di tutte le traduzioni esistenti in formato tabellare."
+"Gli utenti possono visualizzare un elenco di tutte le traduzioni "
+"esistenti in formato tabellare."
 
 #: ../source/master_data.rst:62
 msgid "The table includes the following fields:"
@@ -179,7 +193,9 @@ msgstr "**ID Traduzione** – Un identificatore unico per la voce di traduzione.
 
 #: ../source/master_data.rst:65
 msgid "**Key** – The key used for referencing the translation in the system."
-msgstr "**Chiave** – La chiave utilizzata per fare riferimento alla traduzione nel sistema."
+msgstr ""
+"**Chiave** – La chiave utilizzata per fare riferimento alla traduzione "
+"nel sistema."
 
 #: ../source/master_data.rst:66
 msgid "**Created At** – Timestamp when the translation was added."
@@ -213,27 +229,145 @@ msgstr "Inserisci la **Chiave** (testo di riferimento)."
 msgid "Click **Save** to store the translation."
 msgstr "Fai clic su **Salva** per memorizzare la traduzione."
 
+#: ../source/master_data.rst:79
+msgid "Role-Based Access Control (RBAC)"
+msgstr "Controllo Accessi Basato sui Ruoli (RBAC)"
+
 #: ../source/master_data.rst:81
+msgid ""
+"RBAC in |project_name| ensures secure and organized access management by "
+"assigning roles and permissions to users based on their responsibilities."
+" It follows a hierarchical structure where roles define what actions a "
+"user can perform."
+msgstr ""
+"RBAC in |project_name| garantisce una gestione sicura e organizzata degli"
+" accessi assegnando ruoli e permessi agli utenti in base alle loro "
+"responsabilità. Segue una struttura gerarchica dove i ruoli definiscono "
+"quali azioni un utente può eseguire."
+
+#: ../source/master_data.rst:83
+msgid "**Key Concepts of RBAC**"
+msgstr "**Concetti Chiave di RBAC**"
+
+#: ../source/master_data.rst:86
+msgid ""
+"**Roles** – Define sets of permissions for different types of users "
+"(e.g., Manager, Sales-Rep, Tenant-Admin)."
+msgstr ""
+"**Ruoli** – Definiscono set di permessi per diversi tipi di utenti (ad "
+"esempio, Manager, Sales-Rep, Tenant-Admin)."
+
+#: ../source/master_data.rst:87
+#, fuzzy
+msgid ""
+"**Permissions** – Allow specific actions, such as viewing , editing, or "
+"deleting data."
+msgstr ""
+"**Permessi** – Consentono azioni specifiche, come visualizzare, "
+"modificare o eliminare dati."
+
+#: ../source/master_data.rst:88
+msgid ""
+"**Rules** – Optional conditions that restrict permissions based on "
+"context (e.g., a user can only edit their own records, a user can view "
+"leads assigned to him only)."
+msgstr ""
+"**Regole** – Condizioni opzionali che limitano i permessi in base al "
+"contesto (ad esempio, un utente può solo modificare i propri record, un "
+"utente può visualizzare solo i lead assegnati a lui)."
+
+#: ../source/master_data.rst:89
+msgid ""
+"**Assignments** – Link roles to users dynamically, allowing flexible "
+"access control."
+msgstr ""
+"**Assegnazioni** – Collega i ruoli agli utenti in modo dinamico, "
+"consentendo un controllo degli accessi flessibile."
+
+#: ../source/master_data.rst:91
+msgid "**Roles in |project_name|**"
+msgstr "**Ruoli in |project_name|**"
+
+#: ../source/master_data.rst:94
+msgid ""
+"**Tenant-Admin**: Full control over tenant-level settings, user "
+"management, and configurations."
+msgstr ""
+"**Tenant-Admin**: Controllo completo delle impostazioni a livello di "
+"tenant, gestione utenti e configurazioni."
+
+#: ../source/master_data.rst:95
+msgid "**Manager**: Can oversee operations, manage accounts, and assign tasks."
+msgstr ""
+"**Manager**: Può supervisionare le operazioni, gestire gli account e "
+"assegnare compiti."
+
+#: ../source/master_data.rst:96
+msgid "**Accountant**: Can manage sales records etc."
+msgstr "**Contabile**: Può gestire i registri delle vendite, ecc."
+
+#: ../source/master_data.rst:97
+msgid ""
+"**Sales-Rep/Support-Rep**: Limited access to leads, contacts, and "
+"opportunities."
+msgstr ""
+"**Sales-Rep/Support-Rep**: Accesso limitato a lead, contatti e "
+"opportunità."
+
+#: ../source/master_data.rst:99
+msgid "**How RBAC Works in |project_name|**"
+msgstr "**Come Funziona RBAC in |project_name|**"
+
+#: ../source/master_data.rst:102
+msgid ""
+"**Assign Roles to Users** : A Tenant-Admin can assign roles to users and "
+"manage permissions."
+msgstr ""
+"**Assegnare Ruoli agli Utenti**: Un Tenant-Admin può assegnare ruoli agli"
+" utenti e gestire i permessi."
+
+#: ../source/master_data.rst:103
+msgid ""
+"**Define Permissions for Roles** : Permissions are linked to roles to "
+"specify what actions each role can perform."
+msgstr ""
+"**Definire Permessi per i Ruoli**: I permessi sono legati ai ruoli per "
+"specificare quali azioni ogni ruolo può eseguire."
+
+#: ../source/master_data.rst:104
+msgid ""
+"**Restrict Access** : The application checks a user’s role and associated"
+" permissions before allowing them to perform specific actions."
+msgstr ""
+"**Limitare l'Accesso**: L'applicazione verifica il ruolo di un utente e i"
+" permessi associati prima di consentire l'esecuzione di azioni "
+"specifiche."
+
+#: ../source/master_data.rst:109
 msgid "Additional Functionalities"
 msgstr "Funzionalità Aggiuntive"
 
-#: ../source/master_data.rst:82
+#: ../source/master_data.rst:110
 msgid ""
 "The Master Data module ensures **consistency across the platform** by "
 "providing centralized management of key system elements."
 msgstr ""
-"Il modulo Dati Master garantisce **coerenza su tutta la piattaforma** fornendo una gestione centralizzata degli elementi chiave del sistema."
+"Il modulo Dati Master garantisce **coerenza su tutta la piattaforma** "
+"fornendo una gestione centralizzata degli elementi chiave del sistema."
 
-#: ../source/master_data.rst:83
+#: ../source/master_data.rst:111
 msgid ""
-"It integrates seamlessly with other PantaSys features, including **user "
-"management, leads, CRM, and campaign tools**."
+"It integrates seamlessly with other |project_name| features, including "
+"**user management, leads, CRM, and campaign tools**."
 msgstr ""
-"Si integra perfettamente con altre funzionalità di PantaSys, tra cui **gestione utenti, lead, CRM e strumenti di campagna**."
+"Si integra perfettamente con altre funzionalità di |project_name|, "
+"inclusi **gestione utenti, lead, CRM e strumenti per le campagne**."
 
-#: ../source/master_data.rst:84
+#: ../source/master_data.rst:112
 msgid ""
 "REST API endpoints are available for programmatic interaction with "
 "**Master Data**."
 msgstr ""
-"Sono disponibili endpoint REST API per l'interazione programmatica con i **Dati Master**."
+"Sono disponibili endpoint REST API per l'interazione programmatica con i "
+"**Dati Master**."
+
